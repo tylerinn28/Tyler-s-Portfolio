@@ -5,7 +5,7 @@ import {
   Route
 } from "react-router-dom";
 import './App.css';
-import { EllenVonUnweth } from './components/ellen-von-unwerth';
+import { EllenVonUnwerth } from './components/ellen-von-unwerth';
 import { HomePage } from './components/homepage';
 import { NoblePanacea } from './components/noble-panacea';
 import { Otts } from './components/otts';
@@ -22,8 +22,8 @@ function App() {
           <Route path='/otts' component={Otts}/>
           <Route path='/ramenshop' component={RamenShop}/>
           <Route path='/soundcloudredesign' component={SoundCloudRedesign}/>
-          <Route path='/westhollywood' component={WestHollywood}/>
-          <Route path='/ellenvonwerth' component={EllenVonUnweth}/>
+          <Route path='/westhollywoodedition' component={WestHollywood}/>
+          <Route path='/ellenvonwerth' component={EllenVonUnwerth}/>
         </Switch>
       </Router>
   );
