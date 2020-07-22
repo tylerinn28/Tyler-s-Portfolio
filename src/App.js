@@ -1,25 +1,31 @@
 import React from 'react';
-import logo from './logo.svg';
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route
+} from "react-router-dom";
 import './App.css';
+import { EllenVonUnweth } from './components/ellen-von-unwerth';
+import { HomePage } from './components/homepage';
+import { NoblePanacea } from './components/noble-panacea';
+import { Otts } from './components/otts';
+import { RamenShop } from './components/ramen-shop';
+import { SoundCloudRedesign } from './components/sound-cloud-redesign';
+import { WestHollywood } from './components/west-hollywood';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+        <Switch>
+          <Route exact path='/' component={HomePage}/>
+          <Route path='/noblepanacea' component={NoblePanacea}/>
+          <Route path='/otts' component={Otts}/>
+          <Route path='/ramenshop' component={RamenShop}/>
+          <Route path='/soundcloudredesign' component={SoundCloudRedesign}/>
+          <Route path='/westhollywood' component={WestHollywood}/>
+          <Route path='/ellenvonwerth' component={EllenVonUnweth}/>
+        </Switch>
+      </Router>
   );
 }
 
