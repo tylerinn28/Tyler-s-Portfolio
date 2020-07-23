@@ -1,7 +1,146 @@
-.design-projects-link-level-1 {
-  padding-left: 40px;
+@font-face {
+  font-family: 'ArchivoBlack-Regular';
+  src: local('ArchivoBlack-Regular''), ur;(./../assets/fonts/ArchivoBlack-Regular.ttf') format('truetype');
 }
 
-.design-projects-link-level-1 > a {
+body{
+  background-color: #121212;
+}
+
+a {
+  color: #FFF;
+}
+
+a:link {
   text-decoration: none;
+}
+
+.heading {
+  font-family: 'ArchivoBlack-Regular';
+  font-size: 60px;
+  padding-left: 115px;
+  padding-top: 270px;
+  color: white;
+}
+
+.Design-projects {
+  font-family: futura-pt, sans-serif;
+  font-style: bold;
+  font-weight: 800;
+  font-size: 40px;
+  padding-top: 275px;
+  padding-left: 200px;
+  color: white;
+}
+
+.design-projects-link-level-1 {
+  text-decoration: none;
+  font-family: futura-medium;
+  font-size: 40px;
+  padding-left: 350px;
+  padding-top: 10px;
+}
+
+.design-projects-link-level-2 {
+  text-decoration: none;
+  font-family: futura-medium;
+  font-size: 40px;
+  padding-left: 500px;
+  padding-top: 40px;
+}
+
+.design-projects-link-level-3 {
+  text-decoration: none;
+  font-family: futura-medium;
+  font-size: 40px;
+  padding-left: 650px;
+  padding-top: 50px;
+}
+
+.Events {
+  font-family: futura-pt, sans-serif;
+  font-style: bold;
+  font-weight: 800;
+  font-size: 40px;
+  padding-top: 100px;
+  padding-left: 1000px;
+  color: white;
+}
+
+.design-projects-link-level-4 {
+  text-decoration: none;
+  font-family: futura-medium;
+  font-size: 40px;
+  padding-top: 20px;
+  padding-left: 510px;
+}
+
+.design-projects-link-level-5 {
+  text-decoration: none;
+  font-family: futura-medium;
+  font-size: 40px;
+  padding-top: 55px;
+  padding-left: 200px;
+}
+
+.design-projects-link-level-6 {
+  text-decoration: none;
+  font-family: futura-medium;
+  font-size: 40px;
+  padding-top: 60px;
+  padding-left: 100px;
+}
+
+.More-about-me {
+  font-family: futura-pt, sans-serif;
+  font-style: bold;
+  font-weight: 800;
+  font-size: 40px;
+  color: white;
+  padding-top: 300px;
+  padding-left: 115px;
+}
+
+.Bio {
+  font-family: arpona, serif;
+  font-style: normal;
+font-weight: 100;
+  font-size: 25px;
+}
+
+.My-interest {
+  padding-left: 115px;
+  padding-right: 650px;
+  color: white;
+}
+
+.After-receiving {
+  font-family: arpona, serif;
+  font-style: normal;
+font-weight: 100;
+  font-size: 25px;
+  padding-left: 115px;
+  padding-right: 650px;
+  padding-top: 50px;
+  color: white;
+}
+
+.In-my-free {
+  font-family: arpona, serif;
+  font-style: normal;
+font-weight: 100;
+  font-size: 25px;
+  padding-left: 115px;
+  padding-right: 650px;
+  padding-top: 50px;
+  color: white;
+}
+
+img { 
+  width: 560px;
+  height: 750px;
+  float: right;
+  padding: 0 50px 50px 0;
+  float: right;
+  top: -50px;
 }
