@@ -1,16 +1,157 @@
+@font-face {
+    font-family: 'ArchivoBlack-Regular';
+    src: local('ArchivoBlack-Regular''), ur;(./../assets/fonts/ArchivoBlack-Regular.ttf') format('truetype');
+  }
 
-.Events {
- color: white;
- font-family: arpona, serif;
- font-style: normal;
- font-weight: 100;
- font-size: 10px;
+.content {
+    background-color: #121212;
 }
 
-.heading {
-    font-family: archivo-black, sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 140px;
+.Eventsheading {
+    font-family: arpona, serif;
+    font-style: bold;
+    font-weight: 500;
+    font-size: 20px;
     color: white;
+    padding-left: 115px;
+    padding-top: 80px;
 }
+
+.West-heading {
+    display: flex;
+  flex-direction: row;
+}
+
+.West-heading > p {
+    font-family: 'ArchivoBlack-Regular';
+    font-size: 90px;
+    color: white;
+    padding-left: 115px;
+    position: absolute;
+}
+
+.West-heading > img {
+    width: 800px;
+    height: 550px;
+    padding: 0 50px 50px 0;
+    float: right;
+    vertical-align: top;
+}
+
+.West-information {
+    color: white;
+    font-family: arpona, serif;
+    font-style: normal;
+    font-weight: 100;
+    font-size: 20px;
+    padding-left: 115px;
+    line-height: 40px;
+}
+
+.West-firsttier {
+    display: flex;
+  flex-direction: row;
+}
+
+.West-firsttier > img {
+    width: 450px;
+    height: 320px;
+    padding-left: 80px;
+    float: right;
+    padding-right: 120px;
+}
+
+.West-firsttier > h1 {
+    color: white;
+    font-size: 40px;
+    font-family: arpona, serif;
+    font-style: bold;
+    font-weight: 750;
+    line-height: 50px;
+    padding-top: 150px;
+    padding-left: 250px;
+    letter-spacing: -1px;
+}
+
+.West-firsttiersubheading {
+    color: white;
+    font-family: arpona, serif;
+    font-style: normal;
+    font-weight: 100;
+    padding-left: 250px;
+    padding-right: 600px;
+}
+
+.West-secondtier {
+    display: flex;
+    flex-direction: row;
+}
+
+.West-secondtierimg {
+    width: 420px;
+    height: 310px;
+    padding-left: 150px;
+    padding-top: 250px;
+}
+
+.West-thirdtierimg {
+    width: 450px;
+    height: 300px;
+   padding-left: 250px;
+   padding-top: 50px;
+}
+
+.West-secondheading {
+    color: white;
+    font-size: 40px;
+    font-family: arpona, serif;
+    font-style: bold;
+    font-weight: 750;
+    line-height: 50px;
+    letter-spacing: 3px;
+    padding-left: 700px;
+    padding-right: 250px;
+}
+
+.West-secondsubheading {
+    color: white;
+    font-family: arpona, serif;
+    font-style: normal;
+    font-weight: 100;
+    padding-left: 700px;
+    padding-top: 20px;
+    padding-right: 180px;
+}
+
+.West-fourthimage > img{
+    width: 420px;
+    height: 300px;
+    padding-top: 80px;
+    padding-left: 300px;
+}
+
+.West-bottom {
+    color: white;
+    font-family: 'ArchivoBlack-Regular';
+    font-size: 40px;
+    display: flex;
+    flex-direction: row;
+    padding-top: 150px;
+}
+
+.West-bottom > .West-Home {
+    padding-left: 350px;
+}
+
+.West-bottom > .West-NextEvent {
+    padding-left: 350px;
+}
+
+
+
+
+
+
+
+
+

@@ -11,7 +11,7 @@ import { NoblePanacea } from './components/noble-panacea';
 import { Otts } from './components/otts';
 import { RamenShop } from './components/ramen-shop';
 import { SoundCloudRedesign } from './components/sound-cloud-redesign';
-import { WestHollywood } from './components/west-hollywood';
+import Westhollywood, { WestHollywood } from './components/west-hollywood';
 
 function App() {
   return (
@@ -22,7 +22,7 @@ function App() {
           <Route path='/otts' component={Otts}/>
           <Route path='/ramenshop' component={RamenShop}/>
           <Route path='/soundcloudredesign' component={SoundCloudRedesign}/>
-          <Route path='/westhollywoodedition' component={WestHollywood}/>
+          <Route path='/westhollywood' component={Westhollywood}/>
           <Route path='/ellenvonwerth' component={EllenVonUnwerth}/>
         </Switch>
       </Router>

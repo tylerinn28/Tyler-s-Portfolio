@@ -3,7 +3,7 @@
   src: local('ArchivoBlack-Regular''), ur;(./../assets/fonts/ArchivoBlack-Regular.ttf') format('truetype');
 }
 
-body{
+.content {
   background-color: #121212;
 }
 
@@ -19,8 +19,10 @@ a:link {
   font-family: 'ArchivoBlack-Regular';
   font-size: 60px;
   padding-left: 115px;
-  padding-top: 270px;
+  padding-top: 330px;
   color: white;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 .Design-projects {
@@ -102,45 +104,55 @@ a:link {
 }
 
 .Bio {
+  display: flex;
+  flex-direction: row;
   font-family: arpona, serif;
   font-style: normal;
-font-weight: 100;
+  font-weight: 100;
   font-size: 25px;
 }
 
-.My-interest {
-  padding-left: 115px;
-  padding-right: 650px;
-  color: white;
-}
-
-.After-receiving {
+.Bio > div > p {
   font-family: arpona, serif;
   font-style: normal;
-font-weight: 100;
-  font-size: 25px;
+  font-weight: 100;
+  color: white;
+  font-size: 22px;
   padding-left: 115px;
-  padding-right: 650px;
-  padding-top: 50px;
+  padding-right: 100px;
+  line-height: 45px;
+}
+
+.Bio > div {
   color: white;
 }
 
-.In-my-free {
-  font-family: arpona, serif;
-  font-style: normal;
-font-weight: 100;
-  font-size: 25px;
-  padding-left: 115px;
-  padding-right: 650px;
-  padding-top: 50px;
-  color: white;
-}
 
-img { 
-  width: 560px;
-  height: 750px;
+.homepage-image > img { 
+  width: 500px;
+  height: 650px;
+  padding: 45px 50px 50px 0;
   float: right;
-  padding: 0 50px 50px 0;
-  float: right;
-  top: -50px;
+  vertical-align: top;
+}
+
+.letstalk {
+  font-family: arpona, serif;
+  font-style: normal;
+  font-weight: 500;
+}
+
+.my-name-tyler:hover {
+  color: pink;
+  text-decoration: underline;
+}
+
+@media only screen and (max-width: 600px) {
+  .Design-projects {
+    padding-left: 16px;
+  }
+
+  .design-projects-link-level-1 {
+    padding-left: 16px;
+  }
 }

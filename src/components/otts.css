@@ -1,0 +1,8 @@
+@font-face {
+    font-family: 'ArchivoBlack-Regular';
+    src: local('ArchivoBlack-Regular''), ur;(./../assets/fonts/ArchivoBlack-Regular.ttf') format('truetype');
+  }
+
+  .content {
+    background-color: #121212;
+}

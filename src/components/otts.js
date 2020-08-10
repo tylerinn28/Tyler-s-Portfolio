@@ -1,5 +1,6 @@
 import React from 'react';
-import { Link } from "react-router-dom";
+import './../assets/fonts/ArchivoBlack-Regular.ttf';
+import './otts.css';
 
 export const Otts = () => {
     return (

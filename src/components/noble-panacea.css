@@ -1,0 +1,141 @@
+@font-face {
+    font-family: 'ArchivoBlack-Regular';
+    src: local('ArchivoBlack-Regular''), ur;(./../assets/fonts/ArchivoBlack-Regular.ttf') format('truetype');
+  }
+
+  .content {
+    background-color: #121212;
+}
+
+.Noble-heading {
+    display: flex;
+  flex-direction: row;
+}
+
+.Noble-heading > p {
+    font-family: 'ArchivoBlack-Regular';
+    font-size: 90px;
+    color: white;
+    padding-left: 115px;
+    letter-spacing: 10px;
+}
+
+.Noble-heading > img {
+    width: 800px;
+    height: 550px;
+    padding: 0 50px 50px 0;
+    float: right;
+    vertical-align: top;
+}
+
+.Noble-information {
+    color: white;
+    font-family: arpona, serif;
+    font-style: normal;
+    font-weight: 100;
+    font-size: 20px;
+    padding-left: 115px;
+    line-height: 40px;
+}
+
+.Noble-firsttier > img{
+    width: 490px;
+    height: 350px;
+    padding-left: 730px;
+    padding-top: 40px;
+}
+
+.Noble-firsttierinfo {
+    display: flex;
+    flex-direction: row;
+}
+
+.Noble-firsttierinfo > img {
+    width: 500px;
+    height: 360px;
+    float: left;
+    vertical-align: top;
+    padding-left: 150px;
+    padding-top: 80px;
+}
+
+.Noble-firsttierinfo > h2 {
+    color: white;
+    font-size: 40px;
+    font-family: arpona, serif;
+    font-style: bold;
+    font-weight: 600;
+    line-height: 60px;
+    padding-right: 140px;
+    padding-left: 80px;
+    padding-top: 250px;
+    line-height: 50px;
+}
+
+.Noble-firsttiersubheading {
+    color: white;
+    font-family: arpona, serif;
+    font-style: normal;
+    font-weight: 100;
+    padding-left: 735px;
+    padding-right: 50px;
+}
+
+.Noble-secondtier {
+    display: flex;
+    flex-direction: row;
+    color: white;
+}
+
+.Noble-secondtier > img{
+    width: 500px;
+    height: 360px;
+    float: right;
+    vertical-align: top;
+    padding-top: 100px;
+    padding-right: 150px;
+}
+.Noble-secondtier > h2 {
+    color: white;
+    font-size: 40px;
+    font-family: arpona, serif;
+    font-style: bold;
+    font-weight: 600;
+    line-height: 60px;
+    padding-left: 115px;
+    padding-top: 275px;
+    padding-right: 150px;
+}
+
+.Noble-secondtiersubheading {
+    color: white;
+    font-family: arpona, serif;
+    font-style: normal;
+    font-weight: 100;
+    padding-left: 115px;
+    padding-right: 700px;
+}
+
+.Noble-bottom {
+    color: white;
+    font-family: 'ArchivoBlack-Regular';
+    font-size: 40px;
+    display: flex;
+    flex-direction: row;
+    padding-top: 150px;
+}
+
+.Noble-bottom > .Noble-Home {
+    padding-left: 350px;
+}
+
+.Noble-bottom > .Noble-NextEvent {
+    padding-left: 350px;
+}
+
+
+
+
+
+
+
