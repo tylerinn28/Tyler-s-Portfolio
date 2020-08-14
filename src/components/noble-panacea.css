@@ -7,25 +7,54 @@
     background-color: #121212;
 }
 
+.Noblenavbar {
+    width: 100%;
+   color: white;
+   font-size: 30px;
+   padding-left: 1335px;
+   margin-right: 100px;
+   text-decoration: none;
+   padding-top: 50px;
+   position: sticky;
+   top: 0;
+   z-index: 1;
+  }
+
+  .Noblenavbar a {
+    display: block;
+    padding: 16px;
+  }
+  
 .Noble-heading {
     display: flex;
-  flex-direction: row;
+    flex-direction: row;
+    position: relative;
+    padding-top: 50px;
 }
 
 .Noble-heading > p {
     font-family: 'ArchivoBlack-Regular';
-    font-size: 90px;
+    font-size: 100px;
     color: white;
     padding-left: 115px;
-    letter-spacing: 10px;
+    position: absolute;
+    bottom: 5px;
+    text-align: left;
+    line-height: 100px;
+    letter-spacing: 15px;
 }
 
 .Noble-heading > img {
     width: 800px;
-    height: 550px;
-    padding: 0 50px 50px 0;
+    height: 500px;
+   padding: 0px 150px 110px 540px;
     float: right;
     vertical-align: top;
+    position: relative;
+}
+
+.Noble-topimage {
+    opacity: .64;
 }
 
 .Noble-information {
@@ -36,13 +65,14 @@
     font-size: 20px;
     padding-left: 115px;
     line-height: 40px;
+    margin-top: -70px;
 }
 
 .Noble-firsttier > img{
     width: 490px;
     height: 350px;
     padding-left: 730px;
-    padding-top: 40px;
+    padding-top: 10px;
 }
 
 .Noble-firsttierinfo {
@@ -68,7 +98,7 @@
     line-height: 60px;
     padding-right: 140px;
     padding-left: 80px;
-    padding-top: 250px;
+    padding-top: 300px;
     line-height: 50px;
 }
 
@@ -78,7 +108,7 @@
     font-style: normal;
     font-weight: 100;
     padding-left: 735px;
-    padding-right: 50px;
+    padding-right: 150px;
 }
 
 .Noble-secondtier {
@@ -93,7 +123,7 @@
     float: right;
     vertical-align: top;
     padding-top: 100px;
-    padding-right: 150px;
+    padding-right: 120px;
 }
 .Noble-secondtier > h2 {
     color: white;
@@ -123,6 +153,7 @@
     display: flex;
     flex-direction: row;
     padding-top: 150px;
+    margin-bottom: 50px;
 }
 
 .Noble-bottom > .Noble-Home {

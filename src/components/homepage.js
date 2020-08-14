@@ -1,20 +1,32 @@
 import React from 'react';
 import { Link } from "react-router-dom";
 import './homepage.css';
-import './../assets/fonts/ArchivoBlack-Regular.ttf'
-
+import './../assets/fonts/ArchivoBlack-Regular.ttf';
 
 export const HomePage = () => {
     return (
         <React.Fragment>
 
 <div className="content">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+
+<div className="navbar">
+    <a href="mailto:tylerinn28@gmail.com" class="fa fa-envelope-o"></a>
+    <a href="https://dribbble.com/tyylahh" class="fa fa-dribbble"></a>
+    <a href="linkedin.com/in/tyler-inn-405393b8" class="fa fa-linkedin-square"></a>
+    </div>
+
   <h1 className="heading">
            <div className="my-name-tyler">I’M TYLER. </div> 
            <div> I CREATE  </div> 
            <div>  MEMORABLE EXPERIENCES </div> 
            <div> FOR BRANDS & THEIR AUDIENCE. </div> 
   </h1>
+
+  <div className="work">
+    WORK
+</div>
+    <div class="vr1">&nbsp;</div>
 
   <h2 className="Design-projects">
             DESIGN PROJECTS 
@@ -38,11 +50,19 @@ export const HomePage = () => {
             <Link to="/noblepanacea">02. Noble Panacea Global Brand Launch</Link>
         </div>
         <div className="design-projects-link-level-6">
-            <Link to="ellenvonwerth">03. Ellen von Unwerth at Fotografiska</Link>
+            <Link to="ellenvonunwerth">03. Ellen von Unwerth at Fotografiska</Link>
         </div>
+
+
+        <div className="about">
+        ABOUT
+    </div>
+        <div class="vr2">&nbsp;</div>
+
         <h2 className="More-about-me">
         MORE ABOUT ME
         </h2>
+
 
   <div className="Bio"> 
         <div>
@@ -54,7 +74,7 @@ export const HomePage = () => {
             In my free time, I like creating playlists for my friends, sketching tattoo ideas, and taking care of my plants. 
             <br/><br/>
             <div className="letstalk">
-            LET'S TALK - tylerinn28@gmail.com
+            <a href="mailto:tylerinn28@gmail.com">LET'S TALK - tylerinn28@gmail.com</a>
             </div>
             
             </p>
@@ -62,7 +82,7 @@ export const HomePage = () => {
         
         <div className="homepage-image">
             <img src={require('./../assets/images/Homepage.JPG')} />
-        </div></div>
+        </div> </div>
 
 </div>
 

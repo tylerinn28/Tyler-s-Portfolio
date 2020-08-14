@@ -15,11 +15,65 @@ a:link {
   text-decoration: none;
 }
 
+.navbar {
+  width: 100%;
+ color: white;
+ font-size: 30px;
+ padding-left: 1300px;
+ margin-right: 100px;
+ text-decoration: none;
+ padding-top: 50px;
+ position: fixed;
+ z-index: 1;
+}
+
+.navbar a {
+  display: block;
+  padding: 16px;
+}
+
+.vr1 {
+  width:3px;
+  background-color:#ffffff;
+  position:absolute;
+  top: 700px;
+  bottom:0px;
+  left:80px;
+  height: 1150px;
+}
+
+.vr2 {
+  width:3px;
+  background-color:#ffffff;
+  position:absolute;
+  height: 1100px;
+  left: 80px;
+  top: 2000px;
+}
+
+.work {
+  color: white;
+  font-family: futura-pt, sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  padding-left: 80px;
+  padding-top: 40px;
+}
+
+.about {
+  color: white;
+  font-family: futura-pt, sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  padding-left: 80px;
+  padding-top: 130px;
+}
+
 .heading {
   font-family: 'ArchivoBlack-Regular';
   font-size: 60px;
-  padding-left: 115px;
-  padding-top: 330px;
+  padding-left: 130px;
+  padding-top: 380px;
   color: white;
   margin-top: 0;
   margin-bottom: 0;
@@ -65,7 +119,7 @@ a:link {
   font-weight: 800;
   font-size: 40px;
   padding-top: 100px;
-  padding-left: 1000px;
+  padding-left: 1050px;
   color: white;
 }
 
@@ -74,7 +128,7 @@ a:link {
   font-family: futura-medium;
   font-size: 40px;
   padding-top: 20px;
-  padding-left: 510px;
+  padding-left: 530px;
 }
 
 .design-projects-link-level-5 {
@@ -82,7 +136,7 @@ a:link {
   font-family: futura-medium;
   font-size: 40px;
   padding-top: 55px;
-  padding-left: 200px;
+  padding-left: 230px;
 }
 
 .design-projects-link-level-6 {
@@ -90,7 +144,7 @@ a:link {
   font-family: futura-medium;
   font-size: 40px;
   padding-top: 60px;
-  padding-left: 100px;
+  padding-left: 150px;
 }
 
 .More-about-me {
@@ -99,7 +153,7 @@ a:link {
   font-weight: 800;
   font-size: 40px;
   color: white;
-  padding-top: 300px;
+  padding-top: 255px;
   padding-left: 115px;
 }
 
@@ -110,6 +164,7 @@ a:link {
   font-style: normal;
   font-weight: 100;
   font-size: 25px;
+  margin-bottom: 50px;
 }
 
 .Bio > div > p {
@@ -117,9 +172,9 @@ a:link {
   font-style: normal;
   font-weight: 100;
   color: white;
-  font-size: 22px;
+  font-size: 18px;
   padding-left: 115px;
-  padding-right: 100px;
+  padding-right: 20px;
   line-height: 45px;
 }
 
@@ -127,11 +182,11 @@ a:link {
   color: white;
 }
 
-
 .homepage-image > img { 
   width: 500px;
   height: 650px;
-  padding: 45px 50px 50px 0;
+  padding: 45px 50px 50px 100px;
+  padding-right: 180px;
   float: right;
   vertical-align: top;
 }
@@ -140,6 +195,7 @@ a:link {
   font-family: arpona, serif;
   font-style: normal;
   font-weight: 500;
+  font-size: 20px;
 }
 
 .my-name-tyler:hover {

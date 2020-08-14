@@ -6,3 +6,408 @@
   .content {
     background-color: #121212;
 }
+
+.Soundcloudnavbar {
+    width: 100%;
+    color: white;
+    font-size: 30px;
+    padding-left: 1335px;
+    margin-right: 100px;
+    text-decoration: none;
+    padding-top: 50px;
+    position: fixed;
+    top: 0;
+    margin-top: 50px;
+    overflow-x: hidden;
+    z-index: 1;
+}
+
+.Soundcloudnavbar a{
+    display: block;
+    padding: 16px;
+}
+
+.MobileAppheading {
+    font-family: arpona, serif;
+    font-style: bold;
+    font-weight: 500;
+    font-size: 20px;
+    color: white;
+    padding-left: 115px;
+    padding-top: 50px;
+}
+
+.Soundcloud-heading {
+    display: flex;
+  flex-direction: row;
+  position: relative;
+  padding-top: 20px;
+}
+
+.Soundcloud-heading > p {
+    font-family: 'ArchivoBlack-Regular';
+    font-size: 120px;
+    color: white;
+    padding-left: 115px;
+    position: absolute;
+    text-align: left;
+    letter-spacing: 5px;
+    bottom: 40px;
+    top: -50px;
+}
+
+.Soundcloud-heading > img {
+    width: 900px;
+    height: 450px;
+   padding: 0px 100px 150px 540px;
+    float: right;
+    vertical-align: top;
+    position: relative;
+}
+
+.Soundcloud-Homepage {
+    opacity: .64;
+}
+
+.Soundcloud-information {
+   color: white;
+   font-family: arpona, serif;
+   font-weight: 100;
+    font-size: 20px;
+    line-height: 40px;
+    letter-spacing: 0px;
+    padding-top: 30px;
+    padding-right: 450px;
+}
+
+.Soundcloudredesign {
+    font-family: 'ArchivoBlack-Regular';
+    font-size: 120px;
+    color: white;
+    padding-left: 115px;
+    position: absolute;
+    text-align: left;
+    letter-spacing: 10px;
+    bottom: 50px;
+}
+
+.Soundcloudfirsttier {
+    padding-top: 300px;
+    padding-left: 550px;
+}
+
+.Soundcloudfirsttierheading {
+    color: white;
+    font-size: 40px;
+    font-family: arpona, serif;
+    font-style: bold;
+    font-weight: 600;
+    line-height: 55px;
+    padding-right: 200px;
+}
+
+.Soundcloudfirsttiersubheading {
+    color: white;
+    font-family: arpona, serif;
+    font-style: normal;
+    font-weight: 100;
+    line-height: 40px;
+    padding-right: 115px;
+}
+
+.Process {
+    color: white;
+    font-size: 40px;
+    font-family: arpona, serif;
+    font-style: bold;
+    font-weight: 600;
+    padding-left: 115px;
+    padding-top: 130px;
+}
+
+.Processexp {
+    color: white;
+    display: flex;
+    flex-direction: row;
+    font-family: arpona, serif;
+    font-weight: 200;
+    font-size: 20px;
+    padding-left: 115px;
+    padding-top: 20px;
+}
+
+.Research1 {
+    font-weight: 600;
+    padding-bottom: 10px;
+}
+
+.Design {
+    padding-left: 180px;
+}
+
+.Design1 {
+    font-weight: 600;
+    padding-bottom: 10px;
+}
+
+.Testing {
+    padding-left: 180px;
+}
+
+.Testing1 { 
+    font-weight: 600;
+    padding-bottom: 10px;
+}
+
+.Keyinsight01 {
+    color: white;
+    font-size: 30px;
+    font-family: arpona, serif;
+    font-style: bold;
+    font-weight: 600;
+    padding-left: 115px;
+    padding-right: 750px;
+    padding-top: 150px;
+}
+
+.Piechart-quote {
+    display: flex;
+    flex-direction: row;
+}
+
+.Piechart-quote > img {
+    padding-left: 115px;
+    padding-top: 50px;
+    width: 1000px;
+}
+
+.quotes {
+    color: white;
+    font-size: 40px;
+    font-family: arpona, serif;
+    font-style: bold;
+    font-weight: 600;
+    margin-left: 130px;
+    padding-right: 115px;
+    padding-top: 30px;
+}
+
+.keypainpoints {
+    color: white;
+    font-size: 40px;
+    font-family: arpona, serif;
+    font-style: bold;
+    font-weight: 600;
+    padding-left: 115px;
+    padding-top: 130px;
+}
+
+.Keypainpointsexp {
+    color: white;
+    display: flex;
+    flex-direction: row;
+    font-family: arpona, serif;
+    font-weight: 200;
+    font-size: 18px;
+    padding-left: 115px;
+    padding-top: 20px;
+}
+
+.Confusinginterface1 {
+    font-weight: 600;
+    padding-bottom: 10px;
+    font-size: 20px;
+}
+
+.Community1 {
+    font-weight: 600;
+    padding-bottom: 10px;
+    font-size: 20px;
+}
+
+.Personalization1 {
+    font-weight: 600;
+    padding-bottom: 10px;
+    font-size: 20px;
+}
+
+.Community {
+    padding-left: 80px;
+}
+
+.Personalization {
+    padding-right: 115px;
+    padding-left: 80px;
+}
+
+.Soundcloud-Wireframe {
+    color: white;
+    font-size: 40px;
+    font-family: arpona, serif;
+    font-style: bold;
+    font-weight: 600;
+    padding-left: 115px;
+    padding-top: 130px;
+}
+
+.Soundcloud-Wireframeexp {
+    color: white;
+    font-family: arpona, serif;
+    font-weight: 200;
+    font-size: 18px;
+    padding-left: 115px;
+    padding-top: 10px;
+}
+
+.SoundcloudWireframe1 {
+    display: flex;
+    flex-direction: row;
+}
+
+.Soundcloud-HomepageOrg {
+    width: 271px;
+    height: 610px;
+    padding-left: 140px;
+    padding-top: 50px;
+}
+
+.SoundcloudHomepage-Wireframe {
+    width: 271px;
+    height: 610px;
+    padding-left: 50px;
+    padding-top: 50px;
+}
+
+.Soundcloud-Homepageexp {
+    color: white;
+    font-family: arpona, serif;
+    font-weight: 200;
+    font-size: 18px;
+    padding-left: 70px;
+    padding-top: 50px;
+    padding-right: 180px;
+    line-height: 35px;
+}
+
+.HomepageStream {
+    font-weight: 600;
+}
+
+.SoundcloudWireframe2 {
+    display: flex;
+    flex-direction: row;
+}
+
+.Soundcloud-SearchOrg {
+    width: 271px;
+    height: 610px;
+    padding-left: 140px;
+    padding-top: 80px;
+}
+
+.Soundcloudsearch-Wireframe {
+    width: 271px;
+    height: 610px;
+    padding-left: 50px;
+    padding-top: 80px;
+}
+
+.Soundcloud-Searchexp {
+    color: white;
+    font-family: arpona, serif;
+    font-weight: 200;
+    font-size: 18px;
+    padding-left: 70px;
+    padding-top: 80px;
+    padding-right: 180px;
+    line-height: 35px;
+}
+
+.Search {
+    font-weight: 600;
+}
+
+.SoundcloudWireframe3 {
+    display: flex;
+    flex-direction: row;
+}
+
+.Soundcloud-ProfileOrg {
+    width: 271px;
+    height: 610px;
+    padding-left: 140px;
+    padding-top: 80px;
+}
+
+.Soundcloudprofile-Wireframe {
+    width: 271px;
+    height: 610px;
+    padding-left: 50px;
+    padding-top: 80px;
+}
+
+.Soundcloud-Profileexp {
+    color: white;
+    font-family: arpona, serif;
+    font-weight: 200;
+    font-size: 18px;
+    padding-left: 70px;
+    padding-top: 80px;
+    padding-right: 180px;
+    line-height: 35px;
+}
+
+.Profile {
+    font-weight: 600;
+}
+
+.SoundcloudWireframe4 {
+    display: flex;
+    flex-direction: row;
+}
+
+.Soundcloud-NowplayingOrg {
+    width: 271px;
+    height: 610px;
+    padding-left: 140px;
+    padding-top: 80px;
+}
+
+.Soundcloudnowplaying-Wireframe {
+    width: 271px;
+    height: 610px;
+    padding-left: 50px;
+    padding-top: 80px;
+}
+
+.Soundcloud-Nowplayingexp {
+    color: white;
+    font-family: arpona, serif;
+    font-weight: 200;
+    font-size: 18px;
+    padding-left: 70px;
+    padding-top: 80px;
+    padding-right: 180px;
+    line-height: 35px;
+}
+
+.Nowplaying {
+    font-weight: 600;
+}
+
+.Soundcloud-Hifi {
+    color: white;
+    font-size: 40px;
+    font-family: arpona, serif;
+    font-style: bold;
+    font-weight: 600;
+    padding-left: 115px;
+    padding-top: 130px;
+}
+
+
+
+
+
+
+

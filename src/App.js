@@ -23,7 +23,7 @@ function App() {
           <Route path='/ramenshop' component={RamenShop}/>
           <Route path='/soundcloudredesign' component={SoundCloudRedesign}/>
           <Route path='/westhollywood' component={Westhollywood}/>
-          <Route path='/ellenvonwerth' component={EllenVonUnwerth}/>
+          <Route path='/ellenvonunwerth' component={EllenVonUnwerth}/>
         </Switch>
       </Router>
   );

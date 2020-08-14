@@ -1,6 +1,7 @@
 import React from 'react';
 import './../assets/fonts/ArchivoBlack-Regular.ttf';
 import './ellen-von-unwerth.css';
+import { Link } from "react-router-dom";
 
 export const EllenVonUnwerth = () => {
     return (
@@ -8,11 +9,27 @@ export const EllenVonUnwerth = () => {
 
         <div className="content">
 
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+
+        <div className="backarrow">
+        <a href="/" class="fa fa-long-arrow-left"></a>
+        </div>
+
+        <div className="Ellennavbar">
+    <a href="/" class="fa fa-home"></a>
+    <a href="mailto:tylerinn28@gmail.com" class="email"><i class="fa fa-envelope-o"></i></a>
+    <a href="https://dribbble.com/tyylahh" class="dribbble"><i class="fa fa-dribbble"></i></a>
+    <a href="https://linkedin.com/in/tyler-inn-405393b8" class="fa fa-linkedin-square"></a>
+    </div>
+
         <div className="Eventsheading">
             Events
         </div>
 
+        <div class="hr"><hr /></div>
+
         <h1 className="Ellen-heading">
+        <img className="ellen-topimage" src={require('./../assets/images/Ellen-topimage.jpg')} />
             <p> 
             <div> ELLEN </div>
             <div> VON  </div>
@@ -20,8 +37,6 @@ export const EllenVonUnwerth = () => {
             <div> AT </div>
             <div> FOTOGRAFISKA </div>
             </p> 
-            
-       <img src={require('./../assets/images/Ellen-topimage.jpg')} />
         </h1>
 
         <div className="West-information">
@@ -35,12 +50,14 @@ export const EllenVonUnwerth = () => {
         <div className="Ellen-firsttier">
         <img src={require('./../assets/images/Ellen-firsttier.jpg')} />
         
-        <h2>
+       
+       <div className="Ellen-firsttiertext">
+        <div className="hostedanight">
         Ellen von Unwerth hosted a night to celebrate the exhibition, Devotion! 30 Years of Photographing Women, presented at Fotografiska New York. 
-        </h2>
-
-        <div>
+        </div>
+        <div className="FriendsofEllen">
         Friends of Ellen von Unwerth gathered for this special moment to honor the renowned photographer and dance the night away to music. 
+        </div>
         </div>
 
         </div>
@@ -60,15 +77,14 @@ export const EllenVonUnwerth = () => {
         </div>
 
         <div className="Ellen-bottom">
-            <div className="Ellen-Home">
-                HOME
+        <div className="Ellen-Home">
+            <Link to="/"> HOME</Link>
             </div>
 
             <div className="Ellen-NextEvent">
-                NEXT EVENT
+            <Link to="/westhollywood"> NEXT EVENT</Link>
             </div>
         </div>
-
 
         </div>
         </React.Fragment>

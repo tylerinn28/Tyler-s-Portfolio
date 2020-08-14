@@ -1,6 +1,7 @@
 import React from 'react';
 import './noble-panacea.css';
 import './../assets/fonts/ArchivoBlack-Regular.ttf'
+import { Link } from "react-router-dom";
 
 export const NoblePanacea = () => {
     return (
@@ -8,11 +9,27 @@ export const NoblePanacea = () => {
 
         <div className="content">
 
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+
+        <div className="backarrow">
+        <a href="/" class="fa fa-long-arrow-left"></a>
+        </div>
+
+        <div className="Noblenavbar">
+    <a href="/" class="fa fa-home"></a>
+    <a href="mailto:tylerinn28@gmail.com" class="email"><i class="fa fa-envelope-o"></i></a>
+    <a href="https://dribbble.com/tyylahh" class="dribbble"><i class="fa fa-dribbble"></i></a>
+    <a href="https://linkedin.com/in/tyler-inn-405393b8" class="fa fa-linkedin-square"></a>
+    </div>
+
         <div className="Eventsheading">
             Events
         </div>
 
+        <div class="hr"><hr /></div>
+
         <h1 className="Noble-heading">
+        <img className="Noble-topimage" src={require('./../assets/images/Noble-topimage.jpg')} />
             <p>
             <div> NOBLE </div>
             <div> PANACEA </div>
@@ -20,8 +37,6 @@ export const NoblePanacea = () => {
             <div> BRAND </div>
             <div> LAUNCH </div>
             </p>
-            
-       <img src={require('./../assets/images/Noble-topimage.jpg')} />
         </h1>
 
         <div className="Noble-information">
@@ -63,11 +78,11 @@ export const NoblePanacea = () => {
 
         <div className="Noble-bottom">
             <div className="Noble-Home">
-                HOME
+            <Link to="/"> HOME</Link>
             </div>
 
             <div className="Noble-NextEvent">
-                NEXT EVENT
+            <Link to="/ellenvonunwerth"> NEXT EVENT</Link>
             </div>
         </div>
 

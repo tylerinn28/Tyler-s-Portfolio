@@ -1,6 +1,7 @@
 import React from 'react';
 import './west-hollywood.css';
-import './../assets/fonts/ArchivoBlack-Regular.ttf'
+import './../assets/fonts/ArchivoBlack-Regular.ttf';
+import { Link } from "react-router-dom";
 
 export const Westhollywood = () => {
     return (
@@ -8,11 +9,27 @@ export const Westhollywood = () => {
         
         <div className="content">
 
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+
+        <div className="backarrow">
+        <a href="/"> <i class="fa fa-long-arrow-left"></i></a>
+        </div>
+
+        <div className="Westnavbar">
+        <a href="/" class="fa fa-home"></a>
+    <a href="mailto:tylerinn28@gmail.com"> <i class="fa fa-envelope-o"></i></a>
+    <a href="https://dribbble.com/tyylahh"> <i class="fa fa-dribbble"></i></a>
+    <a href="https://linkedin.com/in/tyler-inn-405393b8" class="fa fa-linkedin-square"></a>
+    </div>
+
         <div className="Eventsheading">
             Events
         </div>
 
+        <div class="hr"><hr /></div>
+
         <h1 className="West-heading">
+        <img className="West-topimage" src={require('./../assets/images/West-topimage.jpg')} />
             <p>
             <div> WEST </div>
             <div> HOLLYWOOD </div>
@@ -20,8 +37,7 @@ export const Westhollywood = () => {
             <div> OPENING </div>
             <div> WEEK </div>
             </p>
-            
-       <img src={require('./../assets/images/West-topimage.jpg')} />
+
         </h1>
 
         <div className="West-information">
@@ -66,12 +82,13 @@ export const Westhollywood = () => {
 
         <div className="West-bottom">
             <div className="West-Home">
-                HOME
+            <Link to="/"> HOME</Link>
             </div>
 
             <div className="West-NextEvent">
-                NEXT EVENT
-            </div>
+            <Link to="/noblepanacea"> NEXT EVENT</Link>
+        </div>
+    
         </div>
 
         </div>
