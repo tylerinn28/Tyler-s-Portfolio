@@ -7,6 +7,8 @@ export const HomePage = () => {
     return (
         <React.Fragment>
 
+<meta name="viewport" content="width=device-width, initial-scale=1"></meta>
+
 <div className="content">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
 
@@ -19,21 +21,21 @@ export const HomePage = () => {
   <h1 className="heading">
            <div className="my-name-tyler">I’M TYLER. </div> 
            <div> I CREATE  </div> 
-           <div>  MEMORABLE EXPERIENCES </div> 
+           <div class="linear-wipe">  MEMORABLE EXPERIENCES </div> 
            <div> FOR BRANDS & THEIR AUDIENCE. </div> 
   </h1>
 
   <div className="work">
-    WORK
-</div>
-    <div class="vr1">&nbsp;</div>
-
-  <h2 className="Design-projects">
+    <a className="work1" href="#DesignProjects"> WORK </a>
+    <div class="vr1"></div>
+    <div className="Projects">
+    <h2 id="DesignProjects" className="Design-projects">
             DESIGN PROJECTS 
   </h2>
   <div className="design-projects-link-level-1">
             <Link to="/soundcloudredesign">01. Redesigning Soundcloud</Link>
         </div>
+        
         <div className="design-projects-link-level-2">
             <Link to="/ramenshop">02. The Ramen Shop</Link>
         </div>
@@ -50,44 +52,58 @@ export const HomePage = () => {
             <Link to="/noblepanacea">02. Noble Panacea Global Brand Launch</Link>
         </div>
         <div className="design-projects-link-level-6">
-            <Link to="ellenvonunwerth">03. Ellen von Unwerth at Fotografiska</Link>
-        </div>
+            <Link to="/ellenvonunwerth">03. Ellen von Unwerth at Fotografiska</Link>
+        </div></div>
+</div>
+
+  
+        
 
 
         <div className="about">
-        ABOUT
-    </div>
-        <div class="vr2">&nbsp;</div>
-
-        <h2 className="More-about-me">
-        MORE ABOUT ME
-        </h2>
-
+        <div className="about1">
+        <a href="#moreaboutme">ABOUT </a> </div>
+        <div class="vr2"></div>
+        
+        <div className="Moreaboutme1">
+        <h2 id="moreaboutme" className="More-about-me">MORE ABOUT ME </h2>
 
   <div className="Bio"> 
         <div>
             <p>
             My interest in creating experiences came from growing up in Los Angeles, a city filled with culture and aplethora of fun things to do. After majoring in Hospitality Management with a concentration in event planning at Boston University, I knew I wanted be in the business of creating experiences for people.  
             <br/><br/>
-            After receiving my first job as an event planner at PURPLE, I gained invaluable skills such as understanding needs and problem solving. However, I felt a lack of visual creativity that I craved so I starting exploring UX/UI design and became a freelance designer. 
+            After receiving my first job as an event planner at PURPLE, I gained invaluable skills such as understanding needs and problem solving. However, I felt a lack of visual creativity that I craved so I started exploring UX/UI design and became a freelance designer ontop of event planning. 
             <br/><br/>
             In my free time, I like creating playlists for my friends, sketching tattoo ideas, and taking care of my plants. 
             <br/><br/>
             <div className="letstalk">
-            <a href="mailto:tylerinn28@gmail.com">LET'S TALK - tylerinn28@gmail.com</a>
-            </div>
-            
+            <a href="mailto:tylerinn28@gmail.com">LET'S TALK - tylerinn28@gmail.com</a></div>
             </p>
         </div>
         
-        <div className="homepage-image">
-            <img src={require('./../assets/images/Homepage.JPG')} />
-        </div> </div>
+        <div className="homepage-image"> <img src={require('./../assets/images/Homepage.JPG')} /></div>
+         </div>
+    </div></div>
+        
+
+        
+
+        <div className="developedby">
+        DESIGNED AND DEVELOPED BY TYLER INN
+        </div>
 
 </div>
+
 
         </React.Fragment>
     );
   }
+
+
   
   export default HomePage;
+
+  
+  
+ 

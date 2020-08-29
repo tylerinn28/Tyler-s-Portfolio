@@ -7,6 +7,8 @@ export const EllenVonUnwerth = () => {
     return (
         <React.Fragment>
 
+<meta name="viewport" content="width=device-width, initial-scale=1"></meta>
+
         <div className="content">
 
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
@@ -41,9 +43,9 @@ export const EllenVonUnwerth = () => {
 
         <div className="West-information">
             <p>
-            <div> Date: Saturday, January 18, 2020    </div>
-            <div> Location: Fotografiska Museum, New York City   </div>
-            <div> Role: Events Assistant at PURPLE  </div>
+            <div className="Ellen-date"> <div className="Ellen-date1">Date: </div>Saturday, January 18, 2020    </div>
+            <div className="Ellen-location"> <div className="Ellen-location1">Location: </div>Fotografiska Museum, New York City   </div>
+            <div className="Ellen-role"> <div className="Ellen-role1">Role: </div>Events Assistant at PURPLE  </div>
             </p>
         </div>
 
@@ -84,6 +86,10 @@ export const EllenVonUnwerth = () => {
             <div className="Ellen-NextEvent">
             <Link to="/westhollywood"> NEXT EVENT</Link>
             </div>
+        </div>
+
+        <div className="EllenBFA ">
+            PHOTOS BY BFA
         </div>
 
         </div>

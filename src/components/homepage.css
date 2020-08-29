@@ -15,11 +15,30 @@ a:link {
   text-decoration: none;
 }
 
+.linear-wipe {
+  animation-name: linearwipe;
+  animation-duration: 10s;
+  background: linear-gradient(to left, #ffffff 20%, rgb(110, 109, 98) 40%, rgb(110, 109, 98) 60%, #ffffff);
+  background-size: 200% auto;
+  color: rgb(110, 109, 98);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: linearwipe 4s linear infinite;
+  animation-direction: reverse;
+}
+
+@keyframes linearwipe {
+    to {
+      background-position: 200% center;
+    }
+  }
+
 .navbar {
   width: 100%;
  color: white;
  font-size: 30px;
- padding-left: 1300px;
+ padding-left: 93%;
  margin-right: 100px;
  text-decoration: none;
  padding-top: 50px;
@@ -33,40 +52,25 @@ a:link {
 }
 
 .vr1 {
-  width:3px;
+  width:1px;
   background-color:#ffffff;
-  position:absolute;
-  top: 700px;
-  bottom:0px;
-  left:80px;
   height: 1150px;
-}
-
-.vr2 {
-  width:3px;
-  background-color:#ffffff;
-  position:absolute;
-  height: 1100px;
-  left: 80px;
-  top: 2000px;
+  border-left: 5px;
+  margin-top: 80px;
+  margin-left: -50px;
 }
 
 .work {
   color: white;
-  font-family: futura-pt, sans-serif;
-  font-weight: 400;
-  font-size: 16px;
-  padding-left: 80px;
-  padding-top: 40px;
+  display: flex;
 }
 
-.about {
-  color: white;
+.work1 {
   font-family: futura-pt, sans-serif;
   font-weight: 400;
   font-size: 16px;
-  padding-left: 80px;
-  padding-top: 130px;
+  padding-left: 10%;
+  padding-top: 60px;
 }
 
 .heading {
@@ -79,13 +83,17 @@ a:link {
   margin-bottom: 0;
 }
 
+.Projects {
+  flex-direction: column;
+}
+
 .Design-projects {
   font-family: futura-pt, sans-serif;
   font-style: bold;
   font-weight: 800;
   font-size: 40px;
   padding-top: 275px;
-  padding-left: 200px;
+  padding-left: 12%;;
   color: white;
 }
 
@@ -93,24 +101,41 @@ a:link {
   text-decoration: none;
   font-family: futura-medium;
   font-size: 40px;
-  padding-left: 350px;
+  padding-left: 30%;
   padding-top: 10px;
+  list-style: none; 
+}
+
+.design-projects-link-level-1:hover {
+  text-shadow: 0 0.020em #ffffff,0 -0.015em #ffffff,0.01em 0 #ffffff,-0.01em 0 #ffffff;
 }
 
 .design-projects-link-level-2 {
   text-decoration: none;
   font-family: futura-medium;
   font-size: 40px;
-  padding-left: 500px;
+  padding-left: 45%;
   padding-top: 40px;
+  list-style: none; 
+}
+
+.design-projects-link-level-2:hover {
+  text-shadow: 0 0.020em #ffffff,0 -0.015em #ffffff,0.01em 0 #ffffff,-0.01em 0 #ffffff;
 }
 
 .design-projects-link-level-3 {
   text-decoration: none;
   font-family: futura-medium;
   font-size: 40px;
-  padding-left: 650px;
-  padding-top: 50px;
+  margin-left: 60%;
+  padding-top: 5%;
+  margin-right: -50%;
+  list-style: none; 
+
+}
+
+.design-projects-link-level-3:hover {
+  text-shadow: 0 0.020em #ffffff,0 -0.015em #ffffff,0.01em 0 #ffffff,-0.01em 0 #ffffff;
 }
 
 .Events {
@@ -118,8 +143,9 @@ a:link {
   font-style: bold;
   font-weight: 800;
   font-size: 40px;
-  padding-top: 100px;
-  padding-left: 1050px;
+  padding-top: 15%;
+  padding-left: 120%;
+  padding-right: 120%;
   color: white;
 }
 
@@ -128,7 +154,13 @@ a:link {
   font-family: futura-medium;
   font-size: 40px;
   padding-top: 20px;
-  padding-left: 530px;
+  padding-left: 62%;
+  margin-right: -50%;
+  list-style: none; 
+}
+
+.design-projects-link-level-4:hover {
+  text-shadow: 0 0.020em #ffffff,0 -0.015em #ffffff,0.01em 0 #ffffff,-0.01em 0 #ffffff;
 }
 
 .design-projects-link-level-5 {
@@ -136,7 +168,13 @@ a:link {
   font-family: futura-medium;
   font-size: 40px;
   padding-top: 55px;
-  padding-left: 230px;
+  margin-left: 27%;
+  margin-right: -50%;
+  list-style: none; 
+}
+
+.design-projects-link-level-5:hover {
+  text-shadow: 0 0.020em #ffffff,0 -0.015em #ffffff,0.01em 0 #ffffff,-0.01em 0 #ffffff;
 }
 
 .design-projects-link-level-6 {
@@ -144,7 +182,40 @@ a:link {
   font-family: futura-medium;
   font-size: 40px;
   padding-top: 60px;
-  padding-left: 150px;
+  padding-left: 13%;
+  margin-right: -50%;
+  list-style: none; 
+}
+
+.design-projects-link-level-6:hover {
+  text-shadow: 0 0.020em #ffffff,0 -0.015em #ffffff,0.01em 0 #ffffff,-0.01em 0 #ffffff;
+}
+
+.about {
+  color: white;
+  font-family: futura-pt, sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  padding-top: 130px;
+  display: flex;
+}
+
+.about1 {
+  font-family: futura-pt, sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  padding-left: 10%;
+  padding-top: 60px;
+}
+
+.vr2 {
+  width: 3px;
+  background-color:#ffffff;
+  height: 1150px;
+  border-left: 5px;
+  margin-top: 80px;
+  margin-left: -50px;
+  float: left;
 }
 
 .More-about-me {
@@ -153,8 +224,8 @@ a:link {
   font-weight: 800;
   font-size: 40px;
   color: white;
-  padding-top: 255px;
-  padding-left: 115px;
+  padding-top: 30%;
+  margin-left: 3%;
 }
 
 .Bio {
@@ -173,8 +244,8 @@ a:link {
   font-weight: 100;
   color: white;
   font-size: 18px;
-  padding-left: 115px;
-  padding-right: 20px;
+  margin-left: 5%;
+  padding-right: 5%;
   line-height: 45px;
 }
 
@@ -182,13 +253,15 @@ a:link {
   color: white;
 }
 
-.homepage-image > img { 
-  width: 500px;
-  height: 650px;
-  padding: 45px 50px 50px 100px;
-  padding-right: 180px;
-  float: right;
+.Moreaboutme1 {
+  flex-direction: column-reverse;
+}
+
+.homepage-image > img{ 
+  width: 70%;
+  height: auto;
   vertical-align: top;
+  margin-left: 10%;
 }
 
 .letstalk {
@@ -198,17 +271,199 @@ a:link {
   font-size: 20px;
 }
 
-.my-name-tyler:hover {
-  color: pink;
-  text-decoration: underline;
+.letstalk:hover {
+  font-weight: 700;
+}
+
+.developedby {
+  color:white;
+  font-family: futura-pt, sans-serif;
+  font-style: bold;
+  font-weight: 800;
+  font-size: 12px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+@viewport {
+  width: device-width ;
+  zoom: 1.0 ;
 }
 
 @media only screen and (max-width: 600px) {
+  .vr1 {
+    display:flex;
+}
+
+.vr2 {
+    display: flex;
+    margin-right: -50px;
+}
+
+.work1 {
+  display: flex;
+  font-size: 14px;
+  padding-left: 10px;
+}
+
+.about1 > a{
+  font-size: 14px;
+  padding-left: 10px;
+  display: flex;
+  margin-top: -100%;
+}
+
+  .navbar {
+    position: fixed;
+    font-size: 25px;
+    top: 0;
+    z-index: 1;
+   margin-left: -10px;
+  }
+
+  .heading {
+    font-size: 30px;
+    align-content: center;
+    padding-left: 25px;
+  }
+
+  .work {
+    font-size: 13px;
+    padding-left: 25px;
+  }
+
+  .vr1 {
+   left: 25px;
+   top: 680px;
+   height: 1300px;
+  }
+
   .Design-projects {
-    padding-left: 16px;
+    padding-left: 50px;
+    font-size: 30px;
+    padding-bottom: 50px;
   }
 
   .design-projects-link-level-1 {
-    padding-left: 16px;
+    padding-left: 50px;
+    font-size: 30px;
   }
+
+  .design-projects-link-level-2 {
+  padding-left: 50px;
+    font-size: 30px;
+    padding-top: 50px;
+  }
+
+  .design-projects-link-level-3 {
+    margin-left: 50px;
+      font-size: 30px;
+      padding-top: 50px;
+    }
+
+    .Events {
+      padding-top: 150px;
+      padding-left: 300px;
+      font-size: 30px;
+      padding-bottom: 50px;
+    }
+
+    .design-projects-link-level-4 {
+      font-size: 27px;
+      text-align: right;
+      padding-right: 290px;
+      margin-left: -950px;
+    }
+
+    .design-projects-link-level-5 {
+      font-size: 28px;
+      padding-top: 50px;
+      text-align: right;
+      padding-right: 290px;
+      margin-left: 35px;
+    }
+
+    .design-projects-link-level-6 {
+      font-size: 28px;
+      padding-top: 50px;
+      text-align: right;
+      padding-right: 290px;
+      margin-left: 25px;
+    }
+
+    .about {
+      font-size: 13px;
+      margin-left: -25px;
+    }
+
+    .vr2 {
+      left: 25px;
+      margin-top: 20px; 
+      height: 1450px;
+    }
+
+    .More-about-me {
+      font-size: 30px;
+      padding-left: 50px;
+      margin-bottom: 0px;
+    }
+
+    .Bio {
+      flex-direction: column;
+    }
+
+    .Bio > div > p {
+      padding-left: 45px;
+      font-size: 18px;
+      line-height: 30px;
+      padding-top: 20px;
+      padding-right: 55px;
+    }
+
+    .homepage-image > img{ 
+      width: 350px;
+      height: auto;
+      padding-top: 15px;
+      margin-left: 20%;
+    }
+
+    .letstalk {
+      font-size: 18px;
+    }
+
+    .developedby {
+      font-size: 12px;
+      padding-top: 100px;
+    }
+}
+
+@media only screen and (min-width: 660px) and (max-width: 1426px) {
+  .vr1 {
+      display: none;
+  }
+  
+  .vr2 {
+      display: none;
+  }
+
+  .about1 {
+    display: none;
+  }
+
+  .work1 {
+    display: none;
+  }
+
+  .More-about-me {
+    padding-left: 2%;
+  }
+
+  .Bio > div > p {
+    padding-left: 8%;
+  }
+
+ 
+
+
+  
 }

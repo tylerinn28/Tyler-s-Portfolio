@@ -7,6 +7,8 @@ export const NoblePanacea = () => {
     return (
         <React.Fragment>
 
+            <meta name="viewport" content="width=device-width, initial-scale=1"></meta>
+
         <div className="content">
 
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
@@ -41,19 +43,18 @@ export const NoblePanacea = () => {
 
         <div className="Noble-information">
             <p>
-            <div> Date: Tuesday, October 22, 2019    </div>
-            <div> Location: The Metropolitan Museum of Art, New York City   </div>
-            <div> Client: Noble Panacea </div>
-            <div> Role: Events Assistant at PURPLE  </div>
+            <div className="Noble-date"> <div className="Noble-date1">Date: </div> Tuesday, October 22, 2019    </div>
+            <div className="Noble-location"> <div className="Noble-location1">Location: </div>The Metropolitan Museum of Art, New York City   </div>
+            <div className="Noble-client"> <div className="Noble-client1">Client: </div>Noble Panacea </div>
+            <div className="Noble-role"> <div className="Noble-role1">Role: </div>Events Assistant at PURPLE  </div>
             </p>
         </div>
 
-        <div className="Noble-firsttier">
-        <img src={require('./../assets/images/Noble-firsttier.jpg')} />
-        </div>
+        <div className="Noble-firsttierimg">
+        <img src={require('./../assets/images/Noble-firsttier.jpg')}/> </div>
 
         <div className="Noble-firsttierinfo">
-        <img src={require('./../assets/images/Noble-secondtier.jpg')} />
+        <img className="Noble-secondtierimg" src={require('./../assets/images/Noble-secondtier.jpg')} />
 
         <h2>
         Noble Panacea is an innovative skincare brand founded by a Nobel Laureate, Sir Fraser Stoddart.
@@ -73,7 +74,7 @@ export const NoblePanacea = () => {
         </div>
 
         <div className="Noble-secondtiersubheading">
-        PURPLE handled the event planning as well as on-site event management. With the client, we handled the ideation process, the guest list, managing the vendors and day-to-day planning. The event included a cocktail reception where guests enjoyed live music provided by a Juilliard quartet followed by a dinner hosted by Lydia Fenet, a well-known auctioneer at Christie’s Auction House. Guests were then escorted to the Engelhard Court via an interactive OMV Tunnel entrance. The dinner sequence opened with a speech by Lydia Fenet, followed by Sir Fraser Stoddart and Celine Talabaza, CEO of Girl Up Foundation. After the dinner, guests were gifted with Noble Panacea products - the Brilliant and Absolute Collection. 
+        With the client, we handled the ideation process, the guest list, managing the vendors and day-to-day planning. The event included a cocktail reception where guests enjoyed live music provided by a Juilliard quartet followed by a dinner and speeches. Guests were escorted to dinner via an interactive OMV Tunnel entrance. After the dinner, guests were gifted with Noble Panacea products - the Brilliant and Absolute Collection. 
         </div>
 
         <div className="Noble-bottom">
@@ -84,6 +85,10 @@ export const NoblePanacea = () => {
             <div className="Noble-NextEvent">
             <Link to="/ellenvonunwerth"> NEXT EVENT</Link>
             </div>
+        </div>
+
+        <div className="NobleBFA">
+            PHOTOS BY BFA
         </div>
 
 

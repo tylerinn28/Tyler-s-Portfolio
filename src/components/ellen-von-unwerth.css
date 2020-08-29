@@ -8,16 +8,15 @@
 }
 
 .Ellennavbar {
-    width: 100%;
-   color: white;
-   font-size: 30px;
-   padding-left: 1335px;
-   margin-right: 100px;
-   text-decoration: none;
-   padding-top: 50px;
-   position: sticky;
-   top: 0;
-   z-index: 1;
+    color: white;
+    font-size: 30px;
+    padding-left: 93%;
+    margin-right: 100px;
+    text-decoration: none;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    margin-top: 8%;
   }
 
   .Ellennavbar a {
@@ -68,6 +67,35 @@
     margin-top: -70px;
 }
 
+.Ellen-date {
+    display: flex;
+    flex-direction: row;
+}
+
+.Ellen-date1 {
+    font-weight: 600;
+    padding-right: 5px;
+}
+
+.Ellen-location {
+    display: flex;
+    flex-direction: row;
+}
+
+.Ellen-location1 {
+    font-weight: 600;
+    padding-right: 5px;
+}
+
+.Ellen-role {
+    display: flex;
+    flex-direction: row;
+}
+
+.Ellen-role1 {
+    font-weight: 600;
+    padding-right: 5px;
+}
 
 .Ellen-firsttier {
     display: flex;
@@ -91,7 +119,6 @@
     font-style: bold;
     font-weight: 600;
     line-height: 60px;
-    text-align: left;
     padding-top: 50px;
 }
 
@@ -117,16 +144,16 @@
 }
 
 .Ellen-secondtierimg {
-    width: 450px;
-    height: 300px;
-    padding-left: 150px;
+    width: 35%;
+    height: 55%;
+    padding-left: 5%;
     padding-top: 30px;
 }
 
 .Ellen-thirdtierimg {
-    width: 420px;
-    height: 280px;
-   padding-left: 250px;
+    width: 35%;
+    height: 55%;
+   padding-left: 15%;
    padding-top: 300px;
 }
 
@@ -141,8 +168,9 @@
     font-style: bold;
     font-weight: 600;
     line-height: 60px;
-    padding-left: 450px;
-    padding-right: 530px;
+    display:block;
+    padding-right:30%;
+    padding-left: 30%;
     padding-top: 50px;
 }
 
@@ -152,8 +180,9 @@
     font-style: normal;
     font-weight: 100;
     font-size: 18px;
-    padding-left: 450px;
-    padding-right: 430px;
+    display:block;
+    padding-right:30%;
+    padding-left: 30%;
 }
 
 .Ellen-bottom {
@@ -167,11 +196,131 @@
 }
 
 .Ellen-bottom > .Ellen-Home {
-    padding-left: 350px;
+    padding-left: 25%;
 }
 
 .Ellen-bottom > .Ellen-NextEvent {
-    padding-left: 350px;
+    padding-left: 25%;
 }
+
+
+.EllenBFA {
+    color:white;
+  font-family: futura-pt, sans-serif;
+  font-style: bold;
+  font-weight: 800;
+  font-size: 12px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+@media only screen and (max-width: 600px) {
+    .Ellennavbar {
+        position: fixed;
+        font-size: 25px;
+        top: 0;
+        z-index: 1;
+        margin-top: 120px;
+       margin-left: -10px;
+    }
+    
+    .Ellen-heading > p {
+        font-size: 53px;
+        margin-left: -90px;
+        margin-bottom: -90px;
+        line-height: normal;
+        letter-spacing: normal;
+    }
+
+    .Ellen-heading {
+        flex-direction: column-reverse;
+    }
+
+    .Ellen-heading > img {
+        width: 400px;
+        height: 290px;
+        margin-left: -510px;
+        margin-top: -45px;
+    }
+
+    .Ellen-information {
+        font-size: 15px;
+        padding-top: 150px;
+        padding-left: 25px;
+        line-height: 25px;
+    }
+
+    .Ellen-firsttier {
+        flex-direction: column-reverse;
+    }
+
+    .hostedanight {
+        font-size: 25px;
+        padding-left: 25px;
+        padding-top: 100px;
+        line-height: 35px;
+        padding-right: 50px;
+    }
+
+    .FriendsofEllen {
+        padding-left: 25px;
+        padding-right: 50px;
+    }
+
+    .Ellen-firsttier > img {
+        width: 400px;
+    display: block;
+    padding-left: 25px;
+    padding-top: 100px;
+    }
+
+    .Ellen-secondtierimg {
+        width: 400px;
+    display: block;
+    padding-left: 25px;
+    padding-top: 50px;
+    }
+    
+    .Ellen-secondtier {
+        flex-direction: column-reverse;
+    }
+
+    .Ellen-thirdtierimg {
+        width: 400px;
+    display: block;
+    padding-left: 25px;
+    padding-top: 150px;
+    }
+
+    .Ellen-thirdtier > h1 {
+        font-size: 25px;
+        padding-left: 25px;
+        padding-top: 100px;
+        line-height: 35px;
+        padding-right: 50px;
+    }
+    
+    .Ellen-thirdtier > div {
+        padding-left: 25px;
+        padding-right: 50px;
+    }
+
+    .Ellen-bottom {
+        font-size: 30px;
+    }
+  
+    .Ellen-bottom > .Ellen-Home {
+      padding-left: 50px;
+  }
+  
+  .Ellen-bottom > .Ellen-NextEvent {
+      padding-left: 200px;
+      margin-top: -15px;
+  }
+
+}
+
+
+
 
 

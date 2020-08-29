@@ -8,16 +8,15 @@
 }
 
 .Noblenavbar {
-    width: 100%;
-   color: white;
+    color: white;
    font-size: 30px;
-   padding-left: 1335px;
+   padding-left: 93%;
    margin-right: 100px;
    text-decoration: none;
-   padding-top: 50px;
-   position: sticky;
+   position: fixed;
    top: 0;
    z-index: 1;
+   margin-top: 8%;
   }
 
   .Noblenavbar a {
@@ -68,10 +67,51 @@
     margin-top: -70px;
 }
 
-.Noble-firsttier > img{
-    width: 490px;
-    height: 350px;
-    padding-left: 730px;
+.Noble-date {
+    display: flex;
+    flex-direction: row;
+}
+
+.Noble-date1{
+    font-weight: 600;
+    padding-right: 5px;
+}
+
+.Noble-location {
+    display: flex;
+    flex-direction: row;
+}
+
+.Noble-location1 {
+    font-weight: 600;
+    padding-right: 5px;
+}
+
+.Noble-client {
+    display: flex;
+    flex-direction: row;
+}
+
+.Noble-client1 {
+    font-weight: 600;
+    padding-right: 5px;
+}
+
+.Noble-role {
+    display: flex;
+    flex-direction: row;
+}
+
+.Noble-role1 {
+    font-weight: 600;
+    padding-right: 5px;
+}
+
+.Noble-firsttierimg > img{
+    width: 35%;
+    height: 55%;
+    height: relative;
+    padding-left: 55%;
     padding-top: 10px;
 }
 
@@ -80,9 +120,10 @@
     flex-direction: row;
 }
 
+
 .Noble-firsttierinfo > img {
-    width: 500px;
-    height: 360px;
+    width: 35%;
+    height: 50%;
     float: left;
     vertical-align: top;
     padding-left: 150px;
@@ -96,8 +137,8 @@
     font-style: bold;
     font-weight: 600;
     line-height: 60px;
-    padding-right: 140px;
-    padding-left: 80px;
+    padding-right: 10%;
+    padding-left: 5%;
     padding-top: 300px;
     line-height: 50px;
 }
@@ -107,8 +148,8 @@
     font-family: arpona, serif;
     font-style: normal;
     font-weight: 100;
-    padding-left: 735px;
-    padding-right: 150px;
+    padding-right: 10%;
+    padding-left: 50%;
 }
 
 .Noble-secondtier {
@@ -118,8 +159,8 @@
 }
 
 .Noble-secondtier > img{
-    width: 500px;
-    height: 360px;
+    width: 35%;
+    height: 55%;
     float: right;
     vertical-align: top;
     padding-top: 100px;
@@ -157,11 +198,137 @@
 }
 
 .Noble-bottom > .Noble-Home {
-    padding-left: 350px;
+    padding-left: 25%;
 }
 
 .Noble-bottom > .Noble-NextEvent {
-    padding-left: 350px;
+    padding-left: 25%;
+}
+
+.NobleBFA {
+    color:white;
+  font-family: futura-pt, sans-serif;
+  font-style: bold;
+  font-weight: 800;
+  font-size: 12px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+@media only screen and (max-width: 600px) {
+    .Noblenavbar {
+        position: fixed;
+        font-size: 25px;
+        top: 0;
+        z-index: 1;
+        margin-top: 120px;
+       margin-left: -10px;
+    }
+    
+    .Noble-heading > p {
+        font-size: 60px;
+        margin-left: -90px;
+        margin-bottom: -105px;
+        line-height: normal;
+        letter-spacing: 5px;
+    }
+
+    .Noble-heading {
+        flex-direction: column-reverse;
+    }
+
+    .Noble-heading > img {
+        width: 400px;
+        height: 290px;
+        margin-left: -510px;
+        margin-top: -45px;
+    }
+
+    .Noble-information {
+        font-size: 15px;
+        padding-top: 150px;
+        padding-left: 25px;
+        line-height: 25px;
+    }
+
+    .Noble-firsttierinfo { 
+        flex-direction: column-reverse;
+    }
+
+    .Noble-firsttierimg > img{ 
+        width: 400px;
+        display: block;
+        padding-left: 45px;
+        padding-top: 100px;
+        height: 50%;
+    }
+
+    .Noble-firsttierinfo > h2 {
+        font-size: 25px;
+        padding-left: 25px;
+        padding-top: 100px;
+        line-height: 35px;
+        padding-right: 25px;
+    }
+
+    .Noble-firsttiersubheading {
+        padding-left: 25px;
+        padding-right: 50px;
+        margin-top: -550px;
+    }
+
+    .Noble-firsttierinfo > img {
+        width: 400px;
+        display: block;
+        padding-left: 45px;
+        padding-top: 100px;
+        height: 50%;
+        margin-top: 150px;
+    }
+
+    .Noble-secondtier {
+        flex-direction: column-reverse;
+    }
+
+    .Noble-secondtier > img {
+        width: 400px;
+        display: block;
+        padding-left: 45px;
+        padding-top: 100px;
+        height: 50%;
+        margin-top: 450px;
+    }
+
+    .Noble-secondtier > h2 {
+        font-size: 25px;
+        padding-left: 25px;
+        padding-top: 100px;
+        line-height: 35px;
+        padding-right: 25px;
+    }
+
+    .Noble-secondtiersubheading {
+        padding-left: 25px;
+        padding-right: 50px;
+    }
+
+    .Noble-bottom {
+        font-size: 30px;
+    }
+  
+    .Noble-bottom > .Noble-Home {
+      padding-left: 50px;
+  }
+  
+  .Noble-bottom > .Noble-NextEvent {
+      padding-left: 200px;
+      margin-top: -15px;
+  }
+  
+
+
+
+
 }
 
 

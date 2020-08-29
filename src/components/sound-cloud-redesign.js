@@ -7,6 +7,8 @@ export const SoundCloudRedesign = () => {
     return (
         <React.Fragment>
 
+<meta name="viewport" content="width=device-width, initial-scale=1"></meta>
+
 <div className="content">
 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
@@ -35,16 +37,18 @@ export const SoundCloudRedesign = () => {
             <div> CLOUD</div>
             <div> REDESIGN </div>
             <div className="Soundcloud-information">
-            Year: 2020  
-            <br></br>
-            Project Goals: 
-            <br></br>
+            <div className="Year2020">
+            <div className="Year"> Year: </div> 2020 <br></br>
+            </div>
+            <div className="Projectgoals">
+            Project Goals: </div>
+            <div className="createmore">
 -Create a more engaging, clean and intuitive interface for both the website and mobile application. <br></br>
 -Highlight a sense of community and social aspect of the platform.<br></br>
--Create more personalization within the platform. <br></br>
-<br></br>
-Personal Goals: <br></br>
-To learn user research and push myself to be able to redesign a popular mobile application.
+-Create more personalization within the platform. <br></br> 
+</div>
+<div className="Personalgoals"> Personal Goals: <br></br></div> 
+<div className="Tolearn"> To learn user research and push myself to be able to redesign a popular mobile application.</div>
             </div>
             </p>
         </h1>
@@ -92,7 +96,7 @@ To learn user research and push myself to be able to redesign a popular mobile a
     <img className="Soundcloud-Piechart" src={require('./../assets/images/Soundcloud-piechart.png')} />
     <div className="quotes">
     “the platform is fine but it seems too scattered” <br></br><br></br>
-    “I wish it was easier to navigate”  
+    “I wish it was easier <br></br> to navigate”  
     </div>
     </div>
 
@@ -165,6 +169,85 @@ The artist  page will look similar however will have more information about them
     <div className="Soundcloud-Hifi">
         Hi-Fi Prototypes
     </div>
+
+    <div className="SoundcloudHififirsttier">
+    <img className="Soundcloud-HIFI1" src={require('./../assets/images/Soundcloud-HomepageHiFi.png')} />
+    <img className="Soundcloud-HIFI2" src={require('./../assets/images/Soundcloud-SearchHIFI.png')} />
+    <img className="Soundcloud-HIFI3" src={require('./../assets/images/Soundcloud-ProfileHIFI.png')} />
+    </div>
+
+    <div className="SoundcloudHifisecondtier">
+    <img className="Soundcloud-HIFI4" src={require('./../assets/images/Soundcloud-NowPlayingHiFi.png')} />
+    <img className="Soundcloud-HIFI5" src={require('./../assets/images/Soundcloud-ArtistHiFi.png')} />
+    <img className="Soundcloud-HIFI6" src={require('./../assets/images/Soundcloud-Library.png')} />
+    </div>
+
+    <div className="Creatingamore">
+    Creating a more social app for sharing music
+    </div>
+
+    <div className="Moresocialapp">
+    <img className="Soundcloud-ProfileHIFI" src={require('./../assets/images/Soundcloud-ProfileHIFI.png')} />
+
+    <div className="ProfileHiFi">
+    <div className="ProfileHiFiheading">
+    Profile 
+    </div>
+    <div className="ProfileHiFiexp">
+    With the new profile design, users would get to showcase their playlists and uploaded songs as well as their chosen top three songs they enjoy at the moment.  When a user posts/reposts a playlist or song,  their followers get an option to repost, like, comment and send to other users. I also decided to include a messaging aspect to Soundcloud to encourage more music sharing and socializing. 
+    </div></div></div>
+
+    <div className="Morepersonalizedselections">
+    More personalized selections
+    </div>
+
+    <div className="Morepersonalization">
+    <img className="Soundcloud-SearchHIFI" src={require('./../assets/images/Soundcloud-SearchHIFI.png')} />
+
+    <div className="SearchHiFi">
+    <div className="SearchHiFiheading">
+   Search and Discover 
+    </div>
+    <div className="SearchHiFiexp">
+    With the search page now having suggested playlists, songs, and artists to listen to, Soundcloud shows their users more personalization and suggestions catered to their listening habits.  
+    </div></div></div>
+
+    <div className="Additionalfeature">
+   Additional Feature
+    </div>
+
+    <div className="AddionalfeatureForLater">
+    <img className="Soundcloud-ForLaterHIFI" src={require('./../assets/images/Soundcloud-ForLaterHIFI.png')} />
+    <div className="ForLaterHiFi">
+    <div className="ForLaterHiFiheading">
+   For Later Playlist
+    </div>
+    <div className="ForLaterHiFiexp">
+    In addition to redesigning Soundcloud to be more user-friendly, social, and personalized, I decided to add another feature to the application - a “For Later” playlist. When using the platform with friends, I began to notice the difficulty of sharing songs. When a friend would send me a song, I usually am not able to listen to it right away so after continuing to text, the song would get lost and I would end up never listening to it. For this reason, I decided to add “For Later” which would automatically save the song to the playlist with the name of the person who sent it and a “text back” feature (the arrow icon).   
+    </div></div></div>
+
+    <div className="Soundcloud-Prototyping">
+   Prototyping
+    </div>
+
+    <div className="Soundcloud-Usertesting">
+   User-testing
+    </div>
+
+    <div className="usertestingexp">
+    I tested the prototype on 5 users who originally took the survey and asked them questions on the new design.  100% of them felt as though the interface was easier to understand and more appealing.  100% of the users also felt as though the new design highlighted personalization through the profile and suggested artists on the search/discover page. To note: most of the users highlighted that they liked the additional messaging feature. 
+    </div>
+
+    <div className="Soundcloud-bottom">
+            <div className="Soundcloud-Home">
+            <Link to="/"> HOME</Link>
+            </div>
+
+            <div className="Soundcloud-NextEvent">
+            <Link to="/ramenshop"> NEXT PROJECT </Link>
+            </div>
+        </div>
+
 
 </div>
 

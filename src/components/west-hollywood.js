@@ -6,6 +6,8 @@ import { Link } from "react-router-dom";
 export const Westhollywood = () => {
     return (
         <React.Fragment>
+
+<meta name="viewport" content="width=device-width, initial-scale=1"></meta>
         
         <div className="content">
 
@@ -26,6 +28,8 @@ export const Westhollywood = () => {
             Events
         </div>
 
+        <a name="Westhollywoodtop"></a>
+
         <div class="hr"><hr /></div>
 
         <h1 className="West-heading">
@@ -42,9 +46,9 @@ export const Westhollywood = () => {
 
         <div className="West-information">
             <p>
-            <div> Date: Tuesday, November 12 - Sunday, November 17, 2019  </div>
-            <div> Location: West Hollywood EDITION, Los Angeles  </div>
-            <div> Role: Events Assistant at PURPLE  </div>
+            <div className= "West-date"><div className="West-Date1"> Date:</div> <div> Tuesday, November 12 - Sunday, November 17, 2019  </div></div>
+            <div className="West-location"> <div className="West-location1"> Location: </div> West Hollywood EDITION, Los Angeles  </div>
+            <div className="West-role"> <div className="West-role1">Role: </div> Events Assistant at PURPLE  </div>
             </p>
             </div>
 
@@ -88,7 +92,10 @@ export const Westhollywood = () => {
             <div className="West-NextEvent">
             <Link to="/noblepanacea"> NEXT EVENT</Link>
         </div>
-    
+        </div>
+
+        <div className="WestBFA">
+            PHOTOS BY BFA
         </div>
 
         </div>

@@ -6,6 +6,8 @@ import { Link } from "react-router-dom";
 export const Otts = () => {
     return (
         <React.Fragment>
+
+<meta name="viewport" content="width=device-width, initial-scale=1"></meta>
         
         <div className="content">
 
@@ -37,9 +39,10 @@ export const Otts = () => {
             <div> EXOTIC </div>
             <div> PLANTS </div>
             <div className="Otts-information">
-            Year: 2020  
-            <br></br>
-            Personal Goal: Create an ecommerce website design from scratch based on an already existing company.
+            <div className="OttsYear2020">
+            <div className="OttsYear"> Year:</div> 2020  </div>
+            <div classNAme="Ottspersonalgoalwhole">
+            <div className="OttsPersonalGoal"> Personal Goal: </div> Create an ecommerce website design from scratch based on an already existing company.</div>
             </div>
             </p>
         </h1>
@@ -82,12 +85,14 @@ export const Otts = () => {
         HOMEPAGE
     </div>
 
+
+    <div className="Otts-homepage1">
     <div className="Otts-homepageexp">
     Since the homepage is the first thing users sees, it is highly important to feature the most essential elements with clear and direct guidance. This is why I chose to keep the navigation bar simple with three categories  - Shop, Plant Care and About Us. In addition,  users have an explicit definition of the brand as well as a direct action to “Shop Now”. 
     </div>
-
     <div class="Otts-vr1">&nbsp;</div>
-
+    </div>
+   
     <img className="Otts-homepageimg" src={require('./../assets/images/Otts-Homepage.png')}></img>
 
     <div className="Otts-ShopNewArrivals">
@@ -127,7 +132,7 @@ export const Otts = () => {
     <img className="Otts-Cartimg" src={require('./../assets/images/Otts-Cart.png')}></img>
 
     <div className="Otts-Checkout">
-        CART
+        CHECKOUT
     </div>
 
     <div className="Otts-Checkoutexp">
