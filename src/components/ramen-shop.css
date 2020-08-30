@@ -86,7 +86,7 @@
 }
 
 .Ramenfirsttier {
-    padding-top: 15%;
+    padding-top: 10%;
     padding-left: 40%;
 }
 
@@ -212,7 +212,7 @@
     width:3px;
   background-color:#ffffff;
   position:absolute;
-  top: 2970px;
+  top: 3000px;
   bottom:0px;
   left: 115px;
   height: 610px;
@@ -250,7 +250,7 @@
     width:3px;
   background-color:#ffffff;
   position:absolute;
-  top: 3755px;
+  top: 3800px;
   bottom:0px;
   left: 115px;
   height: 850px;
@@ -288,10 +288,10 @@
     width:3px;
   background-color:#ffffff;
   position:absolute;
-  top: 4780px;
+  top: 4850px;
   bottom:0px;
   left: 115px;
-  height: 870px;
+  height: 930px;
 }
 
 .Ramen-menuimg {
@@ -326,7 +326,7 @@
     width:3px;
   background-color:#ffffff;
   position:absolute;
-  top: 5840px;
+  top: 5960px;
   bottom:0px;
   left: 115px;
   height: 815px;

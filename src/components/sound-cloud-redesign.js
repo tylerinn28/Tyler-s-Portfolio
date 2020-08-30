@@ -89,7 +89,7 @@ export const SoundCloudRedesign = () => {
     </div>
 
     <div className="Keyinsight01">
-    Key Insight 01: 85% of respondents said that they only use Soundcloud a few times a month or less
+    Key Insight: 85% of respondents said that they only use Soundcloud a few times a month or less
     </div>
 
     <div className="Piechart-quote">

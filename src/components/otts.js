@@ -112,7 +112,7 @@ export const Otts = () => {
     </div>
 
     <div className="Otts-ProductPageexp">
-    Since the user cannot physically ask an employee about the plant, I decided to add as much information about the plant in a simple manner - creating a “Plant Care” section as well as basic information under the product name. I also decided to input an “Add a Planter” drop down menu to increase efficiently in user flow. 
+    Since the user cannot physically ask an employee about the plant, I decided to add as much information about the plant in a simple manner by creating a “Plant Care” section as well as having basic information under the product name. I also decided to input an “Add a Planter” drop down menu to increase efficiently in user flow. 
     </div>
 
     <div class="Otts-vr3">&nbsp;</div>
@@ -124,7 +124,7 @@ export const Otts = () => {
     </div>
 
     <div className="Otts-Cartexp">
-    One of the most popular problems that users have with e-commerce websites is a long and confusing checkout process. Based SaleCycle, the global average rate of cart abandonment is 75.6%. To combat this, I added a clear call-to-action button as well as additional product incentives at the bottom. 
+    One of the most popular problems that users have with e-commerce websites is a long and confusing checkout process. Based on SaleCycle, the global average rate of cart abandonment is 75.6%. To combat this, I added a clear call-to-action button as well as additional product incentives at the bottom. 
     </div>
 
     <div class="Otts-vr4">&nbsp;</div>

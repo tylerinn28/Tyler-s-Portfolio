@@ -73,7 +73,7 @@ export const HomePage = () => {
             <p>
             My interest in creating experiences came from growing up in Los Angeles, a city filled with culture and aplethora of fun things to do. After majoring in Hospitality Management with a concentration in event planning at Boston University, I knew I wanted be in the business of creating experiences for people.  
             <br/><br/>
-            After receiving my first job as an event planner at PURPLE, I gained invaluable skills such as understanding needs and problem solving. However, I felt a lack of visual creativity that I craved so I started exploring UX/UI design and became a freelance designer ontop of event planning. 
+            After receiving my first job as an event planner at PURPLE, I have gained invaluable skills such as understanding needs and problem solving. However, I felt a lack of visual creativity that I craved so I started exploring UX/UI design and became a freelance designer ontop of event planning. 
             <br/><br/>
             In my free time, I like creating playlists for my friends, sketching tattoo ideas, and taking care of my plants. 
             <br/><br/>

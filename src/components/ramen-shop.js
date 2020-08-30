@@ -41,7 +41,7 @@ export const RamenShop = () => {
             
            
             <div className="Ramenpersonalgoals"> <div className="Ramen-Personalgoals1"> Personal Goal: </div>
-            <div className="Ramenpersonalgoals2">Create a website design that is simple and easy as well as highlights my illustration skills. </div> </div></div>
+            <div className="Ramenpersonalgoals2">Create a website design that is simple and easy to use as well as highlights my illustration skills. </div> </div></div>
            </p>
         </h1>
 
