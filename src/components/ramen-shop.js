@@ -24,7 +24,7 @@ export const RamenShop = () => {
     <a href="https://linkedin.com/in/tyler-inn-405393b8" class="fa fa-linkedin-square"></a>
     </div>
 
-    <div className="Webdesignheading">
+    <div className="Ramen-Webdesignheading">
             Web Design
         </div>
 

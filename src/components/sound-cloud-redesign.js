@@ -43,7 +43,7 @@ export const SoundCloudRedesign = () => {
             <div className="Projectgoals">
             Project Goals: </div>
             <div className="createmore">
--Create a more engaging, clean and intuitive interface for both the website and mobile application. <br></br>
+-Create a more engaging, clean, and intuitive interface for both the website and mobile application. <br></br>
 -Highlight a sense of community and social aspect of the platform.<br></br>
 -Create more personalization within the platform. <br></br> 
 </div>
@@ -125,7 +125,7 @@ export const SoundCloudRedesign = () => {
         Wireframes
     </div>
     <div className="Soundcloud-Wireframeexp">
-    Based on the points above, I produced lo-fi wireframes to communicate how the application could look and function better for an easier experience. 
+    Based on the points above, I produced lo-fi wireframes (shown below on the right next to the original Soundcloud design) to communicate how the application could look and function better for an easier experience. 
     </div>
 
     <div className="SoundcloudWireframe1">
