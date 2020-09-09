@@ -641,6 +641,11 @@ padding-top: 50px;
 padding-top: 50px;
 }
 
+.prototypevideo {
+    width: 60%;
+    height: auto;
+}
+
 .usertestingexp {
     color: white;
     font-family: arpona, serif;
