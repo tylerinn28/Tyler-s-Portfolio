@@ -667,3 +667,140 @@ z-index: 1;
 }
 }
 
+@media only screen 
+    and (device-width : 375px) 
+    and (device-height : 812px) 
+    and (-webkit-device-pixel-ratio : 3) {  .backarrow {
+        padding-left: 10px;
+    }
+
+    .Eventsheading {
+        padding-left: 25px;
+    }
+
+    .hr {
+        padding-left: 25px;
+        width: 90%;
+    }
+
+    .Westnavbar {
+        position: fixed;
+        font-size: 25px;
+        top: 0;
+        z-index: 1;
+        margin-top: 70px;
+       margin-left: -10px;
+    }
+
+    .West-heading > p {
+        font-size: 65px;
+        margin-left: -90px;
+        margin-bottom: -80px;
+    }
+
+    .West-heading {
+        flex-direction: column-reverse;
+    }
+
+    .West-heading > img {
+        width: 85%;
+        height: 290px;
+        margin-left: -510px;
+        margin-top: -45px;
+    }
+
+    .West-information {
+        font-size: 15px;
+        padding-top: 130px;
+        padding-left: 25px;
+        line-height: 25px;
+    }
+
+    .West-firsttier {
+        flex-direction: column-reverse;
+    }
+
+    .West-firsttier > h1 {
+        font-size: 25px;
+    padding-left: 25px;
+    padding-top: 50px;
+    line-height: 35px;
+    padding-right: 25px;
+    letter-spacing: normal;
+    }
+
+    .West-firsttiersubheading {
+        padding-left: 25px;
+        padding-right: 50px;
+    }
+
+    .West-firsttier > img {
+        width: 400px;
+        display: block;
+        padding-left: 45px;
+        padding-top: 100px;
+    }
+
+    .West-secondtier {
+        flex-direction: column-reverse;
+    }
+
+
+    .West-secondtierimg { 
+        width: 400px;
+        display: block;
+        padding-left: 45px;
+        padding-top: 100px;
+    }
+
+    .West-thirdtierimg { 
+        width: 400px;
+        display: block;
+        padding-left: 45px;
+        padding-top: 100px;
+  }
+
+  .West-secondheading {
+    font-size: 25px;
+    padding-left: 25px;
+    padding-top: 50px;
+    line-height: 35px;
+    padding-right: 25px;
+    letter-spacing: normal;
+  }
+
+  .West-secondsubheading {
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+
+  .West-fourthimage > img{
+    width: 400px;
+    display: block;
+    padding-left: 45px;
+    padding-top: 100px;
+  }
+
+  .West-bottom {
+      font-size: 30px;
+  }
+
+  .West-bottom > .West-Home {
+    padding-left: 50px;
+}
+
+.West-bottom > .West-NextEvent {
+    padding-left: 200px;
+    margin-top: -15px;
+}
+
+.WestBFA {
+    color:white;
+  font-family: futura-pt, sans-serif;
+  font-style: bold;
+  font-weight: 800;
+  font-size: 12px;
+  text-align: center;
+  margin-bottom: 50px;
+}}
+
