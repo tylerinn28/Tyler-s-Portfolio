@@ -252,7 +252,7 @@ z-index: 1;
     zoom: 1.0 ;
   }
   
-  @media only screen and (max-width: 600px) {
+@media only screen and (max-width: 600px) {
     
     .backarrow {
         padding-left: 10px;
@@ -272,14 +272,14 @@ z-index: 1;
         font-size: 25px;
         top: 0;
         z-index: 1;
-        margin-top: 70px;
-       margin-left: -10px;
+        margin-top: 120px;
+       margin-left: -5%;
     }
 
     .West-heading > p {
-        font-size: 65px;
+        font-size: 45px;
         margin-left: -90px;
-        margin-bottom: -80px;
+        margin-bottom: -35%;
     }
 
     .West-heading {
@@ -288,14 +288,14 @@ z-index: 1;
 
     .West-heading > img {
         width: 85%;
-        height: 290px;
+        height: auto;
         margin-left: -510px;
-        margin-top: -45px;
+        margin-top: -25px;
     }
 
     .West-information {
         font-size: 15px;
-        padding-top: 130px;
+        padding-top: 50%;
         padding-left: 25px;
         line-height: 25px;
     }
@@ -319,148 +319,10 @@ z-index: 1;
     }
 
     .West-firsttier > img {
-        width: 400px;
-        display: block;
-        padding-left: 45px;
-        padding-top: 100px;
-    }
-
-    .West-secondtier {
-        flex-direction: column-reverse;
-    }
-
-
-    .West-secondtierimg { 
-        width: 400px;
-        display: block;
-        padding-left: 45px;
-        padding-top: 100px;
-    }
-
-    .West-thirdtierimg { 
-        width: 400px;
-        display: block;
-        padding-left: 45px;
-        padding-top: 100px;
-  }
-
-  .West-secondheading {
-    font-size: 25px;
-    padding-left: 25px;
-    padding-top: 50px;
-    line-height: 35px;
-    padding-right: 25px;
-    letter-spacing: normal;
-  }
-
-  .West-secondsubheading {
-    padding-left: 25px;
-    padding-right: 25px;
-  }
-
-  .West-fourthimage > img{
-    width: 400px;
-    display: block;
-    padding-left: 45px;
-    padding-top: 100px;
-  }
-
-  .West-bottom {
-      font-size: 30px;
-  }
-
-  .West-bottom > .West-Home {
-    padding-left: 50px;
-}
-
-.West-bottom > .West-NextEvent {
-    padding-left: 200px;
-    margin-top: -15px;
-}
-
-.WestBFA {
-    color:white;
-  font-family: futura-pt, sans-serif;
-  font-style: bold;
-  font-weight: 800;
-  font-size: 12px;
-  text-align: center;
-  margin-bottom: 50px;
-}
-}
-
-@media only screen 
-  and (min-device-width: 375px) 
-  and (max-device-width: 667px) 
-  and (-webkit-min-device-pixel-ratio: 2) { 
-    .backarrow {
-        padding-left: 10px;
-    }
-
-    .Eventsheading {
-        padding-left: 25px;
-    }
-
-    .hr {
-        padding-left: 25px;
-        width: 90%;
-    }
-
-    .Westnavbar {
-        position: fixed;
-        font-size: 25px;
-        top: 0;
-        z-index: 1;
-        margin-top: 70px;
-       margin-left: -10px;
-    }
-
-    .West-heading > p {
-        font-size: 65px;
-        margin-left: -90px;
-        margin-bottom: -80px;
-    }
-
-    .West-heading {
-        flex-direction: column-reverse;
-    }
-
-    .West-heading > img {
         width: 85%;
-        height: 290px;
-        margin-left: -510px;
-        margin-top: -45px;
-    }
-
-    .West-information {
-        font-size: 15px;
-        padding-top: 130px;
-        padding-left: 25px;
-        line-height: 25px;
-    }
-
-    .West-firsttier {
-        flex-direction: column-reverse;
-    }
-
-    .West-firsttier > h1 {
-        font-size: 25px;
-    padding-left: 25px;
-    padding-top: 50px;
-    line-height: 35px;
-    padding-right: 25px;
-    letter-spacing: normal;
-    }
-
-    .West-firsttiersubheading {
-        padding-left: 25px;
-        padding-right: 50px;
-    }
-
-    .West-firsttier > img {
-        width: 400px;
+        height: auto;
         display: block;
-        padding-left: 45px;
+        padding-left: 5%;
         padding-top: 100px;
     }
 
@@ -470,293 +332,18 @@ z-index: 1;
 
 
     .West-secondtierimg { 
-        width: 400px;
-        display: block;
-        padding-left: 45px;
-        padding-top: 100px;
-    }
-
-    .West-thirdtierimg { 
-        width: 400px;
-        display: block;
-        padding-left: 45px;
-        padding-top: 100px;
-  }
-
-  .West-secondheading {
-    font-size: 25px;
-    padding-left: 25px;
-    padding-top: 50px;
-    line-height: 35px;
-    padding-right: 25px;
-    letter-spacing: normal;
-  }
-
-  .West-secondsubheading {
-    padding-left: 25px;
-    padding-right: 25px;
-  }
-
-  .West-fourthimage > img{
-    width: 400px;
-    display: block;
-    padding-left: 45px;
-    padding-top: 100px;
-  }
-
-  .West-bottom {
-      font-size: 30px;
-  }
-
-  .West-bottom > .West-Home {
-    padding-left: 50px;
-}
-
-.West-bottom > .West-NextEvent {
-    padding-left: 200px;
-    margin-top: -15px;
-}
-
-.WestBFA {
-    color:white;
-  font-family: futura-pt, sans-serif;
-  font-style: bold;
-  font-weight: 800;
-  font-size: 12px;
-  text-align: center;
-  margin-bottom: 50px;
-}
-}
-
-@media only screen 
-  and (min-device-width: 375px) 
-  and (max-device-width: 812px) 
-  and (-webkit-min-device-pixel-ratio: 3) { 
-    .backarrow {
-        padding-left: 10px;
-    }
-
-    .Eventsheading {
-        padding-left: 25px;
-    }
-
-    .hr {
-        padding-left: 25px;
-        width: 90%;
-    }
-
-    .Westnavbar {
-        position: fixed;
-        font-size: 25px;
-        top: 0;
-        z-index: 1;
-        margin-top: 70px;
-       margin-left: -10px;
-    }
-
-    .West-heading > p {
-        font-size: 65px;
-        margin-left: -90px;
-        margin-bottom: -80px;
-    }
-
-    .West-heading {
-        flex-direction: column-reverse;
-    }
-
-    .West-heading > img {
         width: 85%;
-        height: 290px;
-        margin-left: -510px;
-        margin-top: -45px;
-    }
-
-    .West-information {
-        font-size: 15px;
-        padding-top: 130px;
-        padding-left: 25px;
-        line-height: 25px;
-    }
-
-    .West-firsttier {
-        flex-direction: column-reverse;
-    }
-
-    .West-firsttier > h1 {
-        font-size: 25px;
-    padding-left: 25px;
-    padding-top: 50px;
-    line-height: 35px;
-    padding-right: 25px;
-    letter-spacing: normal;
-    }
-
-    .West-firsttiersubheading {
-        padding-left: 25px;
-        padding-right: 50px;
-    }
-
-    .West-firsttier > img {
-        width: 400px;
+        height: auto;
         display: block;
-        padding-left: 45px;
-        padding-top: 100px;
-    }
-
-    .West-secondtier {
-        flex-direction: column-reverse;
-    }
-
-
-    .West-secondtierimg { 
-        width: 400px;
-        display: block;
-        padding-left: 45px;
+        padding-left: 5%;
         padding-top: 100px;
     }
 
     .West-thirdtierimg { 
-        width: 400px;
-        display: block;
-        padding-left: 45px;
-        padding-top: 100px;
-  }
-
-  .West-secondheading {
-    font-size: 25px;
-    padding-left: 25px;
-    padding-top: 50px;
-    line-height: 35px;
-    padding-right: 25px;
-    letter-spacing: normal;
-  }
-
-  .West-secondsubheading {
-    padding-left: 25px;
-    padding-right: 25px;
-  }
-
-  .West-fourthimage > img{
-    width: 400px;
-    display: block;
-    padding-left: 45px;
-    padding-top: 100px;
-  }
-
-  .West-bottom {
-      font-size: 30px;
-  }
-
-  .West-bottom > .West-Home {
-    padding-left: 50px;
-}
-
-.West-bottom > .West-NextEvent {
-    padding-left: 200px;
-    margin-top: -15px;
-}
-
-.WestBFA {
-    color:white;
-  font-family: futura-pt, sans-serif;
-  font-style: bold;
-  font-weight: 800;
-  font-size: 12px;
-  text-align: center;
-  margin-bottom: 50px;
-}
-}
-
-@media only screen 
-    and (device-width : 375px) 
-    and (device-height : 812px) 
-    and (-webkit-device-pixel-ratio : 3) {  .backarrow {
-        padding-left: 10px;
-    }
-
-    .Eventsheading {
-        padding-left: 25px;
-    }
-
-    .hr {
-        padding-left: 25px;
-        width: 90%;
-    }
-
-    .Westnavbar {
-        position: fixed;
-        font-size: 25px;
-        top: 0;
-        z-index: 1;
-        margin-top: 70px;
-       margin-left: -10px;
-    }
-
-    .West-heading > p {
-        font-size: 65px;
-        margin-left: -90px;
-        margin-bottom: -80px;
-    }
-
-    .West-heading {
-        flex-direction: column-reverse;
-    }
-
-    .West-heading > img {
         width: 85%;
-        height: 290px;
-        margin-left: -510px;
-        margin-top: -45px;
-    }
-
-    .West-information {
-        font-size: 15px;
-        padding-top: 130px;
-        padding-left: 25px;
-        line-height: 25px;
-    }
-
-    .West-firsttier {
-        flex-direction: column-reverse;
-    }
-
-    .West-firsttier > h1 {
-        font-size: 25px;
-    padding-left: 25px;
-    padding-top: 50px;
-    line-height: 35px;
-    padding-right: 25px;
-    letter-spacing: normal;
-    }
-
-    .West-firsttiersubheading {
-        padding-left: 25px;
-        padding-right: 50px;
-    }
-
-    .West-firsttier > img {
-        width: 400px;
+        height: auto;
         display: block;
-        padding-left: 45px;
-        padding-top: 100px;
-    }
-
-    .West-secondtier {
-        flex-direction: column-reverse;
-    }
-
-
-    .West-secondtierimg { 
-        width: 400px;
-        display: block;
-        padding-left: 45px;
-        padding-top: 100px;
-    }
-
-    .West-thirdtierimg { 
-        width: 400px;
-        display: block;
-        padding-left: 45px;
+        padding-left: 5%;
         padding-top: 100px;
   }
 
@@ -775,14 +362,15 @@ z-index: 1;
   }
 
   .West-fourthimage > img{
-    width: 400px;
-    display: block;
-    padding-left: 45px;
-    padding-top: 100px;
+    width: 85%;
+        height: auto;
+        display: block;
+        padding-left: 5%;
+        padding-top: 100px;
   }
 
   .West-bottom {
-      font-size: 30px;
+      font-size: 25px;
   }
 
   .West-bottom > .West-Home {
@@ -790,8 +378,9 @@ z-index: 1;
 }
 
 .West-bottom > .West-NextEvent {
-    padding-left: 200px;
-    margin-top: -15px;
+    padding-left: 25%;
+      margin-top: -15px;
+      margin-bottom: 20px;
 }
 
 .WestBFA {
@@ -799,8 +388,9 @@ z-index: 1;
   font-family: futura-pt, sans-serif;
   font-style: bold;
   font-weight: 800;
-  font-size: 12px;
+  font-size: 10px;
   text-align: center;
   margin-bottom: 50px;
-}}
+}
+}
 

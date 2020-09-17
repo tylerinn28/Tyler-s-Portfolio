@@ -678,7 +678,7 @@ padding-top: 50px;
         top: 0;
         z-index: 1;
         margin-top: 120px;
-       margin-left: -10px;
+       margin-left: -5%;
     }
 
     .Soundcloud-heading{
@@ -686,14 +686,14 @@ padding-top: 50px;
     }
 
     .Soundcloud-heading > p {
-        font-size: 65px;
+        font-size: 50px;
         margin-left: -90px;
        padding-top: 210px;
     }
 
     .Soundcloud-heading > img {
-        width: 420px;
-        height: 290px;
+        width: 85%;
+        height: auto;
         margin-left: -510px;
         margin-top: -15px;
     }
@@ -738,12 +738,12 @@ padding-top: 50px;
     }
 
     .Design {
-        margin-left: -40%;
+        margin-left: -60%;
         padding-top: 10%;
     }
 
     .Testing {
-        margin-left: -25%;
+        margin-left: -45%;
         padding-top: 10%;
     }
 
@@ -785,13 +785,13 @@ padding-top: 50px;
     }
 
     .Community {
-        margin-left: -40%;
+        margin-left:-50%;
         padding-right: 15%;
         padding-top: 10%;
     }
 
     .Personalization {
-        margin-left: -40%;
+        margin-left: -50%;
         padding-right: 15%;
         padding-top: 10%;
     }
@@ -814,14 +814,14 @@ padding-top: 50px;
     .Soundcloud-HomepageOrg {
         width: 40%;
         height: auto;
-        margin-left: -20%;
+        margin-left: -30%;
     }
 
     .SoundcloudHomepage-Wireframe {
         width: 40%;
         height: auto;
-        margin-top: -96%;
-        margin-left: 40%;
+        margin-top: -100%;
+        margin-left: 35%;
     }
 
     .Soundcloud-Homepageexp {
@@ -836,14 +836,14 @@ padding-top: 50px;
     .Soundcloud-SearchOrg {
         width: 40%;
         height: auto;
-        margin-left: -20%;
+        margin-left: -30%;
     }
 
     .Soundcloudsearch-Wireframe {
         width: 40%;
         height: auto;
-        margin-top: -102%;
-        margin-left: 40%;
+        margin-top: -108%;
+        margin-left: 35%;
     }
 
     .Soundcloud-Searchexp {
@@ -858,14 +858,14 @@ padding-top: 50px;
     .Soundcloud-ProfileOrg {
         width: 40%;
         height: auto;
-        margin-left: -20%;
+        margin-left: -30%;
     }
 
     .Soundcloudprofile-Wireframe {
         width: 40%;
         height: auto;
-        margin-top: -102%;
-        margin-left: 40%;
+        margin-top: -108%;
+        margin-left: 35%;
     }
 
     .Soundcloud-Profileexp {
@@ -880,14 +880,14 @@ padding-top: 50px;
     .Soundcloud-NowplayingOrg {
         width: 40%;
         height: auto;
-        margin-left: -20%;
+        margin-left: -30%;
     }
 
     .Soundcloudnowplaying-Wireframe {
         width: 40%;
         height: auto;
-        margin-top: -103%;
-        margin-left: 40%;
+        margin-top: -108%;
+        margin-left: 35%;
     }
 
     .Soundcloud-Nowplayingexp {
@@ -1001,7 +1001,8 @@ padding-top: 50px;
 
     .Soundcloud-ForLaterHIFI {
         width: 65%;
-        margin-left: -25%;
+        display: block;
+        margin-left: -40%;
     }
 
     .ForLaterHiFi {
@@ -1027,7 +1028,7 @@ padding-top: 50px;
     }
 
     .Soundcloud-bottom {
-        font-size: 30px;
+        font-size: 25px;
     }
   
     .Soundcloud-bottom > .Soundcloud-Home {
@@ -1035,1176 +1036,10 @@ padding-top: 50px;
   }
   
   .Soundcloud-bottom > .Soundcloud-NextEvent {
-      padding-left: 150px;
+      padding-left: 25%;
       margin-top: -15px;
       margin-bottom: 20px;
   }
 
 }
-
-@media only screen 
-  and (min-device-width: 375px) 
-  and (max-device-width: 667px) 
-  and (-webkit-min-device-pixel-ratio: 2) { 
-
-    .Soundcloud-video {
-        min-width: 65%;
-    min-height: 65%;
-    }
-    
-    .MobileAppheading {
-        padding-left: 25px;
-        margin-top: -50px;
-    }
-
-    .Soundcloudnavbar {
-        position: fixed;
-        font-size: 25px;
-        top: 0;
-        z-index: 1;
-        margin-top: 120px;
-       margin-left: -10px;
-    }
-
-    .Soundcloud-heading{
-        flex-direction: column-reverse;
-    }
-
-    .Soundcloud-heading > p {
-        font-size: 65px;
-        margin-left: -90px;
-       padding-top: 210px;
-    }
-
-    .Soundcloud-heading > img {
-        width: 420px;
-        height: 290px;
-        margin-left: -510px;
-        margin-top: -15px;
-    }
-
-    .Soundcloud-information {
-        font-size: 15px;
-        padding-top: 10px;
-        padding-left: 10px;
-        line-height: 25px;
-        padding-right: 25px;
-    }
-
-    .Soundcloudfirsttier {
-        padding-left: 25px;
-    }
-
-    .Soundcloudfirsttierheading {
-        font-size: 25px;
-        letter-spacing: normal;
-        line-height: 35px;
-        padding-top: 150px;
-        padding-right: 25px;
-    }
-
-    .Soundcloudfirsttiersubheading {
-        font-size: 18px;
-        padding-right: 40px;
-    }
-
-    .Process {
-        padding-left: 25px;
-        font-size: 30px;
-    }
-
-    .Processexp {
-        font-size: 18px;
-        flex-direction: column;
-    }
-
-    .Research {
-        margin-left: -15%;
-    }
-
-    .Design {
-        margin-left: -40%;
-        padding-top: 10%;
-    }
-
-    .Testing {
-        margin-left: -25%;
-        padding-top: 10%;
-    }
-
-    .Keyinsight01 {
-        font-size: 18px;
-        padding-right: 50px;
-    }
-
-    .Piechart-quote {
-        flex-direction: column;
-    }
-
-    .Piechart-quote > img {
-        width: 100%;
-        height: auto;
-        margin-top: -30%;
-        display: block;
-        margin-left: -3%;
-    }
-
-    .quotes {
-        font-size: 20px;
-        margin-top: -25%;
-    }
-
-    .keypainpoints {
-        padding-left: 25px;
-        font-size: 30px;
-        padding-top: 25%;
-    }
-
-    .Keypainpointsexp {
-        flex-direction: column;
-    }
-
-    .Confusinginterface {
-        margin-left: -20%;
-        padding-right: 15%;
-    }
-
-    .Community {
-        margin-left: -40%;
-        padding-right: 15%;
-        padding-top: 10%;
-    }
-
-    .Personalization {
-        margin-left: -40%;
-        padding-right: 15%;
-        padding-top: 10%;
-    }
-
-    .Soundcloud-Wireframe {
-        padding-left: 25px;
-        font-size: 30px;
-        padding-top: 25%;
-    }
-
-    .Soundcloud-Wireframeexp {
-        padding-left: 25px;
-        padding-right: 25px;
-    }
-
-    .SoundcloudWireframe1 {
-        flex-direction: column;
-    }
-
-    .Soundcloud-HomepageOrg {
-        width: 40%;
-        height: auto;
-        margin-left: -20%;
-    }
-
-    .SoundcloudHomepage-Wireframe {
-        width: 40%;
-        height: auto;
-        margin-top: -96%;
-        margin-left: 40%;
-    }
-
-    .Soundcloud-Homepageexp {
-        line-height: normal;
-        padding-top: 5%;
-    }
-
-    .SoundcloudWireframe2 {
-        flex-direction: column;
-    }
-
-    .Soundcloud-SearchOrg {
-        width: 40%;
-        height: auto;
-        margin-left: -20%;
-    }
-
-    .Soundcloudsearch-Wireframe {
-        width: 40%;
-        height: auto;
-        margin-top: -102%;
-        margin-left: 40%;
-    }
-
-    .Soundcloud-Searchexp {
-        line-height: normal;
-        padding-top: 5%;
-    }
-
-    .SoundcloudWireframe3 {
-        flex-direction: column;
-    }
-
-    .Soundcloud-ProfileOrg {
-        width: 40%;
-        height: auto;
-        margin-left: -20%;
-    }
-
-    .Soundcloudprofile-Wireframe {
-        width: 40%;
-        height: auto;
-        margin-top: -102%;
-        margin-left: 40%;
-    }
-
-    .Soundcloud-Profileexp {
-        line-height: normal;
-        padding-top: 5%;
-    }
-
-    .SoundcloudWireframe4 {
-        flex-direction: column;
-    } 
-
-    .Soundcloud-NowplayingOrg {
-        width: 40%;
-        height: auto;
-        margin-left: -20%;
-    }
-
-    .Soundcloudnowplaying-Wireframe {
-        width: 40%;
-        height: auto;
-        margin-top: -103%;
-        margin-left: 40%;
-    }
-
-    .Soundcloud-Nowplayingexp {
-        line-height: normal;
-        padding-top: 5%;
-    }
-
-    .Soundcloud-Hifi {
-        padding-left: 25px;
-        font-size: 30px;
-        padding-top: 25%;
-    }
-
-    .SoundcloudHififirsttier {
-        flex-direction: column;
-    }
-
-    .Soundcloud-HIFI1 {
-        display: block; 
-        width: 75%; 
-        height: auto;
-    }
-
-    .Soundcloud-HIFI2 {
-        display: block; 
-        width: 75%; 
-        height: auto;
-        padding-left: 10%;
-    }
-
-    .Soundcloud-HIFI3 {
-        display: block; 
-        width: 75%; 
-        height: auto;
-        padding-left: 10%;
-    }
-
-    .SoundcloudHifisecondtier {
-        flex-direction: column;
-    }
-
-    .Soundcloud-HIFI4 {
-        display: block; 
-        width: 75%; 
-        height: auto;
-    }
-
-    .Soundcloud-HIFI5 {
-        display: block; 
-        width: 75%; 
-        height: auto;
-        padding-left: 10%;
-    }
-
-    .Soundcloud-HIFI6 {
-        display: block; 
-        width: 75%; 
-        height: auto;
-        padding-left: 10%;
-    }
-
-    .Creatingamore {
-        font-size: 25px;
-        padding-left: 25px;
-        padding-right: 50px;
-    }
-
-    .Moresocialapp {
-        flex-direction: column;
-    }
-
-    .Soundcloud-ProfileHIFI {
-        visibility: hidden;
-    }
-
-    .ProfileHiFi {
-        margin-top: -60%;
-        font-size: 16px;
-        padding-left: 25px;
-    }
-
-    .Morepersonalizedselections {
-        font-size: 25px;
-        padding-left: 25px;
-        padding-right: 50px;
-    }
-
-    .Morepersonalization {
-        flex-direction: column;
-    }
-
-    .Soundcloud-SearchHIFI {
-        visibility: hidden;
-    }
-
-    .SearchHiFi {
-        margin-top: -60%;
-        font-size: 16px;
-        padding-left: 25px;
-    }
-
-    .Additionalfeature {
-        font-size: 25px;
-        padding-left: 25px;
-        padding-right: 50px;
-    }
-
-    .AddionalfeatureForLater {
-        flex-direction: column;
-    }
-
-    .Soundcloud-ForLaterHIFI {
-        width: 65%;
-        margin-left: -25%;
-    }
-
-    .ForLaterHiFi {
-        font-size: 16px;
-        padding-left: 25px;
-    }
-
-    .Soundcloud-Prototyping {
-        padding-left: 25px;
-        font-size: 30px;
-        padding-top: 25%;
-    }
-
-    .Soundcloud-Usertesting {
-        padding-left: 25px;
-        font-size: 30px;
-        padding-top: 25%;
-    }
-
-    .usertestingexp {
-        padding-left: 25px;
-        padding-right: 50px;
-    }
-
-    .Soundcloud-bottom {
-        font-size: 30px;
-    }
-  
-    .Soundcloud-bottom > .Soundcloud-Home {
-      padding-left: 50px;
-  }
-  
-  .Soundcloud-bottom > .Soundcloud-NextEvent {
-      padding-left: 150px;
-      margin-top: -15px;
-      margin-bottom: 20px;
-  }
-
-}
-
-@media only screen 
-  and (min-device-width: 375px) 
-  and (max-device-width: 812px) 
-  and (-webkit-min-device-pixel-ratio: 3) { 
-
-    .Soundcloud-video {
-        min-width: 65%;
-    min-height: 65%;
-    }
-    
-    .MobileAppheading {
-        padding-left: 25px;
-        margin-top: -50px;
-    }
-
-    .Soundcloudnavbar {
-        position: fixed;
-        font-size: 25px;
-        top: 0;
-        z-index: 1;
-        margin-top: 120px;
-       margin-left: -10px;
-    }
-
-    .Soundcloud-heading{
-        flex-direction: column-reverse;
-    }
-
-    .Soundcloud-heading > p {
-        font-size: 65px;
-        margin-left: -90px;
-       padding-top: 210px;
-    }
-
-    .Soundcloud-heading > img {
-        width: 420px;
-        height: 290px;
-        margin-left: -510px;
-        margin-top: -15px;
-    }
-
-    .Soundcloud-information {
-        font-size: 15px;
-        padding-top: 10px;
-        padding-left: 10px;
-        line-height: 25px;
-        padding-right: 25px;
-    }
-
-    .Soundcloudfirsttier {
-        padding-left: 25px;
-    }
-
-    .Soundcloudfirsttierheading {
-        font-size: 25px;
-        letter-spacing: normal;
-        line-height: 35px;
-        padding-top: 150px;
-        padding-right: 25px;
-    }
-
-    .Soundcloudfirsttiersubheading {
-        font-size: 18px;
-        padding-right: 40px;
-    }
-
-    .Process {
-        padding-left: 25px;
-        font-size: 30px;
-    }
-
-    .Processexp {
-        font-size: 18px;
-        flex-direction: column;
-    }
-
-    .Research {
-        margin-left: -15%;
-    }
-
-    .Design {
-        margin-left: -40%;
-        padding-top: 10%;
-    }
-
-    .Testing {
-        margin-left: -25%;
-        padding-top: 10%;
-    }
-
-    .Keyinsight01 {
-        font-size: 18px;
-        padding-right: 50px;
-    }
-
-    .Piechart-quote {
-        flex-direction: column;
-    }
-
-    .Piechart-quote > img {
-        width: 100%;
-        height: auto;
-        margin-top: -30%;
-        display: block;
-        margin-left: -3%;
-    }
-
-    .quotes {
-        font-size: 20px;
-        margin-top: -25%;
-    }
-
-    .keypainpoints {
-        padding-left: 25px;
-        font-size: 30px;
-        padding-top: 25%;
-    }
-
-    .Keypainpointsexp {
-        flex-direction: column;
-    }
-
-    .Confusinginterface {
-        margin-left: -20%;
-        padding-right: 15%;
-    }
-
-    .Community {
-        margin-left: -40%;
-        padding-right: 15%;
-        padding-top: 10%;
-    }
-
-    .Personalization {
-        margin-left: -40%;
-        padding-right: 15%;
-        padding-top: 10%;
-    }
-
-    .Soundcloud-Wireframe {
-        padding-left: 25px;
-        font-size: 30px;
-        padding-top: 25%;
-    }
-
-    .Soundcloud-Wireframeexp {
-        padding-left: 25px;
-        padding-right: 25px;
-    }
-
-    .SoundcloudWireframe1 {
-        flex-direction: column;
-    }
-
-    .Soundcloud-HomepageOrg {
-        width: 40%;
-        height: auto;
-        margin-left: -20%;
-    }
-
-    .SoundcloudHomepage-Wireframe {
-        width: 40%;
-        height: auto;
-        margin-top: -96%;
-        margin-left: 40%;
-    }
-
-    .Soundcloud-Homepageexp {
-        line-height: normal;
-        padding-top: 5%;
-    }
-
-    .SoundcloudWireframe2 {
-        flex-direction: column;
-    }
-
-    .Soundcloud-SearchOrg {
-        width: 40%;
-        height: auto;
-        margin-left: -20%;
-    }
-
-    .Soundcloudsearch-Wireframe {
-        width: 40%;
-        height: auto;
-        margin-top: -102%;
-        margin-left: 40%;
-    }
-
-    .Soundcloud-Searchexp {
-        line-height: normal;
-        padding-top: 5%;
-    }
-
-    .SoundcloudWireframe3 {
-        flex-direction: column;
-    }
-
-    .Soundcloud-ProfileOrg {
-        width: 40%;
-        height: auto;
-        margin-left: -20%;
-    }
-
-    .Soundcloudprofile-Wireframe {
-        width: 40%;
-        height: auto;
-        margin-top: -102%;
-        margin-left: 40%;
-    }
-
-    .Soundcloud-Profileexp {
-        line-height: normal;
-        padding-top: 5%;
-    }
-
-    .SoundcloudWireframe4 {
-        flex-direction: column;
-    } 
-
-    .Soundcloud-NowplayingOrg {
-        width: 40%;
-        height: auto;
-        margin-left: -20%;
-    }
-
-    .Soundcloudnowplaying-Wireframe {
-        width: 40%;
-        height: auto;
-        margin-top: -103%;
-        margin-left: 40%;
-    }
-
-    .Soundcloud-Nowplayingexp {
-        line-height: normal;
-        padding-top: 5%;
-    }
-
-    .Soundcloud-Hifi {
-        padding-left: 25px;
-        font-size: 30px;
-        padding-top: 25%;
-    }
-
-    .SoundcloudHififirsttier {
-        flex-direction: column;
-    }
-
-    .Soundcloud-HIFI1 {
-        display: block; 
-        width: 75%; 
-        height: auto;
-    }
-
-    .Soundcloud-HIFI2 {
-        display: block; 
-        width: 75%; 
-        height: auto;
-        padding-left: 10%;
-    }
-
-    .Soundcloud-HIFI3 {
-        display: block; 
-        width: 75%; 
-        height: auto;
-        padding-left: 10%;
-    }
-
-    .SoundcloudHifisecondtier {
-        flex-direction: column;
-    }
-
-    .Soundcloud-HIFI4 {
-        display: block; 
-        width: 75%; 
-        height: auto;
-    }
-
-    .Soundcloud-HIFI5 {
-        display: block; 
-        width: 75%; 
-        height: auto;
-        padding-left: 10%;
-    }
-
-    .Soundcloud-HIFI6 {
-        display: block; 
-        width: 75%; 
-        height: auto;
-        padding-left: 10%;
-    }
-
-    .Creatingamore {
-        font-size: 25px;
-        padding-left: 25px;
-        padding-right: 50px;
-    }
-
-    .Moresocialapp {
-        flex-direction: column;
-    }
-
-    .Soundcloud-ProfileHIFI {
-        visibility: hidden;
-    }
-
-    .ProfileHiFi {
-        margin-top: -60%;
-        font-size: 16px;
-        padding-left: 25px;
-    }
-
-    .Morepersonalizedselections {
-        font-size: 25px;
-        padding-left: 25px;
-        padding-right: 50px;
-    }
-
-    .Morepersonalization {
-        flex-direction: column;
-    }
-
-    .Soundcloud-SearchHIFI {
-        visibility: hidden;
-    }
-
-    .SearchHiFi {
-        margin-top: -60%;
-        font-size: 16px;
-        padding-left: 25px;
-    }
-
-    .Additionalfeature {
-        font-size: 25px;
-        padding-left: 25px;
-        padding-right: 50px;
-    }
-
-    .AddionalfeatureForLater {
-        flex-direction: column;
-    }
-
-    .Soundcloud-ForLaterHIFI {
-        width: 65%;
-        margin-left: -25%;
-    }
-
-    .ForLaterHiFi {
-        font-size: 16px;
-        padding-left: 25px;
-    }
-
-    .Soundcloud-Prototyping {
-        padding-left: 25px;
-        font-size: 30px;
-        padding-top: 25%;
-    }
-
-    .Soundcloud-Usertesting {
-        padding-left: 25px;
-        font-size: 30px;
-        padding-top: 25%;
-    }
-
-    .usertestingexp {
-        padding-left: 25px;
-        padding-right: 50px;
-    }
-
-    .Soundcloud-bottom {
-        font-size: 30px;
-    }
-  
-    .Soundcloud-bottom > .Soundcloud-Home {
-      padding-left: 50px;
-  }
-  
-  .Soundcloud-bottom > .Soundcloud-NextEvent {
-      padding-left: 150px;
-      margin-top: -15px;
-      margin-bottom: 20px;
-  }
-}
-
-@media only screen 
-    and (device-width : 375px) 
-    and (device-height : 812px) 
-    and (-webkit-device-pixel-ratio : 3) { .Soundcloud-video {
-        min-width: 65%;
-    min-height: 65%;
-    }
-    
-    .MobileAppheading {
-        padding-left: 25px;
-        margin-top: -50px;
-    }
-
-    .Soundcloudnavbar {
-        position: fixed;
-        font-size: 25px;
-        top: 0;
-        z-index: 1;
-        margin-top: 120px;
-       margin-left: -10px;
-    }
-
-    .Soundcloud-heading{
-        flex-direction: column-reverse;
-    }
-
-    .Soundcloud-heading > p {
-        font-size: 65px;
-        margin-left: -90px;
-       padding-top: 210px;
-    }
-
-    .Soundcloud-heading > img {
-        width: 420px;
-        height: 290px;
-        margin-left: -510px;
-        margin-top: -15px;
-    }
-
-    .Soundcloud-information {
-        font-size: 15px;
-        padding-top: 10px;
-        padding-left: 10px;
-        line-height: 25px;
-        padding-right: 25px;
-    }
-
-    .Soundcloudfirsttier {
-        padding-left: 25px;
-    }
-
-    .Soundcloudfirsttierheading {
-        font-size: 25px;
-        letter-spacing: normal;
-        line-height: 35px;
-        padding-top: 150px;
-        padding-right: 25px;
-    }
-
-    .Soundcloudfirsttiersubheading {
-        font-size: 18px;
-        padding-right: 40px;
-    }
-
-    .Process {
-        padding-left: 25px;
-        font-size: 30px;
-    }
-
-    .Processexp {
-        font-size: 18px;
-        flex-direction: column;
-    }
-
-    .Research {
-        margin-left: -15%;
-    }
-
-    .Design {
-        margin-left: -40%;
-        padding-top: 10%;
-    }
-
-    .Testing {
-        margin-left: -25%;
-        padding-top: 10%;
-    }
-
-    .Keyinsight01 {
-        font-size: 18px;
-        padding-right: 50px;
-    }
-
-    .Piechart-quote {
-        flex-direction: column;
-    }
-
-    .Piechart-quote > img {
-        width: 100%;
-        height: auto;
-        margin-top: -30%;
-        display: block;
-        margin-left: -3%;
-    }
-
-    .quotes {
-        font-size: 20px;
-        margin-top: -25%;
-    }
-
-    .keypainpoints {
-        padding-left: 25px;
-        font-size: 30px;
-        padding-top: 25%;
-    }
-
-    .Keypainpointsexp {
-        flex-direction: column;
-    }
-
-    .Confusinginterface {
-        margin-left: -20%;
-        padding-right: 15%;
-    }
-
-    .Community {
-        margin-left: -40%;
-        padding-right: 15%;
-        padding-top: 10%;
-    }
-
-    .Personalization {
-        margin-left: -40%;
-        padding-right: 15%;
-        padding-top: 10%;
-    }
-
-    .Soundcloud-Wireframe {
-        padding-left: 25px;
-        font-size: 30px;
-        padding-top: 25%;
-    }
-
-    .Soundcloud-Wireframeexp {
-        padding-left: 25px;
-        padding-right: 25px;
-    }
-
-    .SoundcloudWireframe1 {
-        flex-direction: column;
-    }
-
-    .Soundcloud-HomepageOrg {
-        width: 40%;
-        height: auto;
-        margin-left: -20%;
-    }
-
-    .SoundcloudHomepage-Wireframe {
-        width: 40%;
-        height: auto;
-        margin-top: -96%;
-        margin-left: 40%;
-    }
-
-    .Soundcloud-Homepageexp {
-        line-height: normal;
-        padding-top: 5%;
-    }
-
-    .SoundcloudWireframe2 {
-        flex-direction: column;
-    }
-
-    .Soundcloud-SearchOrg {
-        width: 40%;
-        height: auto;
-        margin-left: -20%;
-    }
-
-    .Soundcloudsearch-Wireframe {
-        width: 40%;
-        height: auto;
-        margin-top: -102%;
-        margin-left: 40%;
-    }
-
-    .Soundcloud-Searchexp {
-        line-height: normal;
-        padding-top: 5%;
-    }
-
-    .SoundcloudWireframe3 {
-        flex-direction: column;
-    }
-
-    .Soundcloud-ProfileOrg {
-        width: 40%;
-        height: auto;
-        margin-left: -20%;
-    }
-
-    .Soundcloudprofile-Wireframe {
-        width: 40%;
-        height: auto;
-        margin-top: -102%;
-        margin-left: 40%;
-    }
-
-    .Soundcloud-Profileexp {
-        line-height: normal;
-        padding-top: 5%;
-    }
-
-    .SoundcloudWireframe4 {
-        flex-direction: column;
-    } 
-
-    .Soundcloud-NowplayingOrg {
-        width: 40%;
-        height: auto;
-        margin-left: -20%;
-    }
-
-    .Soundcloudnowplaying-Wireframe {
-        width: 40%;
-        height: auto;
-        margin-top: -103%;
-        margin-left: 40%;
-    }
-
-    .Soundcloud-Nowplayingexp {
-        line-height: normal;
-        padding-top: 5%;
-    }
-
-    .Soundcloud-Hifi {
-        padding-left: 25px;
-        font-size: 30px;
-        padding-top: 25%;
-    }
-
-    .SoundcloudHififirsttier {
-        flex-direction: column;
-    }
-
-    .Soundcloud-HIFI1 {
-        display: block; 
-        width: 75%; 
-        height: auto;
-    }
-
-    .Soundcloud-HIFI2 {
-        display: block; 
-        width: 75%; 
-        height: auto;
-        padding-left: 10%;
-    }
-
-    .Soundcloud-HIFI3 {
-        display: block; 
-        width: 75%; 
-        height: auto;
-        padding-left: 10%;
-    }
-
-    .SoundcloudHifisecondtier {
-        flex-direction: column;
-    }
-
-    .Soundcloud-HIFI4 {
-        display: block; 
-        width: 75%; 
-        height: auto;
-    }
-
-    .Soundcloud-HIFI5 {
-        display: block; 
-        width: 75%; 
-        height: auto;
-        padding-left: 10%;
-    }
-
-    .Soundcloud-HIFI6 {
-        display: block; 
-        width: 75%; 
-        height: auto;
-        padding-left: 10%;
-    }
-
-    .Creatingamore {
-        font-size: 25px;
-        padding-left: 25px;
-        padding-right: 50px;
-    }
-
-    .Moresocialapp {
-        flex-direction: column;
-    }
-
-    .Soundcloud-ProfileHIFI {
-        visibility: hidden;
-    }
-
-    .ProfileHiFi {
-        margin-top: -60%;
-        font-size: 16px;
-        padding-left: 25px;
-    }
-
-    .Morepersonalizedselections {
-        font-size: 25px;
-        padding-left: 25px;
-        padding-right: 50px;
-    }
-
-    .Morepersonalization {
-        flex-direction: column;
-    }
-
-    .Soundcloud-SearchHIFI {
-        visibility: hidden;
-    }
-
-    .SearchHiFi {
-        margin-top: -60%;
-        font-size: 16px;
-        padding-left: 25px;
-    }
-
-    .Additionalfeature {
-        font-size: 25px;
-        padding-left: 25px;
-        padding-right: 50px;
-    }
-
-    .AddionalfeatureForLater {
-        flex-direction: column;
-    }
-
-    .Soundcloud-ForLaterHIFI {
-        width: 65%;
-        margin-left: -25%;
-    }
-
-    .ForLaterHiFi {
-        font-size: 16px;
-        padding-left: 25px;
-    }
-
-    .Soundcloud-Prototyping {
-        padding-left: 25px;
-        font-size: 30px;
-        padding-top: 25%;
-    }
-
-    .Soundcloud-Usertesting {
-        padding-left: 25px;
-        font-size: 30px;
-        padding-top: 25%;
-    }
-
-    .usertestingexp {
-        padding-left: 25px;
-        padding-right: 50px;
-    }
-
-    .Soundcloud-bottom {
-        font-size: 30px;
-    }
-  
-    .Soundcloud-bottom > .Soundcloud-Home {
-      padding-left: 50px;
-  }
-  
-  .Soundcloud-bottom > .Soundcloud-NextEvent {
-      padding-left: 150px;
-      margin-top: -15px;
-      margin-bottom: 20px;
-  } }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 

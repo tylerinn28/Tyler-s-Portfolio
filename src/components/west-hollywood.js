@@ -34,7 +34,7 @@ export const Westhollywood = () => {
 
         <h1 className="West-heading">
         <img className="West-topimage" src={require('./../assets/images/West-topimage.jpg')} />
-            <p>
+            <p className="WestHollywoodOpening">
             <div> WEST </div>
             <div> HOLLYWOOD </div>
             <div> EDITION </div>
