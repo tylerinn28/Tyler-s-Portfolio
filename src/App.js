@@ -5,6 +5,7 @@ import {
   Route
 } from "react-router-dom";
 import './App.css';
+import ScrollToTop from './components/ScrollToTop';
 import { EllenVonUnwerth } from './components/ellen-von-unwerth';
 import { HomePage } from './components/homepage';
 import { NoblePanacea } from './components/noble-panacea';
@@ -16,6 +17,7 @@ import Westhollywood, { WestHollywood } from './components/west-hollywood';
 function App() {
   return (
     <Router>
+      <ScrollToTop />
         <Switch>
           <Route exact path='/' component={HomePage}/>
           <Route path='/noblepanacea' component={NoblePanacea}/>
