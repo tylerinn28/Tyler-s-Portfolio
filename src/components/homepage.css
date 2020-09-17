@@ -104,6 +104,7 @@ a:link {
   padding-left: 30%;
   padding-top: 10px;
   list-style: none; 
+  padding-right: 0;
 }
 
 .design-projects-link-level-1:hover {

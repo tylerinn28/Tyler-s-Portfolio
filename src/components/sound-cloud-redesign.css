@@ -301,6 +301,14 @@
     padding-top: 50px;
 }
 
+.Soundcloud-video {
+    width: 30%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .Soundcloud-Homepageexp {
     color: white;
     font-family: arpona, serif;

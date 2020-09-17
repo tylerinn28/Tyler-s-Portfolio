@@ -230,6 +230,9 @@ The artist  page will look similar however will have more information about them
    Prototyping
     </div>
 
+    <video className="Soundcloud-video" width="320" height="240" controls src={require('./../assets/Video/Soundcloud-prototype.mp4')}  type="video/mp4">
+    </video>
+
     <div className="Soundcloud-Usertesting">
    User-testing
     </div>
