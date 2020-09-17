@@ -15,7 +15,7 @@ export const HomePage = () => {
 <div className="navbar">
     <a href="mailto:tylerinn28@gmail.com" class="fa fa-envelope-o"></a>
     <a href="https://dribbble.com/tyylahh" class="fa fa-dribbble"></a>
-    <a href="linkedin.com/in/tyler-inn-405393b8" class="fa fa-linkedin-square"></a>
+    <a href="https://linkedin.com/in/tyler-inn-405393b8" class="fa fa-linkedin-square"></a>
     </div>
 
   <h1 className="heading">
