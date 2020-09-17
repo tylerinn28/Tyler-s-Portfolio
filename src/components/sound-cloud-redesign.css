@@ -302,8 +302,8 @@
 }
 
 .Soundcloud-video {
-    width: 23%;
-    height: auto;
+   width: 23%;
+   height: auto;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -662,6 +662,11 @@ padding-top: 50px;
 
 @media only screen and (max-width: 600px) { 
 
+    .Soundcloud-video {
+        min-width: 65%;
+    min-height: 65%;
+    }
+    
     .MobileAppheading {
         padding-left: 25px;
         margin-top: -50px;
@@ -1041,6 +1046,12 @@ padding-top: 50px;
   and (min-device-width: 375px) 
   and (max-device-width: 667px) 
   and (-webkit-min-device-pixel-ratio: 2) { 
+
+    .Soundcloud-video {
+        min-width: 65%;
+    min-height: 65%;
+    }
+    
     .MobileAppheading {
         padding-left: 25px;
         margin-top: -50px;
@@ -1413,12 +1424,19 @@ padding-top: 50px;
       margin-top: -15px;
       margin-bottom: 20px;
   }
+
 }
 
 @media only screen 
   and (min-device-width: 375px) 
   and (max-device-width: 812px) 
   and (-webkit-min-device-pixel-ratio: 3) { 
+
+    .Soundcloud-video {
+        min-width: 65%;
+    min-height: 65%;
+    }
+    
     .MobileAppheading {
         padding-left: 25px;
         margin-top: -50px;
