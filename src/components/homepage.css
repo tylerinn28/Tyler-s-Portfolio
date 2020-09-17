@@ -294,26 +294,22 @@ a:link {
 @media only screen 
     and (device-width : 375px) 
     and (device-height : 812px) 
-    and (-webkit-device-pixel-ratio : 3) { .vr1 {
-      display:flex;
-  }
-  
-  .vr2 {
-      display: flex;
-      margin-right: -50px;
-  }
+    and (-webkit-device-pixel-ratio : 3) {
+
+      .vr1 {
+        display: none;
+      }
+
+      .vr2 {
+        display: none;
+      }
   
   .work1 {
-    display: flex;
-    font-size: 14px;
-    padding-left: 10px;
+    display: none;
   }
   
   .about1 > a{
-    font-size: 14px;
-    padding-left: 10px;
-    display: flex;
-    margin-top: -100%;
+    display: none;
   }
   
     .navbar {
@@ -331,35 +327,28 @@ a:link {
     }
   
     .work {
-      font-size: 13px;
-      padding-left: 25px;
-    }
+      display: none;}
   
-    .vr1 {
-     left: 25px;
-     top: 680px;
-     height: 1300px;
-    }
   
     .Design-projects {
-      padding-left: 50px;
+      padding-left: 10%;
       font-size: 30px;
       padding-bottom: 50px;
     }
   
     .design-projects-link-level-1 {
-      padding-left: 50px;
+      padding-left: 10%;
       font-size: 30px;
     }
   
     .design-projects-link-level-2 {
-    padding-left: 50px;
+    padding-left: 10%;
       font-size: 30px;
       padding-top: 50px;
     }
   
     .design-projects-link-level-3 {
-      margin-left: 50px;
+      margin-left: 10%;
         font-size: 30px;
         padding-top: 50px;
       }
@@ -395,15 +384,9 @@ a:link {
       }
   
       .about {
-        font-size: 13px;
-        margin-left: -25px;
+        display: none;
       }
   
-      .vr2 {
-        left: 25px;
-        margin-top: 20px; 
-        height: 1450px;
-      }
   
       .More-about-me {
         font-size: 30px;
@@ -467,25 +450,19 @@ a:link {
 
 @media only screen and (max-width: 600px) {
   .vr1 {
-    display:flex;
+    display:none;
 }
 
 .vr2 {
-    display: flex;
-    margin-right: -50px;
+    display: none;
 }
 
 .work1 {
-  display: flex;
-  font-size: 14px;
-  padding-left: 10px;
+  display: none;
 }
 
 .about1 > a{
-  font-size: 14px;
-  padding-left: 10px;
-  display: flex;
-  margin-top: -100%;
+  display: none;
 }
 
   .navbar {
@@ -507,31 +484,25 @@ a:link {
     padding-left: 25px;
   }
 
-  .vr1 {
-   left: 25px;
-   top: 680px;
-   height: 1300px;
-  }
-
   .Design-projects {
-    padding-left: 50px;
+    padding-left: 10%;
     font-size: 30px;
     padding-bottom: 50px;
   }
 
   .design-projects-link-level-1 {
-    padding-left: 50px;
+    padding-left: 10%;
     font-size: 30px;
   }
 
   .design-projects-link-level-2 {
-  padding-left: 50px;
+  padding-left: 10%;
     font-size: 30px;
     padding-top: 50px;
   }
 
   .design-projects-link-level-3 {
-    margin-left: 50px;
+    margin-left: 10%;
       font-size: 30px;
       padding-top: 50px;
     }
@@ -571,12 +542,6 @@ a:link {
       margin-left: -25px;
     }
 
-    .vr2 {
-      left: 25px;
-      margin-top: 20px; 
-      height: 1450px;
-    }
-
     .More-about-me {
       font-size: 30px;
       padding-left: 50px;
@@ -613,56 +578,27 @@ a:link {
 }
 
 @media only screen and (min-width: 660px) and (max-width: 1426px) {
-  .vr1 {
-      display: none;
-  }
-  
-  .vr2 {
-      display: none;
-  }
-
-  .about1 {
-    display: none;
-  }
-
-  .work1 {
-    display: none;
-  }
-
-  .More-about-me {
-    padding-left: 2%;
-  }
-
-  .Bio > div > p {
-    padding-left: 8%;
-  }
-
 }
+
 
 @media only screen 
   and (min-device-width: 375px) 
   and (max-device-width: 667px) 
   and (-webkit-min-device-pixel-ratio: 2) { 
     .vr1 {
-      display:flex;
+      display:none;
   }
   
   .vr2 {
-      display: flex;
-      margin-right: -50px;
+      display: none;
   }
   
   .work1 {
-    display: flex;
-    font-size: 14px;
-    padding-left: 10px;
+    display: none;
   }
   
   .about1 > a{
-    font-size: 14px;
-    padding-left: 10px;
-    display: flex;
-    margin-top: -100%;
+    display: none;
   }
   
     .navbar {
@@ -683,32 +619,27 @@ a:link {
       font-size: 13px;
       padding-left: 25px;
     }
-  
-    .vr1 {
-     left: 25px;
-     top: 680px;
-     height: 1300px;
-    }
+
   
     .Design-projects {
-      padding-left: 50px;
+      padding-left: 10%;
       font-size: 30px;
       padding-bottom: 50px;
     }
   
     .design-projects-link-level-1 {
-      padding-left: 50px;
+      padding-left: 10%;
       font-size: 30px;
     }
   
     .design-projects-link-level-2 {
-    padding-left: 50px;
+    padding-left: 10%;
       font-size: 30px;
       padding-top: 50px;
     }
   
     .design-projects-link-level-3 {
-      margin-left: 50px;
+      margin-left: 10%;
         font-size: 30px;
         padding-top: 50px;
       }
@@ -747,12 +678,7 @@ a:link {
         font-size: 13px;
         margin-left: -25px;
       }
-  
-      .vr2 {
-        left: 25px;
-        margin-top: 20px; 
-        height: 1450px;
-      }
+
   
       .More-about-me {
         font-size: 30px;
@@ -820,12 +746,11 @@ a:link {
   and (max-device-width: 812px) 
   and (-webkit-min-device-pixel-ratio: 3) { 
     .vr1 {
-      display:flex;
+      display:none;
   }
   
   .vr2 {
-      display: flex;
-      margin-right: -50px;
+      display: none;
   }
   
   .work1 {
@@ -860,31 +785,25 @@ a:link {
       padding-left: 25px;
     }
   
-    .vr1 {
-     left: 25px;
-     top: 680px;
-     height: 1300px;
-    }
-  
     .Design-projects {
-      padding-left: 50px;
+      padding-left: 10%;
       font-size: 30px;
       padding-bottom: 50px;
     }
   
     .design-projects-link-level-1 {
-      padding-left: 50px;
+      padding-left: 10%;
       font-size: 30px;
     }
   
     .design-projects-link-level-2 {
-    padding-left: 50px;
+    padding-left: 10%;
       font-size: 30px;
       padding-top: 50px;
     }
   
     .design-projects-link-level-3 {
-      margin-left: 50px;
+      margin-left: 10%;
         font-size: 30px;
         padding-top: 50px;
       }
@@ -924,11 +843,6 @@ a:link {
         margin-left: -25px;
       }
   
-      .vr2 {
-        left: 25px;
-        margin-top: 20px; 
-        height: 1450px;
-      }
   
       .More-about-me {
         font-size: 30px;
@@ -968,14 +882,7 @@ a:link {
   @media only screen 
     and (device-width : 375px) 
     and (device-height : 812px) 
-    and (-webkit-device-pixel-ratio : 3) { .vr1 {
-      display:flex;
-  }
-  
-  .vr2 {
-      display: flex;
-      margin-right: -50px;
-  }
+    and (-webkit-device-pixel-ratio : 3) { 
   
   .work1 {
     display: flex;
@@ -1010,30 +917,32 @@ a:link {
     }
   
     .vr1 {
-     left: 25px;
-     top: 680px;
-     height: 1300px;
+        display:none;
     }
-  
+    
+    .vr2 {
+        display: none;
+    }
+    
     .Design-projects {
-      padding-left: 50px;
+      padding-left: 10%;
       font-size: 30px;
       padding-bottom: 50px;
     }
   
     .design-projects-link-level-1 {
-      padding-left: 50px;
+      padding-left: 10%;
       font-size: 30px;
     }
   
     .design-projects-link-level-2 {
-    padding-left: 50px;
+    padding-left: 10%;
       font-size: 30px;
       padding-top: 50px;
     }
   
     .design-projects-link-level-3 {
-      margin-left: 50px;
+      margin-left: 10%;
         font-size: 30px;
         padding-top: 50px;
       }
@@ -1073,12 +982,6 @@ a:link {
         margin-left: -25px;
       }
   
-      .vr2 {
-        left: 25px;
-        margin-top: 20px; 
-        height: 1450px;
-      }
-  
       .More-about-me {
         font-size: 30px;
         padding-left: 50px;
@@ -1112,3 +1015,5 @@ a:link {
         font-size: 12px;
         padding-top: 100px;
       }}
+
+      
