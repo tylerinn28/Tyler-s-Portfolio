@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.4556add3.chunk.css",
-    "main.js": "/static/js/main.ffde733f.chunk.js",
-    "main.js.map": "/static/js/main.ffde733f.chunk.js.map",
+    "main.css": "/static/css/main.7764a2df.chunk.css",
+    "main.js": "/static/js/main.bedc04bd.chunk.js",
+    "main.js.map": "/static/js/main.bedc04bd.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.b9dc5405.js",
     "runtime-main.js.map": "/static/js/runtime-main.b9dc5405.js.map",
-    "static/js/2.246462ef.chunk.js": "/static/js/2.246462ef.chunk.js",
-    "static/js/2.246462ef.chunk.js.map": "/static/js/2.246462ef.chunk.js.map",
+    "static/js/2.182e046a.chunk.js": "/static/js/2.182e046a.chunk.js",
+    "static/js/2.182e046a.chunk.js.map": "/static/js/2.182e046a.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.23af998e36890910d47430f9afef8e5a.js": "/precache-manifest.23af998e36890910d47430f9afef8e5a.js",
+    "precache-manifest.a627fd4e841d131104fcd96d0e977789.js": "/precache-manifest.a627fd4e841d131104fcd96d0e977789.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.4556add3.chunk.css.map": "/static/css/main.4556add3.chunk.css.map",
-    "static/js/2.246462ef.chunk.js.LICENSE.txt": "/static/js/2.246462ef.chunk.js.LICENSE.txt",
+    "static/css/main.7764a2df.chunk.css.map": "/static/css/main.7764a2df.chunk.css.map",
+    "static/js/2.182e046a.chunk.js.LICENSE.txt": "/static/js/2.182e046a.chunk.js.LICENSE.txt",
     "static/media/ArchivoBlack-Regular.ttf": "/static/media/ArchivoBlack-Regular.524a4cbd.ttf",
     "static/media/Ellen-firsttier.jpg": "/static/media/Ellen-firsttier.e984c54c.jpg",
     "static/media/Ellen-secondtier.jpg": "/static/media/Ellen-secondtier.8f864113.jpg",
@@ -48,7 +48,7 @@
     "static/media/Soundcloud-SearchHIFI.png": "/static/media/Soundcloud-SearchHIFI.5b70fd45.png",
     "static/media/Soundcloud-Searchorg.png": "/static/media/Soundcloud-Searchorg.bb5d9ba5.png",
     "static/media/Soundcloud-piechart.png": "/static/media/Soundcloud-piechart.cb8d2390.png",
-    "static/media/Soundcloud-prototype.mp4": "/static/media/Soundcloud-prototype.d4101772.mp4",
+    "static/media/Soundcloud-prototype.mp4": "/static/media/Soundcloud-prototype.07ac3864.mp4",
     "static/media/Soundcloud.png": "/static/media/Soundcloud.593abb20.png",
     "static/media/Soundcloudnowplaying-wireframe.png": "/static/media/Soundcloudnowplaying-wireframe.fea8be0c.png",
     "static/media/Soundcloudprofile-wireframe.png": "/static/media/Soundcloudprofile-wireframe.8771408b.png",
@@ -61,8 +61,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.b9dc5405.js",
-    "static/js/2.246462ef.chunk.js",
-    "static/css/main.4556add3.chunk.css",
-    "static/js/main.ffde733f.chunk.js"
+    "static/js/2.182e046a.chunk.js",
+    "static/css/main.7764a2df.chunk.css",
+    "static/js/main.bedc04bd.chunk.js"
   ]
 }
