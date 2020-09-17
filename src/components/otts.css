@@ -677,3 +677,480 @@
 
 }
 
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2) { 
+    .Otts-backarrow {
+        padding-left: 10px;
+    }
+
+    .Webdesignheading {
+        padding-left: 25px;
+    }
+
+    .Ottsnavbar {
+        position: fixed;
+        font-size: 25px;
+        top: 0;
+        z-index: 1;
+        margin-top: 120px;
+       margin-left: -10px;
+    }
+    
+    .Otts-heading{
+        flex-direction: column-reverse;
+    }
+
+    .Otts-heading > p {
+        font-size: 65px;
+        margin-left: -90px;
+       padding-top: 210px;
+    }
+
+    .Otts-heading > img {
+        width: 420px;
+        height: 290px;
+        margin-left: -510px;
+        margin-top: -15px;
+    }
+
+    .Otts-information {
+        font-size: 15px;
+        padding-top: 10px;
+        padding-left: 10px;
+        line-height: 25px;
+        padding-right: 25px;
+    }
+
+    .Ottsfirsttierheading {
+        font-size: 25px;
+    padding-left: 25px;
+    padding-top: 250px;
+    line-height: 35px;
+    padding-right: 50px;
+    letter-spacing: normal;
+    }
+    
+    .Ottsfirsttiersubheading {
+        padding-left: 25px;
+        padding-right: 50px;
+        font-size: 18px;
+    }
+
+    .Otts-Designelementsheading {
+        padding-left: 25px;
+        font-size: 30px;
+    }
+
+    .Otts-Designelements {
+        flex-direction: column-reverse;
+    }
+
+    .AdobeJenson {
+        padding-left: 25px;
+        padding-top: 15px;
+    }
+
+    .Din2014 {
+        padding-left: 25px;
+    }
+
+    .Soleil {
+        padding-left: 25px;
+    }
+
+    .otts-colors {
+        padding-left: 25px;
+        width: 80%;
+        height: 30%;
+    }
+
+    .Otts-wireframes {
+        padding-left: 25px;
+        font-size: 30px;
+        padding-top: 150px;
+    }
+
+    .Otts-wireframeexp {
+        padding-left: 25px;
+        padding-right: 50px;
+        padding-top: 10px;
+    }
+
+    .Otts-wireframeimg {
+        width: 82%;
+        height: 65%;
+    }
+
+    .Otts-Hifi {
+        padding-left: 25px;
+        font-size: 30px;
+        padding-top: 150px;
+    }
+
+    .Otts-homepage {
+        padding-left: 25px;
+        font-size: 18px;
+    }
+
+    .Otts-homepageexp {
+        padding-left: 25px;
+        padding-right: 50px;
+    }
+
+    .Otts-vr1 {
+        visibility: hidden;
+    }
+
+    .Otts-homepageimg {
+        width: 82%;
+        height: 65%;
+    }
+
+    .Otts-ShopNewArrivals {
+        padding-left: 25px;
+        font-size: 18px;
+    }
+
+    .Otts-ShopNewArrivalsexp {
+        padding-left: 25px;
+        padding-right: 50px;
+    }
+
+    .Otts-vr2 {
+        visibility: hidden;
+    }
+
+    .Otts-ShopNewArrivalsimg {
+        width: 82%;
+        height: 65%;
+    }
+
+    .Otts-ProductPage {
+        padding-left: 25px;
+        font-size: 18px;
+    }
+
+    .Otts-ProductPageexp {
+        padding-left: 25px;
+        padding-right: 50px;
+    }
+
+    .Otts-vr3 {
+        visibility: hidden;
+    }
+
+    .Otts-ProductPageimg {
+        width: 82%;
+        height: 65%;
+    }
+
+    .Otts-Cart {
+        padding-left: 25px;
+        font-size: 18px;
+    }
+
+    .Otts-Cartexp {
+        padding-left: 25px;
+        padding-right: 50px;
+    }
+
+    .Otts-vr4 {
+    visibility: hidden;
+    }
+
+    .Otts-Cartimg {
+        width: 82%;
+        height: 65%;
+    }
+
+    .Otts-Checkout {
+        padding-left: 25px;
+        font-size: 18px;
+    }
+
+    .Otts-Checkoutexp {
+        padding-left: 25px;
+        padding-right: 50px;
+    }
+
+    .Otts-vr5 {
+        visibility: hidden;
+    }
+
+    .Otts-Checkoutimg {
+        width: 82%;
+        height: 65%;
+    }
+
+    .Otts-Not {
+        padding-left: 25px;
+        font-size: 15px;
+    }
+
+    .Otts-bottom {
+        font-size: 30px;
+    }
+  
+    .Otts-bottom > .Otts-Home {
+      padding-left: 50px;
+  }
+  
+  .Otts-bottom > .Otts-NextEvent {
+      padding-left: 150px;
+      margin-top: -15px;
+      margin-bottom: 20px;
+  }
+
+}
+
+@media only screen and (max-width: 1426px) {
+    .Otts-vr1 {
+        display: none;
+    }
+    
+    .Otts-vr2 {
+        display: none;
+    }
+
+    .Otts-vr3 {
+        display: none;
+    }
+
+    .Otts-vr4 {
+        display: none;
+    }
+
+    .Otts-vr5 {
+        display: none;
+    }}
+
+
+    @media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3) { 
+    .Otts-backarrow {
+        padding-left: 10px;
+    }
+
+    .Webdesignheading {
+        padding-left: 25px;
+    }
+
+    .Ottsnavbar {
+        position: fixed;
+        font-size: 25px;
+        top: 0;
+        z-index: 1;
+        margin-top: 120px;
+       margin-left: -10px;
+    }
+    
+    .Otts-heading{
+        flex-direction: column-reverse;
+    }
+
+    .Otts-heading > p {
+        font-size: 65px;
+        margin-left: -90px;
+       padding-top: 210px;
+    }
+
+    .Otts-heading > img {
+        width: 420px;
+        height: 290px;
+        margin-left: -510px;
+        margin-top: -15px;
+    }
+
+    .Otts-information {
+        font-size: 15px;
+        padding-top: 10px;
+        padding-left: 10px;
+        line-height: 25px;
+        padding-right: 25px;
+    }
+
+    .Ottsfirsttierheading {
+        font-size: 25px;
+    padding-left: 25px;
+    padding-top: 250px;
+    line-height: 35px;
+    padding-right: 50px;
+    letter-spacing: normal;
+    }
+    
+    .Ottsfirsttiersubheading {
+        padding-left: 25px;
+        padding-right: 50px;
+        font-size: 18px;
+    }
+
+    .Otts-Designelementsheading {
+        padding-left: 25px;
+        font-size: 30px;
+    }
+
+    .Otts-Designelements {
+        flex-direction: column-reverse;
+    }
+
+    .AdobeJenson {
+        padding-left: 25px;
+        padding-top: 15px;
+    }
+
+    .Din2014 {
+        padding-left: 25px;
+    }
+
+    .Soleil {
+        padding-left: 25px;
+    }
+
+    .otts-colors {
+        padding-left: 25px;
+        width: 80%;
+        height: 30%;
+    }
+
+    .Otts-wireframes {
+        padding-left: 25px;
+        font-size: 30px;
+        padding-top: 150px;
+    }
+
+    .Otts-wireframeexp {
+        padding-left: 25px;
+        padding-right: 50px;
+        padding-top: 10px;
+    }
+
+    .Otts-wireframeimg {
+        width: 82%;
+        height: 65%;
+    }
+
+    .Otts-Hifi {
+        padding-left: 25px;
+        font-size: 30px;
+        padding-top: 150px;
+    }
+
+    .Otts-homepage {
+        padding-left: 25px;
+        font-size: 18px;
+    }
+
+    .Otts-homepageexp {
+        padding-left: 25px;
+        padding-right: 50px;
+    }
+
+    .Otts-vr1 {
+        visibility: hidden;
+    }
+
+    .Otts-homepageimg {
+        width: 82%;
+        height: 65%;
+    }
+
+    .Otts-ShopNewArrivals {
+        padding-left: 25px;
+        font-size: 18px;
+    }
+
+    .Otts-ShopNewArrivalsexp {
+        padding-left: 25px;
+        padding-right: 50px;
+    }
+
+    .Otts-vr2 {
+        visibility: hidden;
+    }
+
+    .Otts-ShopNewArrivalsimg {
+        width: 82%;
+        height: 65%;
+    }
+
+    .Otts-ProductPage {
+        padding-left: 25px;
+        font-size: 18px;
+    }
+
+    .Otts-ProductPageexp {
+        padding-left: 25px;
+        padding-right: 50px;
+    }
+
+    .Otts-vr3 {
+        visibility: hidden;
+    }
+
+    .Otts-ProductPageimg {
+        width: 82%;
+        height: 65%;
+    }
+
+    .Otts-Cart {
+        padding-left: 25px;
+        font-size: 18px;
+    }
+
+    .Otts-Cartexp {
+        padding-left: 25px;
+        padding-right: 50px;
+    }
+
+    .Otts-vr4 {
+    visibility: hidden;
+    }
+
+    .Otts-Cartimg {
+        width: 82%;
+        height: 65%;
+    }
+
+    .Otts-Checkout {
+        padding-left: 25px;
+        font-size: 18px;
+    }
+
+    .Otts-Checkoutexp {
+        padding-left: 25px;
+        padding-right: 50px;
+    }
+
+    .Otts-vr5 {
+        visibility: hidden;
+    }
+
+    .Otts-Checkoutimg {
+        width: 82%;
+        height: 65%;
+    }
+
+    .Otts-Not {
+        padding-left: 25px;
+        font-size: 15px;
+    }
+
+    .Otts-bottom {
+        font-size: 30px;
+    }
+  
+    .Otts-bottom > .Otts-Home {
+      padding-left: 50px;
+  }
+  
+  .Otts-bottom > .Otts-NextEvent {
+      padding-left: 150px;
+      margin-top: -15px;
+      margin-bottom: 20px;
+  }
+
+}
