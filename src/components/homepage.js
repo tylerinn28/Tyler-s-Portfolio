@@ -9,6 +9,7 @@ export const HomePage = () => {
         <React.Fragment>
 
 <meta name="viewport" content="width=device-width, initial-scale=1"></meta>
+<meta name="viewport" content= "width=device-width, user-scalable=no"></meta>
 
 <div className="content">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
@@ -43,6 +44,7 @@ export const HomePage = () => {
         <div className="design-projects-link-level-3">
             <Link to="/otts">03. Ott's Exotic Plants</Link>
         </div>
+        <div className="eventsgeneral">
         <h2 className="Events">
            EVENTS
   </h2>
@@ -54,7 +56,7 @@ export const HomePage = () => {
         </div>
         <div className="design-projects-link-level-6">
             <Link to="/ellenvonunwerth">03. Ellen von Unwerth at Fotografiska</Link>
-        </div></div>
+        </div></div></div>
 </div>
 
   
