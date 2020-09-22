@@ -352,15 +352,20 @@ a:hover {
     font-size: 20px;
     padding-top: 50px;
     }
-  
+
+    .eventsgeneral {
+      text-align: right;
+    }
 
     .Events {
       font-size: 30px;
-      padding-left: 0;
+      padding-left: 50%;
+      margin-right: 0;
     }
 
     .design-projects-link-level-4 {
       font-size: 20px;
+      padding-right: 66%;
       padding-left: 0;
     }
 
