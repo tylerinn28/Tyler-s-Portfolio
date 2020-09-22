@@ -15,6 +15,11 @@ a:link {
   text-decoration: none;
 }
 
+a:hover {
+  color: #6e6d62;
+}
+
+
 .linear-wipe {
   animation-name: linearwipe;
   animation-duration: 10s;
@@ -103,14 +108,10 @@ a:link {
   font-size: 40px;
   padding-left: 30%;
   padding-top: 10px;
-  text-shadow: -.25px -.25px 0 transparent, 
-                .25px .25px transparent;
+  cursor: pointer;
 }
 
-body.hasHover .design-projects-link-level-1:hover {
-  text-shadow: -.25px -.25px 0 white, 
-  .25px .25px white;
-}
+
 
 .design-projects-link-level-2 {
   text-decoration: none;
@@ -119,13 +120,8 @@ body.hasHover .design-projects-link-level-1:hover {
   padding-left: 45%;
   padding-top: 40px;
   list-style: none; 
-  text-shadow: -.25px -.25px 0 transparent, 
-                .25px .25px transparent;
-}
-
-body.hasHover .design-projects-link-level-2:hover {
-  text-shadow: -.25px -.25px 0 white, 
-  .25px .25px white;
+  cursor: pointer;
+  
 }
 
 .design-projects-link-level-3 {
@@ -136,13 +132,7 @@ body.hasHover .design-projects-link-level-2:hover {
   padding-top: 5%;
   margin-right: -50%;
   list-style: none; 
-  text-shadow: -.25px -.25px 0 transparent, 
-  .25px .25px transparent;
-}
-
-body.hasHover .design-projects-link-level-3:hover {
-  text-shadow: -.25px -.25px 0 white, 
-  .25px .25px white;
+  cursor: pointer;
 }
 
 .Events {
@@ -164,14 +154,9 @@ body.hasHover .design-projects-link-level-3:hover {
   padding-left: 62%;
   margin-right: -50%;
   list-style: none; 
-  text-shadow: -.25px -.25px 0 transparent, 
-  .25px .25px transparent;
+  cursor: pointer;
 }
 
-body.hasHover .design-projects-link-level-4:hover {
-  text-shadow: -.25px -.25px 0 white, 
-  .25px .25px white;
-}
 
 .design-projects-link-level-5 {
   text-decoration: none;
@@ -181,14 +166,9 @@ body.hasHover .design-projects-link-level-4:hover {
   margin-left: 27%;
   margin-right: -50%;
   list-style: none; 
-  text-shadow: -.25px -.25px 0 transparent, 
-  .25px .25px transparent;
+  cursor: pointer;
 }
 
-body.hasHover .design-projects-link-level-5:hover {
-  text-shadow: -.25px -.25px 0 white, 
-  .25px .25px white;
-}
 
 .design-projects-link-level-6 {
   text-decoration: none;
@@ -198,13 +178,7 @@ body.hasHover .design-projects-link-level-5:hover {
   padding-left: 13%;
   margin-right: -50%;
   list-style: none; 
-  text-shadow: -.25px -.25px 0 transparent, 
-  .25px .25px transparent;
-}
-
-body.hasHover .design-projects-link-level-6:hover {
-  text-shadow: -.25px -.25px 0 white, 
-  .25px .25px white;
+  cursor: pointer;
 }
 
 .about {
@@ -285,10 +259,7 @@ body.hasHover .design-projects-link-level-6:hover {
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
-}
-
-.letstalk:hover {
-  font-weight: 700;
+  color: white;
 }
 
 .developedby {
