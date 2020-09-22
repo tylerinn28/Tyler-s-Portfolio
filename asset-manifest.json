@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.97a1d866.chunk.css",
-    "main.js": "/static/js/main.4ede2cab.chunk.js",
-    "main.js.map": "/static/js/main.4ede2cab.chunk.js.map",
+    "main.css": "/static/css/main.5c4d224b.chunk.css",
+    "main.js": "/static/js/main.fade063b.chunk.js",
+    "main.js.map": "/static/js/main.fade063b.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.b9dc5405.js",
     "runtime-main.js.map": "/static/js/runtime-main.b9dc5405.js.map",
     "static/js/2.182e046a.chunk.js": "/static/js/2.182e046a.chunk.js",
     "static/js/2.182e046a.chunk.js.map": "/static/js/2.182e046a.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.3ba315fb6f0d2ab3e2741aa7499dcca6.js": "/precache-manifest.3ba315fb6f0d2ab3e2741aa7499dcca6.js",
+    "precache-manifest.c155f9fe025eb7d07dffd6ea2cbcd938.js": "/precache-manifest.c155f9fe025eb7d07dffd6ea2cbcd938.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.97a1d866.chunk.css.map": "/static/css/main.97a1d866.chunk.css.map",
+    "static/css/main.5c4d224b.chunk.css.map": "/static/css/main.5c4d224b.chunk.css.map",
     "static/js/2.182e046a.chunk.js.LICENSE.txt": "/static/js/2.182e046a.chunk.js.LICENSE.txt",
     "static/media/ArchivoBlack-Regular.ttf": "/static/media/ArchivoBlack-Regular.524a4cbd.ttf",
     "static/media/Ellen-firsttier.jpg": "/static/media/Ellen-firsttier.e984c54c.jpg",
@@ -48,7 +48,7 @@
     "static/media/Soundcloud-SearchHIFI.png": "/static/media/Soundcloud-SearchHIFI.5b70fd45.png",
     "static/media/Soundcloud-Searchorg.png": "/static/media/Soundcloud-Searchorg.bb5d9ba5.png",
     "static/media/Soundcloud-piechart.png": "/static/media/Soundcloud-piechart.cb8d2390.png",
-    "static/media/Soundcloud-prototype.mp4": "/static/media/Soundcloud-prototype.07ac3864.mp4",
+    "static/media/Soundcloud-prototype.mp4": "/static/media/Soundcloud-prototype.c7addc19.mp4",
     "static/media/Soundcloud.png": "/static/media/Soundcloud.593abb20.png",
     "static/media/Soundcloudnowplaying-wireframe.png": "/static/media/Soundcloudnowplaying-wireframe.fea8be0c.png",
     "static/media/Soundcloudprofile-wireframe.png": "/static/media/Soundcloudprofile-wireframe.8771408b.png",
@@ -62,7 +62,7 @@
   "entrypoints": [
     "static/js/runtime-main.b9dc5405.js",
     "static/js/2.182e046a.chunk.js",
-    "static/css/main.97a1d866.chunk.css",
-    "static/js/main.4ede2cab.chunk.js"
+    "static/css/main.5c4d224b.chunk.css",
+    "static/js/main.fade063b.chunk.js"
   ]
 }
