@@ -38,7 +38,7 @@ a:link {
   width: 100%;
  color: white;
  font-size: 30px;
- padding-left: 93%;
+ margin-left: 93%;
  margin-right: 100px;
  text-decoration: none;
  padding-top: 50px;
@@ -338,7 +338,7 @@ a:link {
     font-size: 25px;
     top: 0;
     z-index: 1;
-   margin-left: -10%;
+    margin-left: 85%;
   }
 
   .heading {

@@ -14,8 +14,8 @@ export const HomePage = () => {
 
 <div className="navbar">
     <a href="mailto:tylerinn28@gmail.com" class="fa fa-envelope-o"></a>
-    <a href="https://dribbble.com/tyylahh" class="fa fa-dribbble"></a>
-    <a href="https://linkedin.com/in/tyler-inn-405393b8" class="fa fa-linkedin-square"></a>
+    <a href="https://dribbble.com/tyylahh" target="_blank" class="fa fa-dribbble"></a>
+    <a href="https://linkedin.com/in/tyler-inn-405393b8" target="_blank" class="fa fa-linkedin-square"></a>
     </div>
 
   <h1 className="heading">
@@ -71,11 +71,11 @@ export const HomePage = () => {
   <div className="Bio"> 
         <div>
             <p>
-            My interest in creating experiences came from growing up in Los Angeles, a city filled with culture and a plethora of fun things to do. After majoring in Hospitality Management with a concentration in event planning at Boston University, I knew I wanted be in the business of creating experiences for people.  
+            My interest in creating experiences came from growing up in Los Angeles, a city filled with culture and a plethora of intriguing things to do. After majoring in Hospitality Management with a concentration in event planning at Boston University, I knew I wanted be in the business of creating experiences for people.  
             <br/><br/>
-            After receiving my first job as an event planner at PURPLE, I have gained invaluable skills such as understanding needs and problem solving. However, I felt a lack of visual creativity that I craved so I started exploring UX/UI design and became a freelance designer ontop of event planning. 
+            At my first post-grad position as an event planner at PURPLE, I have gained invaluable skills such as evaluating needs and problem solving. However, I felt pulled towards exploring more visual mediums so I decided to explore UX/UI design. I am now a freelance designer as well as an event planner.
             <br/><br/>
-            In my free time, I like creating playlists for my friends, sketching tattoo ideas, and taking care of my plants. 
+            In my free time, I like creating playlists for my friends, exploring new places, and taking care of my plants. 
             <br/><br/>
             <div className="letstalk">
             <a href="mailto:tylerinn28@gmail.com">LET'S TALK - tylerinn28@gmail.com</a></div>
