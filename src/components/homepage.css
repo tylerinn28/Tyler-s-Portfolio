@@ -103,12 +103,13 @@ a:link {
   font-size: 40px;
   padding-left: 30%;
   padding-top: 10px;
-  list-style: none; 
-  padding-right: 0;
+  text-shadow: -.25px -.25px 0 transparent, 
+                .25px .25px transparent;
 }
 
-.design-projects-link-level-1:hover {
-  text-shadow: 0 0.020em #ffffff,0 -0.015em #ffffff,0.01em 0 #ffffff,-0.01em 0 #ffffff;
+body.hasHover .design-projects-link-level-1:hover {
+  text-shadow: -.25px -.25px 0 white, 
+  .25px .25px white;
 }
 
 .design-projects-link-level-2 {
@@ -118,10 +119,13 @@ a:link {
   padding-left: 45%;
   padding-top: 40px;
   list-style: none; 
+  text-shadow: -.25px -.25px 0 transparent, 
+                .25px .25px transparent;
 }
 
-.design-projects-link-level-2:hover {
-  text-shadow: 0 0.020em #ffffff,0 -0.015em #ffffff,0.01em 0 #ffffff,-0.01em 0 #ffffff;
+body.hasHover .design-projects-link-level-2:hover {
+  text-shadow: -.25px -.25px 0 white, 
+  .25px .25px white;
 }
 
 .design-projects-link-level-3 {
@@ -132,11 +136,13 @@ a:link {
   padding-top: 5%;
   margin-right: -50%;
   list-style: none; 
-
+  text-shadow: -.25px -.25px 0 transparent, 
+  .25px .25px transparent;
 }
 
-.design-projects-link-level-3:hover {
-  text-shadow: 0 0.020em #ffffff,0 -0.015em #ffffff,0.01em 0 #ffffff,-0.01em 0 #ffffff;
+body.hasHover .design-projects-link-level-3:hover {
+  text-shadow: -.25px -.25px 0 white, 
+  .25px .25px white;
 }
 
 .Events {
@@ -158,10 +164,13 @@ a:link {
   padding-left: 62%;
   margin-right: -50%;
   list-style: none; 
+  text-shadow: -.25px -.25px 0 transparent, 
+  .25px .25px transparent;
 }
 
-.design-projects-link-level-4:hover {
-  text-shadow: 0 0.020em #ffffff,0 -0.015em #ffffff,0.01em 0 #ffffff,-0.01em 0 #ffffff;
+body.hasHover .design-projects-link-level-4:hover {
+  text-shadow: -.25px -.25px 0 white, 
+  .25px .25px white;
 }
 
 .design-projects-link-level-5 {
@@ -172,10 +181,13 @@ a:link {
   margin-left: 27%;
   margin-right: -50%;
   list-style: none; 
+  text-shadow: -.25px -.25px 0 transparent, 
+  .25px .25px transparent;
 }
 
-.design-projects-link-level-5:hover {
-  text-shadow: 0 0.020em #ffffff,0 -0.015em #ffffff,0.01em 0 #ffffff,-0.01em 0 #ffffff;
+body.hasHover .design-projects-link-level-5:hover {
+  text-shadow: -.25px -.25px 0 white, 
+  .25px .25px white;
 }
 
 .design-projects-link-level-6 {
@@ -186,10 +198,13 @@ a:link {
   padding-left: 13%;
   margin-right: -50%;
   list-style: none; 
+  text-shadow: -.25px -.25px 0 transparent, 
+  .25px .25px transparent;
 }
 
-.design-projects-link-level-6:hover {
-  text-shadow: 0 0.020em #ffffff,0 -0.015em #ffffff,0.01em 0 #ffffff,-0.01em 0 #ffffff;
+body.hasHover .design-projects-link-level-6:hover {
+  text-shadow: -.25px -.25px 0 white, 
+  .25px .25px white;
 }
 
 .about {
@@ -447,4 +462,7 @@ a:link {
       padding-top: 100px;
     }
 }
+
+
+
   

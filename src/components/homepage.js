@@ -2,6 +2,7 @@ import React from 'react';
 import { Link } from "react-router-dom";
 import './homepage.css';
 import './../assets/fonts/ArchivoBlack-Regular.ttf';
+import './Hover.js';
 
 export const HomePage = () => {
     return (
@@ -101,7 +102,6 @@ export const HomePage = () => {
   }
 
 
-  
   export default HomePage;
 
   
