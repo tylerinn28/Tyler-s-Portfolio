@@ -8,8 +8,10 @@ export const HomePage = () => {
     return (
         <React.Fragment>
 
-<meta name="viewport" content="width=device-width, initial-scale=1"></meta>
-<meta name="viewport" content= "width=device-width, user-scalable=no"></meta>
+<meta name='viewport' 
+     content='width=device-width, initial-scale=1.0, maximum-scale=1.0, 
+     user-scalable=0' ></meta>
+
 
 <div className="content">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
