@@ -29,10 +29,10 @@ export const HomePage = () => {
   </h1>
 
   <div className="work">
-    <a className="work1" href="#DesignProjects"> WORK </a>
+    <div className="work1"> WORK </div>
     <div class="vr1"></div>
     <div className="Projects">
-    <h2 id="DesignProjects" className="Design-projects">
+    <h2 className="Design-projects">
             DESIGN PROJECTS 
   </h2>
   <div className="design-projects-link-level-1">

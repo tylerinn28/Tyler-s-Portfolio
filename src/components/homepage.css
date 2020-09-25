@@ -296,6 +296,12 @@ a:hover {
     }}
 
 @media only screen and (max-width: 600px) {
+
+  @viewport {
+    max-width: 600px;
+    user-zoom: fixed;
+  }
+
   .vr1 {
     display:none;
 }
