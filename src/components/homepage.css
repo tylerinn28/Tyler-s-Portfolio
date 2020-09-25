@@ -327,24 +327,24 @@ a:hover {
   }
 
   .Design-projects {
-    padding-left: 5%;
+    padding-left: 8%;
     font-size: 30px;
     padding-bottom: 5%;
   }
 
   .design-projects-link-level-1 {
-    padding-left: 5%;
+    padding-left: 8%;
     font-size: 20px;
   }
 
   .design-projects-link-level-2 {
-    padding-left: 5%;
+    padding-left: 8%;
     font-size: 20px;
     padding-top: 15%;
   }
 
   .design-projects-link-level-3 {
-    padding-left: 5%;
+    padding-left: 8%;
     font-size: 20px;
     padding-top: 15%;
     }
@@ -418,6 +418,13 @@ a:hover {
     .developedby {
       font-size: 12px;
       padding-top: 100px;
+    }
+
+    body {
+      overflow-x: hidden;
+    }
+    body {
+      position: relative
     }
 }
 
