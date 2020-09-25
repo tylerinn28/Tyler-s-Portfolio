@@ -268,8 +268,9 @@ a:hover {
   width: device-width ;
   zoom: 1.0 ;
 }
-  
+
   @media only screen and (min-width: 660px) and (max-width: 1426px) {
+  
     .vr1 {
         display: none;
     }
@@ -325,32 +326,27 @@ a:hover {
     padding-left: 25px;
   }
 
-  .work {
-    font-size: 13px;
-    padding-left: 25px;
-  }
-
   .Design-projects {
-    padding-left: 0;
+    padding-left: 5%;
     font-size: 30px;
-    padding-bottom: 50px;
+    padding-bottom: 5%;
   }
 
   .design-projects-link-level-1 {
-    padding-left: 0;
+    padding-left: 5%;
     font-size: 20px;
   }
 
   .design-projects-link-level-2 {
-    padding-left: 0;
+    padding-left: 5%;
     font-size: 20px;
-    padding-top: 50px;
+    padding-top: 15%;
   }
 
   .design-projects-link-level-3 {
-    padding-left: 0;
+    padding-left: 5%;
     font-size: 20px;
-    padding-top: 50px;
+    padding-top: 15%;
     }
 
     .eventsgeneral {
@@ -359,13 +355,14 @@ a:hover {
 
     .Events {
       font-size: 30px;
-      padding-left: 20%;
+      padding-left: 49%;
       margin-right: 0;
+      padding-bottom: 5%;
     }
 
     .design-projects-link-level-4 {
       font-size: 20px;
-      padding-right: 66%;
+      padding-right: 67%;
       padding-left: 0;
     }
 
@@ -373,12 +370,14 @@ a:hover {
       font-size: 20px;
       padding-left: 0;
       padding-right: 67%;
+      padding-top: 15%;
     }
 
     .design-projects-link-level-6 {
       font-size: 20px;
       padding-left: 0;
       padding-right: 67%;
+      padding-top: 15%;
     }
 
     .about {
