@@ -1,0 +1,286 @@
+@font-face {
+  font-family: "ArchivoBlack-Regular";
+  src: local(
+      "ArchivoBlack-Regular" "), ur;(./../assets/fonts/ArchivoBlack-Regular.ttf"
+    )
+    format("truetype");
+}
+
+.content {
+  background-color: #121212;
+}
+
+.Ellennavbar {
+  color: white;
+  font-size: 30px;
+  padding-left: 93%;
+  margin-right: 100px;
+  text-decoration: none;
+  position: fixed;
+  top: 0;
+  z-index: 1;
+  margin-top: 8%;
+}
+
+.Ellennavbar a {
+  display: block;
+  padding: 16px;
+}
+
+.Ellen-heading {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  padding-top: 50px;
+}
+
+.Ellen-heading > p {
+  font-family: "ArchivoBlack-Regular";
+  font-size: 110px;
+  color: white;
+  padding-left: 115px;
+  position: absolute;
+  bottom: 5px;
+  text-align: left;
+  line-height: 100px;
+  letter-spacing: 5px;
+}
+
+.Ellen-heading > img {
+  width: 800px;
+  height: 500px;
+  padding: 0px 150px 110px 540px;
+  float: right;
+  vertical-align: top;
+  position: relative;
+}
+
+.ellen-topimage {
+  opacity: 0.4;
+}
+
+.Ellen-information {
+  color: white;
+  font-family: arpona, serif;
+  font-style: normal;
+  font-weight: 100;
+  font-size: 20px;
+  padding-left: 115px;
+  line-height: 40px;
+  margin-top: -70px;
+}
+
+.Ellen-date {
+  display: flex;
+  flex-direction: row;
+}
+
+.Ellen-date1 {
+  font-weight: 600;
+  padding-right: 5px;
+}
+
+.Ellen-location {
+  display: flex;
+  flex-direction: row;
+}
+
+.Ellen-location1 {
+  font-weight: 600;
+  padding-right: 5px;
+}
+
+.Ellen-role {
+  display: flex;
+  flex-direction: row;
+}
+
+.Ellen-role1 {
+  font-weight: 600;
+  padding-right: 5px;
+}
+
+.Ellen-firsttier {
+  display: flex;
+  flex-direction: row;
+  color: white;
+}
+
+.Ellen-firsttier > img {
+  width: 490px;
+  height: 320px;
+  padding: 300px 100px 100px 200px;
+  float: right;
+  vertical-align: top;
+  padding-right: 100px;
+}
+
+.Ellen-firsttiertext {
+  color: white;
+  font-size: 40px;
+  font-family: arpona, serif;
+  font-style: bold;
+  font-weight: 600;
+  line-height: 60px;
+}
+
+.hostedanight {
+  line-height: 50px;
+}
+
+.FriendsofEllen {
+  color: white;
+  font-family: arpona, serif;
+  font-style: normal;
+  font-weight: 100;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.Ellen-secondtier {
+  display: flex;
+  flex-direction: row;
+}
+
+.Ellen-secondtierimg {
+  width: 35%;
+  height: 55%;
+  padding-left: 5%;
+  padding-top: 30px;
+}
+
+.Ellen-thirdtier {
+  color: white;
+  font-family: arpona, serif;
+}
+
+.Ellen-thirdtier > h1 {
+  font-size: 40px;
+  font-family: arpona, serif;
+  font-style: bold;
+  font-weight: 600;
+  line-height: 60px;
+  display: block;
+}
+
+.Ellen-thirdtier > div {
+  color: white;
+  font-family: arpona, serif;
+  font-style: normal;
+  font-weight: 100;
+  font-size: 18px;
+  display: block;
+}
+
+.Ellen-bottom {
+  color: white;
+  font-family: "ArchivoBlack-Regular";
+  font-size: 40px;
+  display: flex;
+  flex-direction: row;
+  padding-top: 120px;
+  margin-bottom: 50px;
+}
+
+.Ellen-bottom > .Ellen-Home {
+  padding-left: 25%;
+}
+
+.Ellen-bottom > .Ellen-NextEvent {
+  padding-left: 25%;
+}
+
+.EllenBFA {
+  color: white;
+  font-family: futura-pt, sans-serif;
+  font-style: bold;
+  font-weight: 800;
+  font-size: 12px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+@media only screen and (max-width: 600px) {
+  .Ellennavbar {
+    position: fixed;
+    font-size: 25px;
+    top: 0;
+    z-index: 1;
+    margin-top: 120px;
+    margin-left: -5%;
+  }
+
+  .Ellen-heading > p {
+    font-size: 38px;
+    margin-left: -90px;
+    margin-bottom: -35%;
+    line-height: 45px;
+    letter-spacing: normal;
+  }
+
+  .Ellen-heading {
+    flex-direction: column-reverse;
+  }
+
+  .Ellen-heading > img {
+    width: 85%;
+    height: auto;
+    margin-left: -510px;
+    margin-top: -25px;
+  }
+
+  .Ellen-information {
+    font-size: 15px;
+    padding-top: 40%;
+    padding-left: 25px;
+    line-height: 25px;
+  }
+
+  .Ellen-firsttier {
+    flex-direction: column-reverse;
+  }
+
+  .hostedanight {
+    font-size: 25px;
+    line-height: 35px;
+  }
+
+  .Ellen-firsttier > img {
+    width: 85%;
+    height: auto;
+    display: block;
+    padding-left: 5%;
+    padding-top: 100px;
+  }
+
+  .Ellen-secondtierimg {
+    width: 85%;
+    height: auto;
+    display: block;
+    padding-left: 5%;
+    padding-top: 100px;
+  }
+
+  .Ellen-secondtier {
+    flex-direction: column-reverse;
+  }
+
+  .Ellen-thirdtier > h1 {
+    font-size: 25px;
+    line-height: 35px;
+  }
+
+  .Ellen-bottom {
+    font-size: 25px;
+  }
+
+  .Ellen-bottom > .Ellen-Home {
+    padding-left: 50px;
+  }
+
+  .Ellen-bottom > .Ellen-NextEvent {
+    padding-left: 25%;
+    margin-top: -15px;
+    margin-bottom: 20px;
+  }
+}

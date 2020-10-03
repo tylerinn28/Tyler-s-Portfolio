@@ -1,0 +1,422 @@
+.content {
+  background-color: #121212;
+}
+
+.Ramen-Webdesignheading {
+  font-family: arpona, serif;
+  font-style: bold;
+  font-weight: 500;
+  font-size: 20px;
+  color: white;
+  padding-left: 115px;
+  margin-top: 4%;
+}
+
+.Ramennavbar {
+  color: white;
+  font-size: 30px;
+  padding-left: 93%;
+  margin-right: 100px;
+  text-decoration: none;
+  position: fixed;
+  top: 0;
+  z-index: 1;
+  margin-top: 12%;
+}
+
+.Ramennavbar a {
+  display: block;
+  padding: 16px;
+}
+
+.Ramen-heading {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  padding-top: 20px;
+}
+
+.Ramen-heading > p {
+  font-family: "ArchivoBlack-Regular";
+  font-size: 120px;
+  color: white;
+  padding-left: 115px;
+  position: absolute;
+  text-align: left;
+  letter-spacing: 5px;
+  bottom: 40px;
+  top: -50px;
+}
+
+.Ramen-Homepage {
+  opacity: 0.75;
+}
+
+.Ramen-information {
+  color: white;
+  font-family: arpona, serif;
+  font-weight: 100;
+  font-size: 20px;
+  line-height: 40px;
+  letter-spacing: 0px;
+}
+
+.Ramen-Year2020 {
+  display: flex;
+}
+
+.Ramen-Year {
+  padding-right: 5px;
+  font-weight: 600;
+}
+
+.Ramenpersonalgoals {
+  flex-direction: row;
+  display: flex;
+  position: relative;
+}
+
+.Ramen-Personalgoals1 {
+  font-weight: 600;
+  padding-right: 5px;
+}
+
+.Ramenfirsttierheading {
+  color: white;
+  font-size: 40px;
+  font-family: arpona, serif;
+  font-style: bold;
+  font-weight: 600;
+  line-height: 50px;
+}
+
+.Ramenfirsttiersubheading {
+  color: white;
+  font-family: arpona, serif;
+  font-style: normal;
+  font-weight: 100;
+  line-height: 40px;
+}
+
+.Ramen-designelementsheading {
+  color: white;
+  font-size: 40px;
+  font-family: arpona, serif;
+  font-style: bold;
+  font-weight: 600;
+}
+
+.Ramen-Designelements {
+  display: flex;
+  flex-direction: row;
+}
+
+.Eckmannpsych {
+  color: white;
+  font-size: 30px;
+  font-family: eckmannpsych-large, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.Futura {
+  color: white;
+  font-family: futura-pt, sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+}
+
+.Ramen-colors {
+  padding-left: 17%;
+  height: 5%;
+  width: 35%;
+}
+
+.Ramen-Wireframes {
+  color: white;
+  font-size: 40px;
+  font-family: arpona, serif;
+  font-style: bold;
+  font-weight: 600;
+}
+
+.Ramen-Wireframeexp {
+  color: white;
+  font-family: arpona, serif;
+  font-weight: 200;
+  font-size: 18px;
+}
+
+.Ramen-Hifi {
+  color: white;
+  font-size: 40px;
+  font-family: arpona, serif;
+  font-style: bold;
+  font-weight: 600;
+}
+
+.Ramen-Landingpage {
+  color: white;
+  font-family: futura-pt, sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.Ramen-Landingpageexp {
+  color: white;
+  font-family: arpona, serif;
+  font-weight: 200;
+  font-size: 17px;
+}
+
+.Ramen-vr1 {
+  width: 3px;
+  background-color: #ffffff;
+  position: absolute;
+  top: 3000px;
+  bottom: 0px;
+  left: 115px;
+  height: 610px;
+}
+
+.Ramen-Homepage1 {
+  color: white;
+  font-family: futura-pt, sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.Ramen-Homepageexp {
+  color: white;
+  font-family: arpona, serif;
+  font-weight: 200;
+  font-size: 17px;
+}
+
+.Ramen-vr2 {
+  width: 3px;
+  background-color: #ffffff;
+  position: absolute;
+  top: 3800px;
+  bottom: 0px;
+  left: 115px;
+  height: 850px;
+}
+
+.Ramen-Menu {
+  color: white;
+  font-family: futura-pt, sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.Ramen-Menueexp {
+  color: white;
+  font-family: arpona, serif;
+  font-weight: 200;
+  font-size: 17px;
+}
+
+.Ramen-vr3 {
+  width: 3px;
+  background-color: #ffffff;
+  position: absolute;
+  top: 4850px;
+  bottom: 0px;
+  left: 115px;
+  height: 930px;
+}
+
+.Ramen-About {
+  color: white;
+  font-family: futura-pt, sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.Ramen-Aboutexp {
+  color: white;
+  font-family: arpona, serif;
+  font-weight: 200;
+  font-size: 17px;
+}
+
+.Ramen-vr4 {
+  width: 3px;
+  background-color: #ffffff;
+  position: absolute;
+  top: 5960px;
+  bottom: 0px;
+  left: 115px;
+  height: 815px;
+}
+
+.Ramen-bottom {
+  color: white;
+  font-family: "ArchivoBlack-Regular";
+  font-size: 40px;
+  display: flex;
+  flex-direction: row;
+  padding-top: 130px;
+  margin-bottom: 70px;
+}
+
+.Ramen-bottom > .Ramen-Home {
+  padding-left: 25%;
+}
+
+.Ramen-bottom > .Ramen-NextProject {
+  padding-left: 25%;
+}
+
+.Skye {
+  color: white;
+  font-family: arpona, serif;
+  font-weight: 200;
+  font-size: 17px;
+}
+
+@media only screen and (max-width: 600px) {
+  .Ramennavbar {
+    position: fixed;
+    font-size: 25px;
+    top: 0;
+    z-index: 1;
+    margin-top: 120px;
+    margin-left: -5%;
+  }
+
+  .Ramen-Webdesignheading {
+    padding-left: 6%;
+  }
+
+  .Ramen-heading {
+    flex-direction: column-reverse;
+  }
+
+  .Ramen-heading > p {
+    font-size: 65px;
+    margin-left: -90px;
+    padding-top: 210px;
+  }
+
+  .Ramen-heading > img {
+    width: 60%;
+    padding-top: 23%;
+    margin-left: 90px;
+  }
+
+  .Ramen-information {
+    font-size: 15px;
+    padding-top: 10px;
+    padding-left: 10px;
+    line-height: 25px;
+    padding-right: 25px;
+  }
+
+  .Ramenpersonalgoals {
+    flex-direction: column;
+  }
+
+  .Ramenfirsttierheading {
+    font-size: 25px;
+    line-height: 35px;
+    letter-spacing: normal;
+  }
+
+  .Ramenfirsttiersubheading {
+    font-size: 18px;
+  }
+
+  .Ramen-designelementsheading {
+    font-size: 30px;
+  }
+
+  .Ramen-Designelements {
+    flex-direction: column-reverse;
+  }
+
+  .Ramen-colors {
+    padding-left: 25px;
+    width: 80%;
+    height: 30%;
+  }
+
+  .Ramen-Wireframes {
+    font-size: 30px;
+  }
+
+  .Ramen-Hifi {
+    font-size: 30px;
+  }
+
+  .Ramen-Landingpage {
+    font-size: 18px;
+  }
+
+  .Ramen-vr1 {
+    visibility: hidden;
+  }
+  .Ramen-vr2 {
+    visibility: hidden;
+  }
+  .Ramen-vr3 {
+    visibility: hidden;
+  }
+  .Ramen-vr4 {
+    visibility: hidden;
+  }
+
+  .Ramen-Homepage1 {
+    font-size: 18px;
+  }
+
+  .Ramen-Menu {
+    font-size: 18px;
+  }
+
+  .Ramen-About {
+    font-size: 18px;
+  }
+
+  .Ramen-bottom {
+    font-size: 25px;
+  }
+
+  .Ramen-bottom > .Ramen-Home {
+    padding-left: 50px;
+  }
+
+  .Ramen-bottom > .Ramen-NextProject {
+    padding-left: 25%;
+    margin-top: -15px;
+    margin-bottom: 20px;
+  }
+}
+
+@media only screen and (max-width: 1426px) {
+  .Ramen-vr1 {
+    display: none;
+  }
+
+  .Ramen-vr2 {
+    display: none;
+  }
+
+  .Ramen-vr3 {
+    display: none;
+  }
+
+  .Ramen-vr4 {
+    display: none;
+  }
+
+  .Ramen-vr5 {
+    display: none;
+  }
+
+  .Ramenpersonalgoals {
+    flex-direction: column;
+  }
+}
