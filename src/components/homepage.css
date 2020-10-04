@@ -338,22 +338,23 @@ a:hover {
     padding-bottom: 5%;
   }
 
-  .design-projects-link-level-1 {
-    padding-left: 8%;
-    font-size: 20px;
-  }
+ .design-projects-link-level-1 {
+   padding-left: 8%;
+   font-size: 20px;
+   padding-top: 15%;
+ }
 
-  .design-projects-link-level-2 {
-    padding-left: 8%;
-    font-size: 20px;
-    padding-top: 15%;
-  }
+ .design-projects-link-level-2 {
+  padding-left: 8%;
+  font-size: 20px;
+  padding-top: 15%;
+}
 
-  .design-projects-link-level-3 {
-    padding-left: 8%;
-    font-size: 20px;
-    padding-top: 15%;
-    }
+.design-projects-link-level-3 {
+  padding-left: 8%;
+  font-size: 20px;
+  padding-top: 15%;
+}
 
     .eventsgeneral {
       text-align: right;

@@ -35,6 +35,7 @@ export const HomePage = () => {
     <h2 className="Design-projects">
             DESIGN PROJECTS 
   </h2>
+
   <div className="design-projects-link-level-1">
             <Link to="/soundcloudredesign">01. Redesigning Soundcloud</Link>
         </div>
@@ -45,6 +46,8 @@ export const HomePage = () => {
         <div className="design-projects-link-level-3">
             <Link to="/otts">03. Ott's Exotic Plants</Link>
         </div>
+       
+
         <div className="eventsgeneral">
         <h2 className="Events">
            EVENTS
