@@ -1,224 +1,186 @@
-@font-face {
-    font-family: 'ArchivoBlack-Regular';
-    src: local('ArchivoBlack-Regular''), ur;(./../assets/fonts/ArchivoBlack-Regular.ttf') format('truetype');
-  }
-
-  .content {
-    background-color: #121212;
+.content {
+  background-color: #121212;
 }
 
 .Otts-backarrow {
-    width: 100%;
- color: white;
- font-size: 40px;
- padding-left: 100px;
- text-decoration: none;
- padding-top: 10px;
+  width: 100%;
+  color: white;
+  font-size: 40px;
+  padding-left: 100px;
+  text-decoration: none;
+  padding-top: 10px;
 }
 
-.Otts-backarrow a{
-    display: block;
-    padding: 16px;
+.Otts-backarrow a {
+  display: block;
+  padding: 16px;
 }
 
 .Ottsnavbar {
-    color: white;
-    font-size: 30px;
-    padding-left: 93%;
-    margin-right: 100px;
-    text-decoration: none;
-    position: fixed;
-    top: 0;
-    z-index: 1;
-    margin-top: 8%;
+  color: white;
+  font-size: 30px;
+  padding-left: 93%;
+  margin-right: 100px;
+  text-decoration: none;
+  position: fixed;
+  top: 0;
+  z-index: 1;
+  margin-top: 8%;
 }
 
 .Ottsnavbar a {
-    display: block;
-    padding: 16px;
-  }
-
-.Webdesignheading {
-    font-family: arpona, serif;
-    font-style: bold;
-    font-weight: 500;
-    font-size: 20px;
-    color: white;
-    padding-left: 115px;
+  display: block;
+  padding: 16px;
 }
 
-.Otts-heading{
-    display: flex;
+.Webdesignheading {
+  font-family: arpona, serif;
+  font-style: bold;
+  font-weight: 500;
+  font-size: 20px;
+  color: white;
+  padding-left: 115px;
+}
+
+.Otts-heading {
+  display: flex;
   flex-direction: row;
   position: relative;
   padding-top: 20px;
 }
 
 .Otts-heading > p {
-    font-family: 'ArchivoBlack-Regular';
-    font-size: 120px;
-    color: white;
-    padding-left: 115px;
-    position: absolute;
-    text-align: left;
-    letter-spacing: 10px;
-    bottom: 50px;
-    top: -70px;
+  font-family: "ArchivoBlack-Regular";
+  font-size: 120px;
+  color: white;
+  padding-left: 115px;
+  position: absolute;
+  text-align: left;
+  letter-spacing: 10px;
+  bottom: 50px;
+  top: -70px;
 }
 
 .Otts-heading > img {
-    width: 800px;
-    height: 500px;
-   padding: 0px 150px 110px 540px;
-    float: right;
-    position: relative;
+  width: 800px;
+  height: 500px;
+  padding: 0px 150px 110px 540px;
+  float: right;
+  position: relative;
 }
 
 .Otts-Homepage {
-    opacity: .64;
+  opacity: 0.64;
 }
 
 .Otts-information {
-   color: white;
-   font-family: arpona, serif;
-   font-weight: 100;
-    font-size: 20px;
-    line-height: 40px;
-    letter-spacing: 0px;
-    padding-top: 40px;
+  color: white;
+  font-family: arpona, serif;
+  font-weight: 100;
+  font-size: 20px;
+  line-height: 40px;
+  letter-spacing: 0px;
+  padding-top: 40px;
 }
 
 .OttsYear2020 {
-    display: flex;
+  display: flex;
 }
 
 .OttsYear {
-    font-weight: 600;
-    padding-right: 5px;
+  font-weight: 600;
+  padding-right: 5px;
 }
 
 .Ottspersonalgoalwhole {
-    display: flex;
+  display: flex;
 }
 
 .OttsPersonalGoal {
-    font-weight: 600;
-    padding-right: 5px;
+  font-weight: 600;
+  padding-right: 5px;
 }
 
 .Ottsfirsttierheading {
-    color: white;
-    font-size: 40px;
-    font-family: arpona, serif;
-    font-style: bold;
-    font-weight: 600;
-    line-height: 55px;
-    padding-left: 20%;
-    padding-right: 35%;
-    padding-top: 100px;
+  color: white;
+  font-size: 40px;
+  font-family: arpona, serif;
+  font-style: bold;
+  font-weight: 600;
+  line-height: 55px;
 }
 
 .Ottsfirsttiersubheading {
-    color: white;
-    font-family: arpona, serif;
-    font-style: normal;
-    font-weight: 100;
-    padding-left: 20%;
-    padding-right: 35%;
-    line-height: 45px;
+  color: white;
+  font-family: arpona, serif;
+  font-style: normal;
+  font-weight: 100;
+  line-height: 45px;
 }
 
 .Otts-Designelementsheading {
-    color: white;
-    font-size: 40px;
-    font-family: arpona, serif;
-    font-style: bold;
-    font-weight: 600;
-    padding-top: 120px;
-    padding-left: 115px;
-}
-
-.Otts-Designelements {
-    display: flex;
-    flex-direction: row;
+  color: white;
+  font-size: 40px;
+  font-family: arpona, serif;
+  font-style: bold;
+  font-weight: 600;
 }
 
 .AdobeJenson {
-    color: white;
-    font-family: adobe-jenson-pro, serif;
-    font-style: normal;
-    font-weight: 300;
-    font-size: 30px;
-    padding-left: 155px;
-    padding-top: 40px;
+  color: white;
+  font-family: adobe-jenson-pro, serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 30px;
 }
 
 .Din2014 {
-    color: white;
-    font-family: din-2014, sans-serif;
-    font-style: normal;
-    font-weight: 300;
-    font-size: 20px;
-    padding-left: 155px;
-    padding-top: 20px;
+  color: white;
+  font-family: din-2014, sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
 }
 
 .Soleil {
-    color: white;
-    font-family: soleil, sans-serif;
-    font-style: normal;
-    font-weight: 100;
-    padding-left: 155px;
-    padding-top: 20px;
+  color: white;
+  font-family: soleil, sans-serif;
+  font-style: normal;
+  font-weight: 100;
 }
 
 .otts-colors {
-    padding-left: 17%;
-    height: 5%;
-    width: 35%;
-    padding-top: 20px;
+  max-width: 400px;
+  width: 100%;
 }
 
 .Otts-wireframes {
-    color: white;
-    font-size: 40px;
-    font-family: arpona, serif;
-    font-style: bold;
-    font-weight: 600;
-    padding-left: 115px;
-    padding-top: 100px;
+  color: white;
+  font-size: 40px;
+  font-family: arpona, serif;
+  font-style: bold;
+  font-weight: 600;
 }
 
 .Otts-wireframeexp {
-    color: white;
-    font-family: arpona, serif;
-    font-weight: 200;
-    padding-left: 115px;
-    font-size: 18px;
-    padding-right: 115px;
-}
-
-.Otts-wireframeimg {
-    width: 70%;
-    height: auto;
-    padding-top: 50px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+  color: white;
+  font-family: arpona, serif;
+  font-weight: 200;
+  font-size: 18px;
 }
 
 .Otts-Hifi {
-    color: white;
-    font-size: 40px;
-    font-family: arpona, serif;
-    font-style: bold;
-    font-weight: 600;
-    padding-left: 115px;
-    padding-top: 8%;
+  color: white;
+  font-size: 40px;
+  font-family: arpona, serif;
+  font-style: bold;
+  font-weight: 600;
+  padding-left: 115px;
+  padding-top: 8%;
 }
 
 .Otts-homepage {
-    color: white;
+  color: white;
   font-family: futura-pt, sans-serif;
   font-weight: 700;
   font-size: 20px;
@@ -227,9 +189,9 @@
 }
 
 .Otts-homepageexp {
-    color: white;
-    font-family: arpona, serif;
-    font-weight: 200;
+  color: white;
+  font-family: arpona, serif;
+  font-weight: 200;
   font-size: 17px;
   padding-left: 115px;
   padding-right: 115px;
@@ -237,8 +199,8 @@
 }
 
 .Otts-vr1 {
-  width:3px;
-  background-color:#ffffff;
+  width: 3px;
+  background-color: #ffffff;
   position: absolute;
   top: 388%;
   left: 8%;
@@ -246,27 +208,27 @@
 }
 
 .Otts-homepageimg {
-    width: 70%;
-    height: auto;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    padding-top: 50px;
+  width: 70%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 50px;
 }
 
 .Otts-ShopNewArrivals {
-    color: white;
-    font-family: futura-pt, sans-serif;
-    font-weight: 700;
-    font-size: 20px;
-    padding-left: 115px;
-    padding-top: 8%;
+  color: white;
+  font-family: futura-pt, sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  padding-left: 115px;
+  padding-top: 8%;
 }
 
 .Otts-ShopNewArrivalsexp {
-    color: white;
-    font-family: arpona, serif;
-    font-weight: 200;
+  color: white;
+  font-family: arpona, serif;
+  font-weight: 200;
   font-size: 17px;
   padding-left: 115px;
   padding-right: 115px;
@@ -274,36 +236,36 @@
 }
 
 .Otts-vr2 {
-    width:3px;
-  background-color:#ffffff;
-  position:absolute;
+  width: 3px;
+  background-color: #ffffff;
+  position: absolute;
   top: 610%;
   left: 8%;
   height: 200%;
 }
 
 .Otts-ShopNewArrivalsimg {
-    width: 70%;
-    height: auto;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    padding-top: 50px;
+  width: 70%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 50px;
 }
 
 .Otts-ProductPage {
-    color: white;
-    font-family: futura-pt, sans-serif;
-    font-weight: 700;
-    font-size: 20px;
-    padding-left: 115px;
-    padding-top: 8%;
+  color: white;
+  font-family: futura-pt, sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  padding-left: 115px;
+  padding-top: 8%;
 }
 
 .Otts-ProductPageexp {
-    color: white;
-    font-family: arpona, serif;
-    font-weight: 200;
+  color: white;
+  font-family: arpona, serif;
+  font-weight: 200;
   font-size: 17px;
   padding-left: 115px;
   padding-right: 115px;
@@ -311,36 +273,36 @@
 }
 
 .Otts-vr3 {
-    width:3px;
-  background-color:#ffffff;
-  position:absolute;
+  width: 3px;
+  background-color: #ffffff;
+  position: absolute;
   top: 835%;
   left: 8%;
   height: 115%;
 }
 
 .Otts-ProductPageimg {
-    width: 70%;
-    height: auto;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    padding-top: 50px;
+  width: 70%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 50px;
 }
 
 .Otts-Cart {
-    color: white;
-    font-family: futura-pt, sans-serif;
-    font-weight: 700;
-    font-size: 20px;
-    padding-left: 115px;
-    padding-top: 7%;
+  color: white;
+  font-family: futura-pt, sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  padding-left: 115px;
+  padding-top: 7%;
 }
 
 .Otts-Cartexp {
-    color: white;
-    font-family: arpona, serif;
-    font-weight: 200;
+  color: white;
+  font-family: arpona, serif;
+  font-weight: 200;
   font-size: 17px;
   padding-left: 115px;
   padding-right: 115px;
@@ -348,36 +310,36 @@
 }
 
 .Otts-vr4 {
-    width:3px;
-    background-color:#ffffff;
-    position:absolute;
-    top: 975%;
+  width: 3px;
+  background-color: #ffffff;
+  position: absolute;
+  top: 975%;
   left: 8%;
   height: 170%;
 }
 
 .Otts-Cartimg {
-    width: 70%;
-    height: auto;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    padding-top: 50px;
+  width: 70%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 50px;
 }
 
 .Otts-Checkout {
-    color: white;
-    font-family: futura-pt, sans-serif;
-    font-weight: 700;
-    font-size: 20px;
-    padding-left: 115px;
-    padding-top: 8%;
+  color: white;
+  font-family: futura-pt, sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  padding-left: 115px;
+  padding-top: 8%;
 }
 
 .Otts-Checkoutexp {
-    color: white;
-    font-family: arpona, serif;
-    font-weight: 200;
+  color: white;
+  font-family: arpona, serif;
+  font-weight: 200;
   font-size: 17px;
   padding-left: 115px;
   padding-right: 115px;
@@ -385,299 +347,262 @@
 }
 
 .Otts-vr5 {
-    width:3px;
-    background-color:#ffffff;
-    position:absolute;
-    top: 1168%;
+  width: 3px;
+  background-color: #ffffff;
+  position: absolute;
+  top: 1168%;
   left: 8%;
   height: 115%;
 }
 
 .Otts-Checkoutimg {
-    width: 70%;
-    height: auto;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    padding-top: 50px;
+  width: 70%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 50px;
 }
 
 .Otts-Not {
-    color: white;
-    font-family: arpona, serif;
-    font-weight: 200;
+  color: white;
+  font-family: arpona, serif;
+  font-weight: 200;
   font-size: 17px;
-  padding-left: 115px;
-  padding-top: 70px;
 }
 
 .Otts-bottom {
-    color: white;
-    font-family: 'ArchivoBlack-Regular';
-    font-size: 40px;
-    display: flex;
-    flex-direction: row;
-    padding-top: 130px;
-    margin-bottom: 70px;
+  color: white;
+  font-family: "ArchivoBlack-Regular";
+  font-size: 40px;
+  display: flex;
+  flex-direction: row;
+  padding-top: 130px;
+  margin-bottom: 70px;
 }
 
 .Otts-bottom > .Otts-Home {
-    padding-left: 25%;
+  padding-left: 25%;
 }
 
 .Otts-bottom > .Otts-NextEvent {
-    padding-left: 25%;
+  padding-left: 25%;
 }
 
 @media only screen and (max-width: 600px) {
-    .Otts-backarrow {
-        padding-left: 10px;
-    }
-
-    .Webdesignheading {
-        padding-left: 25px;
-    }
-
-    .Ottsnavbar {
-        position: fixed;
-        font-size: 25px;
-        top: 0;
-        z-index: 1;
-        margin-top: 120px;
-       margin-left: -5%;
-    }
-    
-    .Otts-heading{
-        flex-direction: column-reverse;
-    }
-
-    .Otts-heading > p {
-        font-size: 65px;
-        margin-left: -90px;
-       padding-top: 210px;
-    }
-
-    .Otts-heading > img {
-        width: 85%;
-        height: auto;
-        margin-left: -510px;
-        margin-top: -15px;
-    }
-
-    .Otts-information {
-        font-size: 15px;
-        padding-top: 10px;
-        padding-left: 10px;
-        line-height: 25px;
-        padding-right: 25px;
-    }
-
-    .Ottsfirsttierheading {
-        font-size: 25px;
-    padding-left: 25px;
-    padding-top: 250px;
-    line-height: 35px;
-    padding-right: 50px;
-    letter-spacing: normal;
-    }
-    
-    .Ottsfirsttiersubheading {
-        padding-left: 25px;
-        padding-right: 50px;
-        font-size: 18px;
-    }
-
-    .Otts-Designelementsheading {
-        padding-left: 25px;
-        font-size: 30px;
-    }
-
-    .Otts-Designelements {
-        flex-direction: column-reverse;
-    }
-
-    .AdobeJenson {
-        padding-left: 25px;
-        padding-top: 15px;
-        font-size: 25px;
-    }
-
-    .Din2014 {
-        padding-left: 25px;
-    }
-
-    .Soleil {
-        padding-left: 25px;
-    }
-
-    .otts-colors {
-        padding-left: 25px;
-        width: 80%;
-        height: 30%;
-    }
-
-    .Otts-wireframes {
-        padding-left: 25px;
-        font-size: 30px;
-        padding-top: 150px;
-    }
-
-    .Otts-wireframeexp {
-        padding-left: 25px;
-        padding-right: 50px;
-        padding-top: 10px;
-    }
-
-    .Otts-wireframeimg {
-        width: 82%;
-        height: 65%;
-    }
-
-    .Otts-Hifi {
-        padding-left: 25px;
-        font-size: 30px;
-        padding-top: 150px;
-    }
-
-    .Otts-homepage {
-        padding-left: 25px;
-        font-size: 18px;
-    }
-
-    .Otts-homepageexp {
-        padding-left: 25px;
-        padding-right: 50px;
-    }
-
-    .Otts-vr1 {
-        visibility: hidden;
-    }
-
-    .Otts-homepageimg {
-        width: 82%;
-        height: 65%;
-    }
-
-    .Otts-ShopNewArrivals {
-        padding-left: 25px;
-        font-size: 18px;
-    }
-
-    .Otts-ShopNewArrivalsexp {
-        padding-left: 25px;
-        padding-right: 50px;
-    }
-
-    .Otts-vr2 {
-        visibility: hidden;
-    }
-
-    .Otts-ShopNewArrivalsimg {
-        width: 82%;
-        height: 65%;
-    }
-
-    .Otts-ProductPage {
-        padding-left: 25px;
-        font-size: 18px;
-    }
-
-    .Otts-ProductPageexp {
-        padding-left: 25px;
-        padding-right: 50px;
-    }
-
-    .Otts-vr3 {
-        visibility: hidden;
-    }
-
-    .Otts-ProductPageimg {
-        width: 82%;
-        height: 65%;
-    }
-
-    .Otts-Cart {
-        padding-left: 25px;
-        font-size: 18px;
-    }
-
-    .Otts-Cartexp {
-        padding-left: 25px;
-        padding-right: 50px;
-    }
-
-    .Otts-vr4 {
-    visibility: hidden;
-    }
-
-    .Otts-Cartimg {
-        width: 82%;
-        height: 65%;
-    }
-
-    .Otts-Checkout {
-        padding-left: 25px;
-        font-size: 18px;
-    }
-
-    .Otts-Checkoutexp {
-        padding-left: 25px;
-        padding-right: 50px;
-    }
-
-    .Otts-vr5 {
-        visibility: hidden;
-    }
-
-    .Otts-Checkoutimg {
-        width: 82%;
-        height: 65%;
-    }
-
-    .Otts-Not {
-        padding-left: 25px;
-        font-size: 15px;
-    }
-
-    .Otts-bottom {
-        font-size: 25px;
-    }
-  
-    .Otts-bottom > .Otts-Home {
-      padding-left: 50px;
+  .Otts-backarrow {
+    padding-left: 10px;
   }
-  
+
+  .Webdesignheading {
+    padding-left: 25px;
+  }
+
+  .Ottsnavbar {
+    position: fixed;
+    font-size: 25px;
+    top: 0;
+    z-index: 1;
+    margin-top: 120px;
+    margin-left: -5%;
+  }
+
+  .Otts-heading {
+    flex-direction: column-reverse;
+  }
+
+  .Otts-heading > p {
+    font-size: 65px;
+    margin-left: -90px;
+    padding-top: 210px;
+  }
+
+  .Otts-heading > img {
+    width: 85%;
+    height: auto;
+    margin-left: -510px;
+    margin-top: -15px;
+  }
+
+  .Otts-information {
+    font-size: 15px;
+    padding-top: 10px;
+    padding-left: 10px;
+    line-height: 25px;
+    padding-right: 25px;
+  }
+
+  .Ottsfirsttierheading {
+    padding-top: 40px;
+    font-size: 25px;
+    line-height: 35px;
+    letter-spacing: normal;
+  }
+
+  .Ottsfirsttiersubheading {
+    font-size: 18px;
+  }
+
+  .Otts-Designelementsheading {
+    font-size: 30px;
+  }
+
+  .AdobeJenson {
+    padding-left: 25px;
+    padding-top: 15px;
+    font-size: 25px;
+  }
+
+  .Din2014 {
+    padding-left: 25px;
+  }
+
+  .Soleil {
+    padding-left: 25px;
+  }
+
+  .Otts-wireframes {
+    font-size: 30px;
+  }
+
+  .Otts-Hifi {
+    padding-left: 25px;
+    font-size: 30px;
+    padding-top: 150px;
+  }
+
+  .Otts-homepage {
+    padding-left: 25px;
+    font-size: 18px;
+  }
+
+  .Otts-homepageexp {
+    padding-left: 25px;
+    padding-right: 50px;
+  }
+
+  .Otts-vr1 {
+    visibility: hidden;
+  }
+
+  .Otts-homepageimg {
+    width: 82%;
+    height: 65%;
+  }
+
+  .Otts-ShopNewArrivals {
+    padding-left: 25px;
+    font-size: 18px;
+  }
+
+  .Otts-ShopNewArrivalsexp {
+    padding-left: 25px;
+    padding-right: 50px;
+  }
+
+  .Otts-vr2 {
+    visibility: hidden;
+  }
+
+  .Otts-ShopNewArrivalsimg {
+    width: 82%;
+    height: 65%;
+  }
+
+  .Otts-ProductPage {
+    padding-left: 25px;
+    font-size: 18px;
+  }
+
+  .Otts-ProductPageexp {
+    padding-left: 25px;
+    padding-right: 50px;
+  }
+
+  .Otts-vr3 {
+    visibility: hidden;
+  }
+
+  .Otts-ProductPageimg {
+    width: 82%;
+    height: 65%;
+  }
+
+  .Otts-Cart {
+    padding-left: 25px;
+    font-size: 18px;
+  }
+
+  .Otts-Cartexp {
+    padding-left: 25px;
+    padding-right: 50px;
+  }
+
+  .Otts-vr4 {
+    visibility: hidden;
+  }
+
+  .Otts-Cartimg {
+    width: 82%;
+    height: 65%;
+  }
+
+  .Otts-Checkout {
+    padding-left: 25px;
+    font-size: 18px;
+  }
+
+  .Otts-Checkoutexp {
+    padding-left: 25px;
+    padding-right: 50px;
+  }
+
+  .Otts-vr5 {
+    visibility: hidden;
+  }
+
+  .Otts-Checkoutimg {
+    width: 82%;
+    height: 65%;
+  }
+
+  .Otts-Not {
+    font-size: 15px;
+  }
+
+  .Otts-bottom {
+    font-size: 25px;
+  }
+
+  .Otts-bottom > .Otts-Home {
+    padding-left: 50px;
+  }
+
   .Otts-bottom > .Otts-NextEvent {
     padding-left: 25%;
     margin-top: -15px;
     margin-bottom: 20px;
   }
-
 }
 
 @media only screen and (max-width: 1426px) {
-    .Otts-vr1 {
-        display: none;
-    }
-    
-    .Otts-vr2 {
-        display: none;
-    }
+  .Otts-vr1 {
+    display: none;
+  }
 
-    .Otts-vr3 {
-        display: none;
-    }
+  .Otts-vr2 {
+    display: none;
+  }
 
-    .Otts-vr4 {
-        display: none;
-    }
+  .Otts-vr3 {
+    display: none;
+  }
 
-    .Otts-vr5 {
-        display: none;
-    }
+  .Otts-vr4 {
+    display: none;
+  }
 
+  .Otts-vr5 {
+    display: none;
+  }
 }
-
-
-
-    
