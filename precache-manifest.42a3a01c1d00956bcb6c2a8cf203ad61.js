@@ -1,23 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "145af42ca82fb3f159fb7f4a3179aa3d",
+    "revision": "7402c4c8ad20d7facae9846fc58b9c3a",
     "url": "/index.html"
   },
   {
-    "revision": "32754172d0bc07adbbbe",
-    "url": "/static/css/main.d568f31a.chunk.css"
+    "revision": "6750f353928035713519",
+    "url": "/static/css/2.38a2dd70.chunk.css"
   },
   {
-    "revision": "f31934b75acc3b165163",
-    "url": "/static/js/2.182e046a.chunk.js"
+    "revision": "9fb6478f20bfcf0435d0",
+    "url": "/static/css/main.b6535c39.chunk.css"
+  },
+  {
+    "revision": "6750f353928035713519",
+    "url": "/static/js/2.7d7f72f3.chunk.js"
   },
   {
     "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/static/js/2.182e046a.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.7d7f72f3.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "32754172d0bc07adbbbe",
-    "url": "/static/js/main.1ababe85.chunk.js"
+    "revision": "9fb6478f20bfcf0435d0",
+    "url": "/static/js/main.b9c58054.chunk.js"
   },
   {
     "revision": "47d0c93d09d1152eb193",
@@ -26,6 +30,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "524a4cbdf53cdb9bb2742d2aa7a25c36",
     "url": "/static/media/ArchivoBlack-Regular.524a4cbd.ttf"
+  },
+  {
+    "revision": "977420cc9e28405cc933c9d9924ebe36",
+    "url": "/static/media/Arpona-Light.977420cc.otf"
   },
   {
     "revision": "fbf83dd3b8e34ce53ba50a37f144e86a",
@@ -92,28 +100,28 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/Otts-Wireframes.8de9adae.png"
   },
   {
-    "revision": "90f51da873235cac27b5746a4576ef31",
-    "url": "/static/media/Ramen-AboutHiFi.90f51da8.png"
+    "revision": "791c74970405a7cc47c652079f60a161",
+    "url": "/static/media/Ramen-AboutHiFi.791c7497.svg"
   },
   {
-    "revision": "f13987067cdf9d58181e94ece35e7805",
-    "url": "/static/media/Ramen-HomepageHiFi.f1398706.png"
+    "revision": "e1095b9ebca2914134d1f0778d568dfd",
+    "url": "/static/media/Ramen-HomepageHiFi.e1095b9e.svg"
   },
   {
-    "revision": "cb9379dcc68fbd9eddab2d0c3f4b4c48",
-    "url": "/static/media/Ramen-MenuHiFi.cb9379dc.png"
+    "revision": "7793e6cb822029b3fcbd7f5de1900721",
+    "url": "/static/media/Ramen-MenuHiFi.7793e6cb.svg"
   },
   {
     "revision": "69fcfe92a8427aedf507f0a77fcbcb98",
     "url": "/static/media/Ramen-Wireframes.69fcfe92.png"
   },
   {
-    "revision": "675f6d28cadfa95bad8cd7287141dcd8",
-    "url": "/static/media/Ramen-enter.675f6d28.png"
+    "revision": "99f060f730fed572078e0e164fe393d6",
+    "url": "/static/media/Ramen-enter.99f060f7.svg"
   },
   {
-    "revision": "c8eef96cdf676adcd60cc8f324d19c10",
-    "url": "/static/media/Ramen-topimage.c8eef96c.png"
+    "revision": "9499de43b19ad4447fc54763a2363232",
+    "url": "/static/media/Ramen-topimage-shorter.9499de43.png"
   },
   {
     "revision": "1aced684a38d654b2efb4d588be0ffab",
@@ -164,8 +172,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/Soundcloud-Searchorg.bb5d9ba5.png"
   },
   {
-    "revision": "cb8d2390acf25d2cf43397e052f042b2",
-    "url": "/static/media/Soundcloud-piechart.cb8d2390.png"
+    "revision": "8abef306f8eab77b4f076a630e0cfc0e",
+    "url": "/static/media/Soundcloud-piechart-shorter.8abef306.png"
   },
   {
     "revision": "c7addc19cd1f93361ae7de9b1e184aef",
@@ -206,5 +214,9 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "30edcba0e344a6596ee99c27a712a63d",
     "url": "/static/media/West-topimage.30edcba0.jpg"
+  },
+  {
+    "revision": "9a1626276b430d216809407c3fbcda75",
+    "url": "/static/media/futur.9a162627.ttf"
   }
 ]);
