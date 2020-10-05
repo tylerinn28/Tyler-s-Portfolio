@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "7402c4c8ad20d7facae9846fc58b9c3a",
+    "revision": "2253c618471247969167d9e35f1e14bb",
     "url": "/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/css/2.38a2dd70.chunk.css"
   },
   {
-    "revision": "9fb6478f20bfcf0435d0",
+    "revision": "ad2eab5dce0d73c6deaa",
     "url": "/static/css/main.b6535c39.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/2.7d7f72f3.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "9fb6478f20bfcf0435d0",
-    "url": "/static/js/main.b9c58054.chunk.js"
+    "revision": "ad2eab5dce0d73c6deaa",
+    "url": "/static/js/main.81df6f5c.chunk.js"
   },
   {
     "revision": "47d0c93d09d1152eb193",
@@ -84,10 +84,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/Otts-Homepage.01b53f82.png"
   },
   {
-    "revision": "f11e6a22e39519e537f5b3b61d3e425d",
-    "url": "/static/media/Otts-Homepage.f11e6a22.jpg"
-  },
-  {
     "revision": "de63efd49b12d13ba43b5391cec94504",
     "url": "/static/media/Otts-ProductPage.de63efd4.png"
   },
@@ -98,6 +94,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "8de9adaed973e33f9410c68f074e9da5",
     "url": "/static/media/Otts-Wireframes.8de9adae.png"
+  },
+  {
+    "revision": "f11e6a22e39519e537f5b3b61d3e425d",
+    "url": "/static/media/Otts-topimage.f11e6a22.jpg"
   },
   {
     "revision": "791c74970405a7cc47c652079f60a161",
