@@ -5,57 +5,6 @@ import "./../assets/fonts/ArchivoBlack-Regular.ttf";
 import "./Hover.js";
 
 export const HomePage = () => {
-<<<<<<< HEAD
-    return (
-        <React.Fragment>
-
-<meta name='viewport' 
-     content='width=device-width, initial-scale=1.0, maximum-scale=1.0, 
-     user-scalable=0' ></meta>
-
-<div className="content">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
-
-<div className="navbar">
-    <a href="mailto:tylerinn28@gmail.com" class="fa fa-envelope-o"></a>
-    <a href="https://dribbble.com/tyylahh" target="_blank" class="fa fa-dribbble"></a>
-    <a href="https://linkedin.com/in/tyler-inn-405393b8" target="_blank" class="fa fa-linkedin-square"></a>
-    </div>
-
-  <h1 className="heading">
-           <div className="my-name-tyler">I’M TYLER. </div> 
-           <div> I CREATE  </div> 
-           <div class="linear-wipe">  MEMORABLE EXPERIENCES </div> 
-           <div> FOR BRANDS & THEIR AUDIENCE. </div> 
-  </h1>
-
-  <div className="work">
-    <div className="work1"> WORK </div>
-    <div class="vr1"></div>
-    <div className="Projects">
-    <h2 className="Design-projects">
-            DESIGN PROJECTS 
-  </h2>
-
-  <div className="design-projects-link-level-1">
-            <Link to="/soundcloudredesign">01. Redesigning Soundcloud</Link>
-        </div>
-        
-        <div className="design-projects-link-level-2">
-            <Link to="/ramenshop">02. The Ramen Shop</Link>
-        </div>
-        <div className="design-projects-link-level-3">
-            <Link to="/otts">03. Ott's Exotic Plants</Link>
-        </div>
-       
-
-        <div className="eventsgeneral">
-        <h2 className="Events">
-           EVENTS
-  </h2>
-        <div className="design-projects-link-level-4">
-            <Link to="/westhollywood">01. West Hollywood EDITION</Link>
-=======
   return (
     <React.Fragment>
       {/* <meta
@@ -85,7 +34,6 @@ export const HomePage = () => {
             target="_blank"
             className="fa fa-linkedin-square"
           ></a>
->>>>>>> b52baa24c8e03415f566a9ba58ee9da96cef97b9
         </div>
         <div style={{ height: window.innerHeight }} className="mb-5">
           <div

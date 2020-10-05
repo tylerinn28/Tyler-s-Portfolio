@@ -1,14 +1,11 @@
-@font-face {
-  font-family: 'ArchivoBlack-Regular';
-  src: local('ArchivoBlack-Regular''), ur;(./../assets/fonts/ArchivoBlack-Regular.ttf') format('truetype');
-}
-
 .content {
   background-color: #121212;
+  max-width: 1600px;
+  margin: auto;
 }
 
 a {
-  color: #FFF;
+  color: #fff;
 }
 
 a:link {
@@ -19,11 +16,16 @@ a:hover {
   color: #6e6d62;
 }
 
-
 .linear-wipe {
   animation-name: linearwipe;
   animation-duration: 10s;
-  background: linear-gradient(to left, #ffffff 20%, rgb(110, 109, 98) 40%, rgb(110, 109, 98) 60%, #ffffff);
+  background: linear-gradient(
+    to left,
+    #ffffff 20%,
+    rgb(110, 109, 98) 40%,
+    rgb(110, 109, 98) 60%,
+    #ffffff
+  );
   background-size: 200% auto;
   color: rgb(110, 109, 98);
   background-clip: text;
@@ -34,21 +36,9 @@ a:hover {
 }
 
 @keyframes linearwipe {
-    to {
-      background-position: 200% center;
-    }
+  to {
+    background-position: 200% center;
   }
-
-.navbar {
-  width: 100%;
- color: white;
- font-size: 30px;
- margin-left: 93%;
- margin-right: 100px;
- text-decoration: none;
- padding-top: 50px;
- position: fixed;
- z-index: 1;
 }
 
 .navbar a {
@@ -56,33 +46,34 @@ a:hover {
   padding: 16px;
 }
 
+.navbar {
+  position: fixed;
+  font-size: 25px;
+  top: 0;
+  right: 0;
+  z-index: 1;
+}
+
 .vr1 {
-  width:1px;
-  background-color:#ffffff;
+  background-color: #ffffff;
   height: 1150px;
   border-left: 5px;
-  margin-top: 80px;
   margin-left: -50px;
 }
 
 .work {
   color: white;
-  display: flex;
 }
 
 .work1 {
   font-family: futura-pt, sans-serif;
   font-weight: 400;
   font-size: 16px;
-  padding-left: 10%;
-  padding-top: 60px;
 }
 
 .heading {
-  font-family: 'ArchivoBlack-Regular';
+  font-family: "ArchivoBlack-Regular";
   font-size: 60px;
-  padding-left: 130px;
-  padding-top: 380px;
   color: white;
   margin-top: 0;
   margin-bottom: 0;
@@ -97,37 +88,13 @@ a:hover {
   font-style: bold;
   font-weight: 800;
   font-size: 40px;
-  padding-top: 275px;
-  padding-left: 12%;;
   color: white;
 }
 
-.design-projects-link-level-1 {
+.design-projects-link-level {
   text-decoration: none;
+  font-size: 20px;
   font-family: futura-medium;
-  font-size: 40px;
-  padding-left: 30%;
-  padding-top: 10px;
-}
-
-
-.design-projects-link-level-2 {
-  text-decoration: none;
-  font-family: futura-medium;
-  font-size: 40px;
-  padding-left: 45%;
-  padding-top: 40px;
-  list-style: none; 
-}
-
-.design-projects-link-level-3 {
-  text-decoration: none;
-  font-family: futura-medium;
-  font-size: 40px;
-  padding-left: 60%;
-  padding-top: 5%;
-  margin-right: -50%;
-  list-style: none; 
 }
 
 .Events {
@@ -136,41 +103,7 @@ a:hover {
   font-weight: 800;
   font-size: 40px;
   padding-top: 15%;
-  padding-left: 120%;
-  padding-right: 120%;
   color: white;
-}
-
-.design-projects-link-level-4 {
-  text-decoration: none;
-  font-family: futura-medium;
-  font-size: 40px;
-  padding-top: 20px;
-  padding-left: 62%;
-  margin-right: -50%;
-  list-style: none; 
-}
-
-
-.design-projects-link-level-5 {
-  text-decoration: none;
-  font-family: futura-medium;
-  font-size: 40px;
-  padding-top: 55px;
-  padding-left: 27%;
-  margin-right: -50%;
-  list-style: none; 
-}
-
-
-.design-projects-link-level-6 {
-  text-decoration: none;
-  font-family: futura-medium;
-  font-size: 40px;
-  padding-top: 60px;
-  padding-left: 13%;
-  margin-right: -50%;
-  list-style: none; 
 }
 
 .about {
@@ -186,13 +119,11 @@ a:hover {
   font-family: futura-pt, sans-serif;
   font-weight: 400;
   font-size: 16px;
-  padding-left: 10%;
-  padding-top: 60px;
 }
 
 .vr2 {
   width: 3px;
-  background-color:#ffffff;
+  background-color: #ffffff;
   height: 1150px;
   border-left: 5px;
   margin-top: 80px;
@@ -206,8 +137,6 @@ a:hover {
   font-weight: 800;
   font-size: 40px;
   color: white;
-  padding-top: 30%;
-  margin-left: 3%;
 }
 
 .Bio {
@@ -217,7 +146,7 @@ a:hover {
   font-style: normal;
   font-weight: 100;
   font-size: 25px;
-  margin-bottom: 50px;
+  line-height: 2.5;
 }
 
 .Bio > div > p {
@@ -226,9 +155,7 @@ a:hover {
   font-weight: 100;
   color: white;
   font-size: 18px;
-  margin-left: 5%;
-  padding-right: 5%;
-  line-height: 45px;
+  margin-top: 0;
 }
 
 .Bio > div {
@@ -237,13 +164,6 @@ a:hover {
 
 .Moreaboutme1 {
   flex-direction: column-reverse;
-}
-
-.homepage-image > img{ 
-  width: 70%;
-  height: auto;
-  vertical-align: top;
-  margin-left: 10%;
 }
 
 .letstalk {
@@ -255,7 +175,7 @@ a:hover {
 }
 
 .developedby {
-  color:white;
+  color: white;
   font-family: futura-pt, sans-serif;
   font-style: bold;
   font-weight: 800;
@@ -264,66 +184,49 @@ a:hover {
   margin-bottom: 50px;
 }
 
-@viewport {
-  width: device-width ;
-  zoom: 1.0 ;
-}
+/* @viewport {
+  width: device-width;
+  zoom: 1;
+} */
 
-  @media only screen and (min-width: 660px) and (max-width: 1426px) {
-  
-    .vr1 {
-        display: none;
-    }
-    
-    .vr2 {
-        display: none;
-    }
-  
-    .about1 {
-      display: none;
-    }
-  
-    .work1 {
-      display: none;
-    }
-  
-    .More-about-me {
-      padding-left: 2%;
-    }
-  
-    .Bio > div > p {
-      padding-left: 8%;
-    }}
-
-@media only screen and (max-width: 600px) {
-
-  @viewport {
-    max-width: 600px;
-    user-zoom: fixed;
+@media only screen and (min-width: 660px) and (max-width: 1426px) {
+  .vr1 {
+    display: none;
   }
 
-  .vr1 {
-    display:none;
-}
-
-.vr2 {
+  .vr2 {
     display: none;
+  }
+
+  .about1 {
+    display: none;
+  }
+
+  .work1 {
+    display: none;
+  }
 }
 
-.work1 {
-  display: none;
-}
+@media only screen and (max-width: 600px) {
+  /* @viewport {
+    max-width: 600px;
+    user-zoom: fixed;
+  } */
 
-.about1 > a{
-  display: none;
-}
+  .vr1 {
+    display: none;
+  }
 
-  .navbar {
-    position: fixed;
-    font-size: 25px;
-    top: 0;
-    z-index: 1;
-    margin-left: 85%;
+  .vr2 {
+    display: none;
+  }
+
+  .work1 {
+    display: none;
+  }
+
+  .about1 > a {
+    display: none;
   }
 
   .heading {
@@ -333,163 +236,7 @@ a:hover {
   }
 
   .Design-projects {
-    padding-left: 8%;
     font-size: 30px;
-    padding-bottom: 5%;
-  }
-
- .design-projects-link-level-1 {
-   padding-left: 8%;
-   font-size: 20px;
-   padding-top: 15%;
- }
-
- .design-projects-link-level-2 {
-  padding-left: 8%;
-  font-size: 20px;
-  padding-top: 15%;
-}
-
-.design-projects-link-level-3 {
-  padding-left: 8%;
-  font-size: 20px;
-  padding-top: 15%;
-}
-
-    .eventsgeneral {
-      text-align: right;
-    }
-
-    .Events {
-      font-size: 30px;
-      padding-left: 55%;
-      margin-right: 0;
-      padding-bottom: 5%;
-    }
-
-    .design-projects-link-level-4 {
-      font-size: 20px;
-      padding-right: 64%;
-      padding-left: 0;
-    }
-
-    .design-projects-link-level-5 {
-      font-size: 20px;
-      padding-left: 5%;
-      padding-right: 64%;
-      padding-top: 15%;
-    }
-
-    .design-projects-link-level-6 {
-      font-size: 20px;
-      padding-left: 0;
-      padding-right: 64%;
-      padding-top: 15%;
-    }
-
-    .about {
-      font-size: 13px;
-      margin-left: -20%;
-    }
-
-    .More-about-me {
-      font-size: 30px;
-      padding-left: 50px;
-      margin-bottom: 0px;
-    }
-
-    .Bio {
-      flex-direction: column;
-    }
-
-    .Bio > div > p {
-      padding-left: 45px;
-      font-size: 18px;
-      line-height: 30px;
-      padding-top: 20px;
-      padding-right: 55px;
-    }
-
-    .homepage-image > img{ 
-      width: 70%;
-      height: auto;
-      padding-top: 15px;
-      margin-left: 10%;
-      padding-left: 5%;
-    }
-
-    .letstalk {
-      font-size: 18px;
-    }
-
-    .developedby {
-      font-size: 12px;
-      padding-top: 100px;
-    }
-
-    body {
-      overflow-x: hidden;
-    }
-    body {
-      position: relative
-    }
-
-    .projects {
-      width: 100%;
-    }
-}
-
-@media only screen 
-and (min-device-width : 768px) 
-and (max-device-width : 1024px)  { 
-  .vr1 {
-    display:none;
-}
-
-.vr2 {
-    display: none;
-}
-
-.work1 {
-  display: none;
-}
-
-.about1 > a{
-  display: none;
-}
-
-.navbar {
-  position: fixed;
-  font-size: 25px;
-  top: 0;
-  z-index: 1;
-  margin-left: 90%;
-}
-
-.heading {
-  font-size: 40px;
-  align-content: center;
-  padding-left: 25px;
-  padding-top: 50%;
-}
-
-.Design-projects {
-padding-top: 30%;
-}
-
-.design-projects-link-level-1 {
- font-size: 30px;
- padding-left: 20%;
-}
-
-.design-projects-link-level-2 {
-  font-size: 30px;
-  padding-left: 30%;
-}
-
-.design-projects-link-level-3 {
-  font-size: 30px;
-  padding-left: 40%;
   }
 
   .eventsgeneral {
@@ -497,35 +244,19 @@ padding-top: 30%;
   }
 
   .Events {
-  padding-left: 90%;
-  }
-
-  .design-projects-link-level-4 {
     font-size: 30px;
-    padding-right: 40%;
-    padding-left: 0;
-  }
-
-  .design-projects-link-level-5 {
-    font-size: 30px;
-    padding-right: 50%;
-    padding-left: 30%;
-  }
-
-  .design-projects-link-level-6 {
-    font-size: 30px;
-    padding-right: 60%;
-    padding-left: 0;
+    padding-left: 55%;
+    margin-right: 0;
+    padding-bottom: 5%;
   }
 
   .about {
     font-size: 13px;
+    margin-left: -20%;
   }
 
   .More-about-me {
     font-size: 30px;
-    padding-left: 50px;
-    margin-bottom: 0px;
   }
 
   .Bio {
@@ -533,19 +264,7 @@ padding-top: 30%;
   }
 
   .Bio > div > p {
-    padding-left: 45px;
     font-size: 18px;
-    line-height: 30px;
-    padding-top: 20px;
-    padding-right: 70px;
-  }
-
-  .homepage-image > img{ 
-    width: 70%;
-    height: auto;
-    padding-top: 15px;
-    margin-left: 10%;
-    padding-left: 5%;
   }
 
   .letstalk {
@@ -561,15 +280,98 @@ padding-top: 30%;
     overflow-x: hidden;
   }
   body {
-    position: relative
+    position: relative;
   }
 
   .projects {
     width: 100%;
   }
-
 }
 
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  .vr1 {
+    display: none;
+  }
 
+  .vr2 {
+    display: none;
+  }
 
-  
+  .work1 {
+    display: none;
+  }
+
+  .about1 > a {
+    display: none;
+  }
+
+  .heading {
+    font-size: 40px;
+    align-content: center;
+    padding-left: 25px;
+    padding-top: 50%;
+  }
+
+  .eventsgeneral {
+    text-align: right;
+  }
+
+  .Events {
+    padding-left: 90%;
+  }
+
+  .about {
+    font-size: 13px;
+  }
+
+  .More-about-me {
+    font-size: 30px;
+  }
+
+  .Bio {
+    flex-direction: column;
+  }
+
+  .Bio > div > p {
+    font-size: 18px;
+  }
+
+  .letstalk {
+    font-size: 18px;
+  }
+
+  .developedby {
+    font-size: 12px;
+    padding-top: 100px;
+  }
+
+  body {
+    overflow-x: hidden;
+  }
+  body {
+    position: relative;
+  }
+
+  .projects {
+    width: 100%;
+  }
+}
+
+@media (min-width: 576px) {
+  .design-projects-link-level {
+    font-size: 25px;
+  }
+}
+@media (min-width: 768px) {
+  .design-projects-link-level {
+    font-size: 30px;
+  }
+  .navbar {
+    font-size: 25px;
+  }
+}
+@media (min-width: 992px) {
+  .design-projects-link-level {
+    font-size: 30px;
+  }
+}
