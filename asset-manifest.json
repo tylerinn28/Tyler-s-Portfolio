@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.b6535c39.chunk.css",
-    "main.js": "/static/js/main.81df6f5c.chunk.js",
-    "main.js.map": "/static/js/main.81df6f5c.chunk.js.map",
+    "main.css": "/static/css/main.6312a4ce.chunk.css",
+    "main.js": "/static/js/main.3bf57a3b.chunk.js",
+    "main.js.map": "/static/js/main.3bf57a3b.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.b9dc5405.js",
     "runtime-main.js.map": "/static/js/runtime-main.b9dc5405.js.map",
     "static/css/2.38a2dd70.chunk.css": "/static/css/2.38a2dd70.chunk.css",
-    "static/js/2.7d7f72f3.chunk.js": "/static/js/2.7d7f72f3.chunk.js",
-    "static/js/2.7d7f72f3.chunk.js.map": "/static/js/2.7d7f72f3.chunk.js.map",
+    "static/js/2.cf1da0d2.chunk.js": "/static/js/2.cf1da0d2.chunk.js",
+    "static/js/2.cf1da0d2.chunk.js.map": "/static/js/2.cf1da0d2.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.76abfb5a5c4b34b33e6eb08af9eb2992.js": "/precache-manifest.76abfb5a5c4b34b33e6eb08af9eb2992.js",
+    "precache-manifest.684f535531e361eb44c58226fb282bb3.js": "/precache-manifest.684f535531e361eb44c58226fb282bb3.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.38a2dd70.chunk.css.map": "/static/css/2.38a2dd70.chunk.css.map",
-    "static/css/main.b6535c39.chunk.css.map": "/static/css/main.b6535c39.chunk.css.map",
-    "static/js/2.7d7f72f3.chunk.js.LICENSE.txt": "/static/js/2.7d7f72f3.chunk.js.LICENSE.txt",
+    "static/css/main.6312a4ce.chunk.css.map": "/static/css/main.6312a4ce.chunk.css.map",
+    "static/js/2.cf1da0d2.chunk.js.LICENSE.txt": "/static/js/2.cf1da0d2.chunk.js.LICENSE.txt",
     "static/media/index.css": "/static/media/futur.9a162627.ttf",
     "static/media/Ellen-firsttier.jpg": "/static/media/Ellen-firsttier.fbf83dd3.jpg",
     "static/media/Ellen-secondtier.jpg": "/static/media/Ellen-secondtier.bcd62438.jpg",
@@ -30,6 +30,7 @@
     "static/media/Otts-ProductPage.png": "/static/media/Otts-ProductPage.de63efd4.png",
     "static/media/Otts-ShopNewArrivals.png": "/static/media/Otts-ShopNewArrivals.c5946d23.png",
     "static/media/Otts-Wireframes.png": "/static/media/Otts-Wireframes.8de9adae.png",
+    "static/media/Otts-topimage.svg": "/static/media/Otts-topimage.d83cbe8f.svg",
     "static/media/Otts-topimage.jpg": "/static/media/Otts-topimage.f11e6a22.jpg",
     "static/media/Ramen-AboutHiFi.svg": "/static/media/Ramen-AboutHiFi.791c7497.svg",
     "static/media/Ramen-HomepageHiFi.svg": "/static/media/Ramen-HomepageHiFi.e1095b9e.svg",
@@ -64,8 +65,8 @@
   "entrypoints": [
     "static/js/runtime-main.b9dc5405.js",
     "static/css/2.38a2dd70.chunk.css",
-    "static/js/2.7d7f72f3.chunk.js",
-    "static/css/main.b6535c39.chunk.css",
-    "static/js/main.81df6f5c.chunk.js"
+    "static/js/2.cf1da0d2.chunk.js",
+    "static/css/main.6312a4ce.chunk.css",
+    "static/js/main.3bf57a3b.chunk.js"
   ]
 }
