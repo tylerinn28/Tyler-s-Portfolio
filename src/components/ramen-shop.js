@@ -184,7 +184,7 @@ export const RamenShop = () => {
                   <div className="col p-4">
                     <img
                       width="100%"
-                      src={require("./../assets/images/Ramen-enter.png")}
+                      src={require("./../assets/images/Ramen-enter.svg")}
                     ></img>
                   </div>
                 </div>
@@ -206,7 +206,7 @@ export const RamenShop = () => {
                 <div className="col p-4">
                   <img
                     width="100%"
-                    src={require("./../assets/images/Ramen-HomepageHiFi.png")}
+                    src={require("./../assets/images/Ramen-HomepageHiFi.svg")}
                   ></img>
                 </div>
               </div>
@@ -227,7 +227,7 @@ export const RamenShop = () => {
                 <div className="col p-4">
                   <img
                     width="100%"
-                    src={require("./../assets/images/Ramen-MenuHiFi.png")}
+                    src={require("./../assets/images/Ramen-MenuHiFi.svg")}
                   ></img>
                 </div>
               </div>
@@ -246,7 +246,7 @@ export const RamenShop = () => {
                 <div className="col p-4">
                   <img
                     width="100%"
-                    src={require("./../assets/images/Ramen-AboutHiFi.png")}
+                    src={require("./../assets/images/Ramen-AboutHiFi.svg")}
                   ></img>
                 </div>
               </div>

@@ -74,6 +74,7 @@
   flex-direction: row;
   display: flex;
   position: relative;
+  min-width: 150px;
 }
 
 .Ramen-Personalgoals1 {
@@ -88,6 +89,7 @@
   font-style: bold;
   font-weight: 600;
   line-height: 50px;
+  padding-top: 20%;
 }
 
 .Ramenfirsttiersubheading {

@@ -100,7 +100,7 @@ export const Otts = () => {
                 <img
                   width="100%"
                   className="Soundcloud-Homepage"
-                  src={require("./../assets/images/Otts-Homepage.jpg")}
+                  src={require("./../assets/images/Otts-Homepage.png")}
                 />
               </div>
             </div>
