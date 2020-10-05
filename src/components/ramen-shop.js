@@ -91,7 +91,7 @@ export const RamenShop = () => {
                     </h1>
                     <h2 className="Ramenfirsttiersubheading">
                       I wanted to showcase my interest in the Hospitality
-                      industry and create a fun, straight-forward website design
+                      industry and create an engaging, straight-forward website design
                       for a restaurant. I decided to draw illustrations to
                       integrate Japanese art into my design.
                     </h2>
