@@ -264,7 +264,7 @@ export const RamenShop = () => {
             </div>
 
             <div className="col-auto mx-2">
-              <Link to="/otts"> NEXT EVENT</Link>
+              <Link to="/otts"> NEXT PROJECT</Link>
             </div>
           </div>
         </div>

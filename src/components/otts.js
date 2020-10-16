@@ -283,7 +283,7 @@ export const Otts = () => {
           </div>
 
           <div className="col-auto mx-2">
-            <Link to="/soundcloudredesign"> NEXT EVENT</Link>
+            <Link to="/soundcloudredesign"> NEXT PROJECT</Link>
           </div>
         </div>
       </div>

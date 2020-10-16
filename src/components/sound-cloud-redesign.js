@@ -70,7 +70,7 @@ export const SoundCloudRedesign = () => {
                       <div className="Projectgoals">Project Goals: </div>
                       <div className="createmore">
                         -Create a more engaging, clean, and intuitive interface
-                        for both the website and mobile application. <br></br>
+                        for the mobile application. <br></br>
                         -Highlight a sense of community and social aspect of the
                         platform.
                         <br></br>
@@ -474,7 +474,7 @@ export const SoundCloudRedesign = () => {
           </div>
 
           <div className="col-auto mx-2">
-            <Link to="/ramenshop"> NEXT EVENT</Link>
+            <Link to="/ramenshop"> NEXT PROJECT</Link>
           </div>
         </div>
       </div>
