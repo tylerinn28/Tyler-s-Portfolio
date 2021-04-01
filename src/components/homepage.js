@@ -49,6 +49,13 @@ export const HomePage = () => {
           </div>
         </div>
 
+        <div>
+          <div className="recentwork">
+            <div className="recentworktitle"> RECENT WORK</div>
+            <a className="recentworklink" href="https://www.sheeshmedia.com" target="_blank"> 01. Sheesh Media </a>
+          </div>
+        </div>
+
         <div className="work row no-gutters  px-xl-5 px-2 ml-4 ml-md-5 mr-5 py-5 mb-5">
           <div className="work1 col-auto d-none d-xl-flex">
             <div style={{ borderLeft: "1px solid" }} className="mt-5"></div>

@@ -54,6 +54,27 @@ a:hover {
   z-index: 1;
 }
 
+.recentwork {
+  color: white;
+  margin-left: 6rem; 
+  padding-top: 10%;
+  padding-bottom: 150px;
+}
+
+.recentworktitle {
+  font-family: futura-pt, sans-serif;
+    font-style: bold;
+    font-weight: 800;
+    font-size: 40px;
+    padding-bottom: 20px;
+}
+
+.recentworklink {
+  font-family: futura-medium;
+  font-size: 30px;
+  padding-left: 5%;
+}
+
 .vr1 {
   background-color: #ffffff;
   height: 1150px;
