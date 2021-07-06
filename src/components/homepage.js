@@ -53,6 +53,7 @@ export const HomePage = () => {
           <div className="recentwork">
             <div className="recentworktitle"> RECENT WORK</div>
             <a className="recentworklink" href="https://www.sheeshmedia.com" target="_blank"> 01. Sheesh Media </a>
+            <a className="recentworklink" href="https://www.earlyservice.co" target="_blank"> 02. Early Service </a>
           </div>
         </div>
 
