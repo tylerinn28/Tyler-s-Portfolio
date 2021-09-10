@@ -25,9 +25,9 @@ export const HomePage = () => {
             className="fa fa-envelope-o"
           ></a>
           <a
-            href="https://dribbble.com/tyylahh"
+            href="https://www.instagram.com/tyylahh.designs/"
             target="_blank"
-            className="fa fa-dribbble"
+            className="fa fa-instagram"
           ></a>
           <a
             href="https://linkedin.com/in/tyler-inn-405393b8"
@@ -52,8 +52,9 @@ export const HomePage = () => {
         <div>
           <div className="recentwork">
             <div className="recentworktitle"> RECENT WORK</div>
-            <a className="recentworklink" href="https://www.sheeshmedia.com" target="_blank"> 01. Sheesh Media </a>
-            <a className="recentworklink" href="https://www.earlyservice.co" target="_blank"> 02. Early Service </a>
+            <a className="recentworklink" href="https://www.earlyservice.co" target="_blank"> 01. Early Service </a>
+            <a className="recentworklink" href="https://www.bobbyhanaford.com" target="_blank"> 02. Bobby Hanaford </a>
+            <a className="recentworklink" href="https://www.sheeshmedia.com" target="_blank"> 03. Sheesh Media </a>
           </div>
         </div>
 
