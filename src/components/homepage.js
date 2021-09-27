@@ -54,7 +54,7 @@ export const HomePage = () => {
             <div className="recentworktitle"> RECENT WORK</div>
             <a className="recentworklink" href="https://www.earlyservice.co" target="_blank"> 01. Early Service </a>
             <a className="recentworklink" href="https://www.bobbyhanaford.com" target="_blank"> 02. Bobby Hanaford </a>
-            <a className="recentworklink" href="https://www.sheeshmedia.com" target="_blank"> 03. Sheesh Media </a>
+            <a className="recentworklink" href="https://www.fiftysixny.com" target="_blank"> 03. Fifty Six </a>
           </div>
         </div>
 
